@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <UndoHistory>
-  <UndoTransaction tv-sec="1486372337" tv-usec="761515" name="add automation event">
+  <UndoTransaction tv-sec="1486372337" tv-usec="8589934592" name="add automation event">
     <MementoCommand obj-id="130528" type-name="ARDOUR::AutomationList">
       <AutomationList automation-id="parameter-3" id="130528" default="0.448013842106" min-yval="0" max-yval="1" interpolation-style="Linear" state="Play" style="Absolute">
         <events>0 0.549180327868853
@@ -29,7 +29,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1486372338" tv-usec="959233" name="automation event move">
+  <UndoTransaction tv-sec="1486372338" tv-usec="8589934592" name="automation event move">
     <MementoUndoCommand obj-id="130528" type-name="ARDOUR::AutomationList">
       <AutomationList automation-id="parameter-3" id="130528" default="0.448013842106" min-yval="0" max-yval="1" interpolation-style="Linear" state="Play" style="Absolute">
         <events>0 0.549180327868853
@@ -61,7 +61,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1486372339" tv-usec="708622" name="add automation event">
+  <UndoTransaction tv-sec="1486372339" tv-usec="8589934592" name="add automation event">
     <MementoCommand obj-id="130528" type-name="ARDOUR::AutomationList">
       <AutomationList automation-id="parameter-3" id="130528" default="0.448013842106" min-yval="0" max-yval="1" interpolation-style="Linear" state="Play" style="Absolute">
         <events>0 0.549180327868853
@@ -92,7 +92,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1486372340" tv-usec="887949" name="automation event move">
+  <UndoTransaction tv-sec="1486372340" tv-usec="8589934592" name="automation event move">
     <MementoUndoCommand obj-id="130528" type-name="ARDOUR::AutomationList">
       <AutomationList automation-id="parameter-3" id="130528" default="0.448013842106" min-yval="0" max-yval="1" interpolation-style="Linear" state="Play" style="Absolute">
         <events>0 0.549180327868853
@@ -126,7 +126,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1486372341" tv-usec="896121" name="add automation event">
+  <UndoTransaction tv-sec="1486372341" tv-usec="8589934592" name="add automation event">
     <MementoCommand obj-id="130528" type-name="ARDOUR::AutomationList">
       <AutomationList automation-id="parameter-3" id="130528" default="0.448013842106" min-yval="0" max-yval="1" interpolation-style="Linear" state="Play" style="Absolute">
         <events>0 0.549180327868853
@@ -159,7 +159,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1486372344" tv-usec="365557" name="automation event move">
+  <UndoTransaction tv-sec="1486372344" tv-usec="8589934592" name="automation event move">
     <MementoUndoCommand obj-id="130528" type-name="ARDOUR::AutomationList">
       <AutomationList automation-id="parameter-3" id="130528" default="0.448013842106" min-yval="0" max-yval="1" interpolation-style="Linear" state="Play" style="Absolute">
         <events>0 0.549180327868853
@@ -195,7 +195,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1486372346" tv-usec="39423" name="add automation event">
+  <UndoTransaction tv-sec="1486372346" tv-usec="8589934592" name="add automation event">
     <MementoCommand obj-id="130528" type-name="ARDOUR::AutomationList">
       <AutomationList automation-id="parameter-3" id="130528" default="0.448013842106" min-yval="0" max-yval="1" interpolation-style="Linear" state="Play" style="Absolute">
         <events>0 0.549180327868853
@@ -230,7 +230,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1486372347" tv-usec="728763" name="automation event move">
+  <UndoTransaction tv-sec="1486372347" tv-usec="8589934592" name="automation event move">
     <MementoUndoCommand obj-id="130528" type-name="ARDOUR::AutomationList">
       <AutomationList automation-id="parameter-3" id="130528" default="0.448013842106" min-yval="0" max-yval="1" interpolation-style="Linear" state="Play" style="Absolute">
         <events>0 0.549180327868853
@@ -268,7 +268,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1486372360" tv-usec="893910" name="automation range move">
+  <UndoTransaction tv-sec="1486372360" tv-usec="8589934592" name="automation range move">
     <MementoUndoCommand obj-id="130528" type-name="ARDOUR::AutomationList">
       <AutomationList automation-id="parameter-3" id="130528" default="0.448013842106" min-yval="0" max-yval="1" interpolation-style="Linear" state="Play" style="Absolute">
         <events>0 0.549180327868853
@@ -308,7 +308,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1486372361" tv-usec="481613" name="delete MIDI">
+  <UndoTransaction tv-sec="1486372361" tv-usec="8589934592" name="delete MIDI">
     <MementoCommand obj-id="130528" type-name="ARDOUR::AutomationList">
       <AutomationList automation-id="parameter-3" id="130528" default="0.448013842106" min-yval="0" max-yval="1" interpolation-style="Linear" state="Play" style="Absolute">
         <events>0 0.549180327868853
@@ -342,7 +342,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1486372365" tv-usec="971792" name="automation event move">
+  <UndoTransaction tv-sec="1486372365" tv-usec="8589934592" name="automation event move">
     <MementoUndoCommand obj-id="130528" type-name="ARDOUR::AutomationList">
       <AutomationList automation-id="parameter-3" id="130528" default="0.448013842106" min-yval="0" max-yval="1" interpolation-style="Linear" state="Play" style="Absolute">
         <events>0 0.549180327868853
@@ -376,7 +376,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1486372369" tv-usec="37482" name="automation event move">
+  <UndoTransaction tv-sec="1486372369" tv-usec="8589934592" name="automation event move">
     <MementoUndoCommand obj-id="130528" type-name="ARDOUR::AutomationList">
       <AutomationList automation-id="parameter-3" id="130528" default="0.448013842106" min-yval="0" max-yval="1" interpolation-style="Linear" state="Play" style="Absolute">
         <events>0 0.549180327868853
@@ -410,7 +410,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1486372372" tv-usec="319179" name="add note">
+  <UndoTransaction tv-sec="1486372372" tv-usec="8589934592" name="add note">
     <NoteDiffCommand midi-source="137009">
       <ChangedNotes/>
       <AddedNotes>
@@ -436,7 +436,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1486372373" tv-usec="18118" name="add automation event">
+  <UndoTransaction tv-sec="1486372373" tv-usec="8589934592" name="add automation event">
     <MementoCommand obj-id="130528" type-name="ARDOUR::AutomationList">
       <AutomationList automation-id="parameter-3" id="130528" default="0.448013842106" min-yval="0" max-yval="1" interpolation-style="Linear" state="Play" style="Absolute">
         <events>0 0.549180327868853
@@ -472,7 +472,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1486372375" tv-usec="232838" name="delete MIDI">
+  <UndoTransaction tv-sec="1486372375" tv-usec="8589934592" name="delete MIDI">
     <MementoCommand obj-id="130528" type-name="ARDOUR::AutomationList">
       <AutomationList automation-id="parameter-3" id="130528" default="0.448013842106" min-yval="0" max-yval="1" interpolation-style="Linear" state="Play" style="Absolute">
         <events>0 0.549180327868853
@@ -504,7 +504,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1486372386" tv-usec="658453" name="automation event move">
+  <UndoTransaction tv-sec="1486372386" tv-usec="8589934592" name="automation event move">
     <MementoUndoCommand obj-id="130528" type-name="ARDOUR::AutomationList">
       <AutomationList automation-id="parameter-3" id="130528" default="0.448013842106" min-yval="0" max-yval="1" interpolation-style="Linear" state="Play" style="Absolute">
         <events>0 0.549180327868853
@@ -538,7 +538,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1486372387" tv-usec="770756" name="delete MIDI">
+  <UndoTransaction tv-sec="1486372387" tv-usec="8589934592" name="delete MIDI">
     <MementoCommand obj-id="130528" type-name="ARDOUR::AutomationList">
       <AutomationList automation-id="parameter-3" id="130528" default="0.448013842106" min-yval="0" max-yval="1" interpolation-style="Linear" state="Play" style="Absolute">
         <events>0 0.549180327868853
@@ -568,7 +568,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1486372389" tv-usec="964474" name="delete MIDI">
+  <UndoTransaction tv-sec="1486372389" tv-usec="8589934592" name="delete MIDI">
     <MementoCommand obj-id="130528" type-name="ARDOUR::AutomationList">
       <AutomationList automation-id="parameter-3" id="130528" default="0.448013842106" min-yval="0" max-yval="1" interpolation-style="Linear" state="Play" style="Absolute">
         <events>0 0.549180327868853
@@ -596,7 +596,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1486372394" tv-usec="875627" name="clear automation">
+  <UndoTransaction tv-sec="1486372394" tv-usec="8589934592" name="clear automation">
     <MementoCommand obj-id="130528" type-name="ARDOUR::AutomationList">
       <AutomationList automation-id="parameter-3" id="130528" default="0.448013842106" min-yval="0" max-yval="1" interpolation-style="Linear" state="Play" style="Absolute">
         <events>0 0.549180327868853
@@ -620,7 +620,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1486372485" tv-usec="348221" name="delete objects">
+  <UndoTransaction tv-sec="1486372485" tv-usec="8589934592" name="delete objects">
     <StatefulDiffCommand obj-id="619" type-name="ARDOUR::MidiPlaylist">
       <Changes>
         <Regions>

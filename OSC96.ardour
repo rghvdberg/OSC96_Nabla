@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="OSC96" sample-rate="44100" end-is-free="no" id-counter="137122" name-counter="2" event-counter="8083059" vca-counter="1">
+<Session version="3002" name="OSC96" sample-rate="44100" end-is-free="no" id-counter="149918" name-counter="2" event-counter="8375968" vca-counter="1">
   <ProgramVersion created-with="Ardour 5.5" modified-with="Ardour 5.5-726-g5c1efd8"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -3120,7 +3120,7 @@
       <Controllable name="rec-safe" id="127475" flags="Toggle,RealTime" value="0.000000000000"/>
       <Controllable name="rec-enable" id="127473" flags="Toggle,RealTime" value="0.000000000000"/>
       <Diskstream flags="Recordable" playlist="Nabla 1.1" name="Nabla 1" id="195" speed="1.000000" capture-alignment="Automatic" record-safe="no"/>
-      <Controllable name="midi-pitch-bender-0" id="131956" flags="" value="309.000000000000"/>
+      <Controllable name="midi-pitch-bender-0" id="131956" flags="" value="2984.522299194909"/>
     </Route>
     <Route id="201" name="Kick 2" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" route-group="Drums" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="no" input-active="no">
       <PresentationInfo order="6" flags="MidiTrack,OrderSet" color="2598728447"/>
@@ -7002,7 +7002,7 @@
         </OutputMap-0>
         <ThruMap/>
         <lxvst last-preset-uri="VST:1684813104:15" last-preset-label="Band Saw --&gt; Use Wheels!" parameter-changed-since-last-preset="yes">
-          <parameters param-0="0" param-1="0.5" param-2="0.5" param-3="0.5" param-4="0" param-5="0.5" param-6="0.5" param-7="0" param-8="1" param-9="0.583333015442" param-10="0" param-11="0" param-12="1" param-13="0.13655513525" param-14="0.446168720722" param-15="0.191176474094" param-16="0.632352948189" param-17="0.558823525906" param-18="0.647058844566" param-19="0.161764681339" param-20="1" param-21="0" param-22="1" param-23="0" param-24="0" param-25="0" param-26="0.666229009628" param-27="0" param-28="0.5" param-29="0" param-30="0" param-31="0.5" param-32="0.10000000149" param-33="0.10000000149" param-34="0" param-35="0.5" param-36="0.5" param-37="1" param-38="0.0772025808692" param-39="0.69575303793" param-40="0.699059844017" param-41="0.5" param-42="0.949999988079" param-43="0" param-44="0.364544332027" param-45="0.40000000596" param-46="0.183211684227" param-47="1" param-48="1" param-49="0.0892206132412" param-50="0.489866912365" param-51="0.300000011921" param-52="0.0599999986589" param-53="0.0599999986589" param-54="0.300000011921"/>
+          <parameters param-0="0" param-1="0.5" param-2="0.5" param-3="0.5" param-4="0" param-5="0.5" param-6="0.5" param-7="0" param-8="1" param-9="0.583333015442" param-10="0" param-11="0" param-12="1" param-13="0.13655513525" param-14="0.446168720722" param-15="0.191176474094" param-16="0.632352948189" param-17="0.558823525906" param-18="0.647058844566" param-19="0.161764681339" param-20="1" param-21="0" param-22="1" param-23="0" param-24="0" param-25="0" param-26="0.626073122025" param-27="0" param-28="0.5" param-29="0" param-30="0" param-31="0.5" param-32="0.10000000149" param-33="0.10000000149" param-34="0" param-35="0.5" param-36="0.5" param-37="1" param-38="0.0772025808692" param-39="0.69575303793" param-40="0.699059844017" param-41="0.5" param-42="0.949999988079" param-43="0" param-44="0.364544332027" param-45="0.40000000596" param-46="0.183211684227" param-47="1" param-48="1" param-49="0.0892206132412" param-50="0.489866912365" param-51="0.300000011921" param-52="0.0599999986589" param-53="0.0599999986589" param-54="0.300000011921"/>
         </lxvst>
         <Controllable name="GOD Mode" id="83500" flags="" value="0.000000000000" parameter="0"/>
         <Controllable name="Volume" id="83501" flags="" value="0.500000000000" parameter="1"/>
@@ -7030,7 +7030,7 @@
         <Controllable name="Syn EG R" id="83523" flags="" value="0.000000000000" parameter="23"/>
         <Controllable name="VCA Mode" id="83524" flags="" value="0.000000000000" parameter="24"/>
         <Controllable name="Syn Trig" id="83525" flags="" value="0.000000000000" parameter="25"/>
-        <Controllable name="VCF Freq" id="83526" flags="" value="0.666229009628" parameter="26"/>
+        <Controllable name="VCF Freq" id="83526" flags="" value="0.626073122025" parameter="26"/>
         <Controllable name="VCF Reso" id="83527" flags="" value="0.000000000000" parameter="27"/>
         <Controllable name="VCF EG" id="83528" flags="" value="0.500000000000" parameter="28"/>
         <Controllable name="VCF Mode" id="83529" flags="" value="0.000000000000" parameter="29"/>
@@ -7091,7 +7091,7 @@
       <Diskstream flags="Recordable" playlist="Nabla 7.1" name="Nabla 7" id="477" speed="1.000000" capture-alignment="Automatic" record-safe="no"/>
     </Route>
     <Route id="483" name="Chords R" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" route-group="Chords" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="no" input-active="no">
-      <PresentationInfo order="14" flags="MidiTrack,OrderSet" color="3782403583"/>
+      <PresentationInfo order="14" flags="MidiTrack,Selected,OrderSet" color="3782403583"/>
       <Controllable name="solo" id="491" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="497" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
       <Controllable name="solo-safe" id="499" flags="Toggle" value="0.000000000000" solo-safe="no"/>
@@ -7280,7 +7280,7 @@
         </OutputMap-0>
         <ThruMap/>
         <lxvst last-preset-uri="VST:1684813104:15" last-preset-label="Band Saw --&gt; Use Wheels!" parameter-changed-since-last-preset="yes">
-          <parameters param-0="0" param-1="0.5" param-2="0.5" param-3="0.5" param-4="0" param-5="0.5" param-6="0.5" param-7="0" param-8="1" param-9="0.583333015442" param-10="0" param-11="0" param-12="1" param-13="0.13655513525" param-14="0.446168720722" param-15="0.191176474094" param-16="0.632352948189" param-17="0.558823525906" param-18="0.647058844566" param-19="0.161764681339" param-20="1" param-21="0" param-22="1" param-23="0" param-24="0" param-25="0" param-26="0.737712621689" param-27="0" param-28="0.5" param-29="0" param-30="0" param-31="0.5" param-32="0.10000000149" param-33="0.10000000149" param-34="0" param-35="0.5" param-36="0.5" param-37="1" param-38="0.0772025808692" param-39="0.69575303793" param-40="0.699059844017" param-41="0.5" param-42="0.949999988079" param-43="0" param-44="0.364544332027" param-45="0.40000000596" param-46="0.183211684227" param-47="1" param-48="1" param-49="0.0892206132412" param-50="0.489866912365" param-51="0.300000011921" param-52="0.0599999986589" param-53="0.0599999986589" param-54="0.300000011921"/>
+          <parameters param-0="0" param-1="0.5" param-2="0.5" param-3="0.5" param-4="0" param-5="0.5" param-6="0.5" param-7="0" param-8="1" param-9="0.583333015442" param-10="0" param-11="0" param-12="1" param-13="0.13655513525" param-14="0.446168720722" param-15="0.191176474094" param-16="0.632352948189" param-17="0.558823525906" param-18="0.647058844566" param-19="0.161764681339" param-20="1" param-21="0" param-22="1" param-23="0" param-24="0" param-25="0" param-26="0.690994203091" param-27="0" param-28="0.5" param-29="0" param-30="0" param-31="0.5" param-32="0.10000000149" param-33="0.10000000149" param-34="0" param-35="0.5" param-36="0.5" param-37="1" param-38="0.0772025808692" param-39="0.69575303793" param-40="0.699059844017" param-41="0.5" param-42="0.949999988079" param-43="0" param-44="0.364544332027" param-45="0.40000000596" param-46="0.183211684227" param-47="1" param-48="1" param-49="0.0892206132412" param-50="0.489866912365" param-51="0.300000011921" param-52="0.0599999986589" param-53="0.0599999986589" param-54="0.300000011921"/>
         </lxvst>
         <Controllable name="GOD Mode" id="83500" flags="" value="0.000000000000" parameter="0"/>
         <Controllable name="Volume" id="83501" flags="" value="0.500000000000" parameter="1"/>
@@ -7308,7 +7308,7 @@
         <Controllable name="Syn EG R" id="83523" flags="" value="0.000000000000" parameter="23"/>
         <Controllable name="VCA Mode" id="83524" flags="" value="0.000000000000" parameter="24"/>
         <Controllable name="Syn Trig" id="83525" flags="" value="0.000000000000" parameter="25"/>
-        <Controllable name="VCF Freq" id="83526" flags="" value="0.737712621689" parameter="26"/>
+        <Controllable name="VCF Freq" id="83526" flags="" value="0.690994203091" parameter="26"/>
         <Controllable name="VCF Reso" id="83527" flags="" value="0.000000000000" parameter="27"/>
         <Controllable name="VCF EG" id="83528" flags="" value="0.500000000000" parameter="28"/>
         <Controllable name="VCF Mode" id="83529" flags="" value="0.000000000000" parameter="29"/>
@@ -7581,7 +7581,7 @@
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state1">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state2">
           <Port symbol="lv2_freewheel" value="+0.000000"/>
           <Port symbol="speedfactor" value="+0.666667"/>
           <Port symbol="filtertype" value="+0.888889"/>
@@ -7591,8 +7591,8 @@
           <Port symbol="depth" value="+1.000000"/>
         </lv2>
         <Controllable name="hidden" id="137084" flags="Toggle" value="0.000000000000" parameter="1" symbol="lv2_freewheel"/>
-        <Controllable name="speedfactor" id="137086" flags="" value="0.666666686535" parameter="6" symbol="speedfactor"/>
-        <Controllable name="filtertype" id="137088" flags="" value="0.888888895512" parameter="7" symbol="filtertype"/>
+        <Controllable name="speedfactor" id="137086" flags="" value="0.666666984558" parameter="6" symbol="speedfactor"/>
+        <Controllable name="filtertype" id="137088" flags="" value="0.888889014721" parameter="7" symbol="filtertype"/>
         <Controllable name="resonance" id="137090" flags="" value="0.000000000000" parameter="8" symbol="resonance"/>
         <Controllable name="volumein" id="137092" flags="" value="0.500000000000" parameter="9" symbol="volumein"/>
         <Controllable name="volumeout" id="137094" flags="" value="0.512000024319" parameter="10" symbol="volumeout"/>
@@ -9560,7 +9560,7 @@
     <Protocol name="Generic MIDI" active="no"/>
   </ControlProtocols>
   <Extra>
-    <ExportRevision revision="1"/>
+    <ExportRevision revision="4"/>
     <ExportProfile>
       <ExportTimespan format="Timecode">
         <Range id="3704"/>
@@ -9576,10 +9576,11 @@
       <ExportFormat id="7bb867db-67b0-4aaf-9987-38c31e15052e"/>
       <ExportFilename>
         <Folder relative="true" path="/export"/>
-        <Field name="label" enabled="true" value="Daft Rob"/>
+        <Field name="label" enabled="true" value="_alsa"/>
         <Field name="session" enabled="true"/>
+        <Field name="snapshot" enabled="false"/>
         <Field name="timespan" enabled="false"/>
-        <Field name="revision" enabled="false"/>
+        <Field name="revision" enabled="true"/>
         <Field name="time" enabled="false" value="T_None"/>
         <Field name="date" enabled="false" value="D_None"/>
       </ExportFilename>
@@ -9592,7 +9593,7 @@
       <Window name="add-routes" visible="no" x-off="-1" y-off="-1" x-size="478" y-size="342"/>
       <Window name="add-video" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="inspector" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="audio-midi-setup" visible="no" x-off="35" y-off="0" x-size="576" y-size="420"/>
+      <Window name="audio-midi-setup" visible="no" x-off="1336" y-off="330" x-size="576" y-size="420"/>
       <Window name="video-export" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="script-manager" visible="no" x-off="292" y-off="345" x-size="187" y-size="284"/>
       <Window name="bundle-manager" visible="no" x-off="87" y-off="134" x-size="480" y-size="240"/>
@@ -9638,6 +9639,16 @@
       <Window name="PM-81-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-83-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-84-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-483-136951" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-483-98167" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-483-513" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-483-515" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-483-516" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="PM-136951-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-98167-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-513-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-515-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-516-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-8746-8782" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-8746-8777" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-8746-71383" visible="no" x-off="554" y-off="240" x-size="559" y-size="53" custom-ui="no"/>
@@ -9756,17 +9767,19 @@
       <Window name="PM-375-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-248-112759" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-248-2060" visible="no" x-off="637" y-off="0" x-size="900" y-size="565" custom-ui="no"/>
+      <Window name="P-248-137100" visible="no" x-off="0" y-off="120" x-size="471" y-size="53" custom-ui="no"/>
       <Window name="P-248-278" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-248-58903" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-248-280" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-248-281" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="PM-112759-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-2060-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-137100-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-278-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-58903-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-280-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-281-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-389-2411" visible="no" x-off="383" y-off="0" x-size="900" y-size="565" custom-ui="yes"/>
+      <Window name="P-389-2411" visible="no" x-off="383" y-off="0" x-size="900" y-size="565" custom-ui="no"/>
       <Window name="P-389-81977" visible="no" x-off="484" y-off="282" x-size="471" y-size="53" custom-ui="no"/>
       <Window name="P-389-83274" visible="no" x-off="484" y-off="282" x-size="471" y-size="53" custom-ui="no"/>
       <Window name="P-389-419" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
@@ -9792,27 +9805,23 @@
       <Window name="PM-8902-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-8904-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-8905-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-436-136937" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-436-96841" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-436-466" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-436-468" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-436-469" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="PM-136937-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-96841-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-466-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-468-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-469-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-483-98167" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="P-483-513" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="P-483-515" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="P-483-516" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="PM-98167-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-513-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-515-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-516-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-530-2762" visible="no" x-off="899" y-off="0" x-size="900" y-size="565" custom-ui="yes"/>
+      <Window name="P-530-2762" visible="no" x-off="899" y-off="0" x-size="900" y-size="565" custom-ui="no"/>
+      <Window name="P-530-137082" visible="no" x-off="0" y-off="120" x-size="471" y-size="53" custom-ui="no"/>
       <Window name="P-530-560" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-530-562" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-530-563" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="PM-2762-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-137082-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-560-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-562-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-563-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -9922,14 +9931,6 @@
       <Window name="PM-9112-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-9114-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-9115-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-436-136937" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="PM-136937-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-483-136951" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="PM-136951-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-530-137082" visible="no" x-off="0" y-off="120" x-size="471" y-size="53" custom-ui="yes"/>
-      <Window name="PM-137082-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-248-137100" visible="no" x-off="0" y-off="120" x-size="471" y-size="53" custom-ui="yes"/>
-      <Window name="PM-137100-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <GUIObjectState>
         <Object id="rtav 51" height="30" visible="1"/>
         <Object id="automation 55" height="30" visible="0"/>
