@@ -1,228 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <UndoHistory>
-  <UndoTransaction tv-sec="1486461738" tv-usec="746986" name="delete objects">
-    <StatefulDiffCommand obj-id="188378" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <layering-index from="4" to="3"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="188375" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <layering-index from="3" to="2"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="188390" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <layering-index from="6" to="5"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="188387" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <layering-index from="5" to="4"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="188402" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <layering-index from="9" to="8"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="188396" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <layering-index from="7" to="6"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="188399" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <layering-index from="8" to="7"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="666" type-name="ARDOUR::MidiPlaylist">
+  <UndoTransaction tv-sec="1486486632" tv-usec="8589934592" name="delete objects">
+    <StatefulDiffCommand obj-id="478" type-name="ARDOUR::MidiPlaylist">
       <Changes>
         <Regions>
-          <Remove id="188372"/>
+          <Remove id="99120"/>
         </Regions>
       </Changes>
     </StatefulDiffCommand>
     <MementoCommand obj-id="32" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="1024" left-frame="0" y-origin="60,000000">
+      <SelectionMemento mouse-mode="MouseObject" zoom="1024" left-frame="0" y-origin="480,000000">
         <Selection>
-          <Region id="188372"/>
+          <Region id="99120"/>
           <Marker id="3724" start="no"/>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="1024" left-frame="0" y-origin="60,000000">
+      <SelectionMemento mouse-mode="MouseObject" zoom="1024" left-frame="0" y-origin="480,000000">
         <Selection>
           <Marker id="3724" start="no"/>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1486461996" tv-usec="526376" name="bounce range">
-    <StatefulDiffCommand obj-id="666" type-name="ARDOUR::MidiPlaylist">
-      <Changes>
-        <Regions>
-          <Add id="188765"/>
-          <Remove id="188402"/>
-          <Remove id="188399"/>
-          <Remove id="188390"/>
-          <Remove id="188387"/>
-          <Remove id="188396"/>
-        </Regions>
-      </Changes>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="32" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseRange" zoom="1024" left-frame="0" y-origin="60.000000">
-        <Selection>
-          <RouteView id="624"/>
-          <AudioRange start="264600" end="441000"/>
-          <Marker id="3724" start="no"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseRange" zoom="1024" left-frame="0" y-origin="60.000000">
-        <Selection>
-          <RouteView id="624"/>
-          <AudioRange start="264600" end="441000"/>
-          <Marker id="3724" start="no"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1486462011" tv-usec="549084" name="Region end trim">
-    <StatefulDiffCommand obj-id="188765" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="156184" to="176400"/>
-        <length-beats from="7.08317460317" to="8"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="32" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="155136" y-origin="390.000000">
-        <Selection>
-          <Region id="188765"/>
-          <Marker id="3724" start="no"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="155136" y-origin="390.000000">
-        <Selection>
-          <Region id="188765"/>
-          <Marker id="3724" start="no"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1486462018" tv-usec="301744" name="delete objects">
-    <StatefulDiffCommand obj-id="188765" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <layering-index from="4" to="0"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="666" type-name="ARDOUR::MidiPlaylist">
-      <Changes>
-        <Regions>
-          <Remove id="188378"/>
-          <Remove id="187914"/>
-          <Remove id="188356"/>
-          <Remove id="188375"/>
-        </Regions>
-      </Changes>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="32" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="1024" left-frame="0" y-origin="390.000000">
-        <Selection>
-          <Region id="188378"/>
-          <Region id="188375"/>
-          <Region id="188356"/>
-          <Region id="187914"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="1024" left-frame="0" y-origin="390.000000">
-        <Selection/>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1486462020" tv-usec="909337" name="region copy">
-    <StatefulDiffCommand obj-id="666" type-name="ARDOUR::MidiPlaylist">
-      <Changes>
-        <Regions>
-          <Add id="188795"/>
-        </Regions>
-      </Changes>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="32" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="1024" left-frame="0" y-origin="390.000000">
-        <Selection>
-          <Region id="188765"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="1024" left-frame="0" y-origin="390.000000">
-        <Selection>
-          <Region id="188795"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1486462046" tv-usec="168877" name="region copy">
-    <StatefulDiffCommand obj-id="666" type-name="ARDOUR::MidiPlaylist">
-      <Changes>
-        <Regions>
-          <Add id="188801"/>
-        </Regions>
-      </Changes>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="32" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="0" y-origin="60.000000">
-        <Selection>
-          <Region id="188765"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="0" y-origin="60.000000">
-        <Selection>
-          <Region id="188801"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1486462047" tv-usec="660224" name="region copy">
-    <StatefulDiffCommand obj-id="666" type-name="ARDOUR::MidiPlaylist">
-      <Changes>
-        <Regions>
-          <Add id="188807"/>
-        </Regions>
-      </Changes>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="32" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="0" y-origin="60.000000">
-        <Selection>
-          <Region id="188801"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="0" y-origin="60.000000">
-        <Selection>
-          <Region id="188807"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1486462051" tv-usec="738824" name="region drag">
-    <StatefulDiffCommand obj-id="188801" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <position from="435488" to="441000"/>
-        <beat from="19.75" to="20"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="32" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="556032" y-origin="60.000000">
-        <Selection>
-          <Region id="188801"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="556032" y-origin="60.000000">
-        <Selection>
-          <Region id="188801"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1486462061" tv-usec="909162" name="move marker">
+  <UndoTransaction tv-sec="1486486637" tv-usec="8589934592" name="move marker">
     <MementoCommand obj-id="25" type-name="ARDOUR::Locations">
       <Locations>
         <Location id="3704" name="session" start="0" end="793800" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
@@ -234,304 +34,2156 @@
       </Locations>
     </MementoCommand>
     <MementoCommand obj-id="32" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="0" y-origin="60.000000">
+      <SelectionMemento mouse-mode="MouseObject" zoom="1024" left-frame="0" y-origin="510,000000">
         <Selection>
-          <Region id="188801"/>
           <Marker id="3724" start="no"/>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="0" y-origin="60.000000">
+      <SelectionMemento mouse-mode="MouseObject" zoom="1024" left-frame="0" y-origin="510,000000">
         <Selection>
-          <Region id="188801"/>
           <Marker id="3724" start="no"/>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1486462333" tv-usec="439860" name="capture">
-    <StatefulDiffCommand obj-id="713" type-name="ARDOUR::MidiPlaylist">
-      <Changes>
-        <Regions>
-          <Add id="188831"/>
-        </Regions>
-      </Changes>
-    </StatefulDiffCommand>
+  <UndoTransaction tv-sec="1486486965" tv-usec="8589934592" name="edit note(s)">
+    <MementoCommand obj-id="32" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseContent" zoom="512" left-frame="50176" y-origin="919,000000">
+        <Selection>
+          <MIDINotes region-id="202354">
+            <note note-id="17447352"/>
+          </MIDINotes>
+          <Marker id="3724" start="no"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseContent" zoom="512" left-frame="50176" y-origin="919,000000">
+        <Selection>
+          <MIDINotes region-id="202354">
+            <note note-id="17447352"/>
+          </MIDINotes>
+          <Marker id="3724" start="no"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1486462388" tv-usec="927503" name="quantize">
-    <NoteDiffCommand midi-source="188822">
+  <UndoTransaction tv-sec="1486544749" tv-usec="992154" name="move notes">
+    <NoteDiffCommand midi-source="100336">
       <ChangedNotes>
-        <Change property="StartTime" old="5.0615" new="5.00615" id="16040156"/>
-        <Change property="StartTime" old="5.4615" new="5.49615" id="16040165"/>
-        <Change property="StartTime" old="5.97347" new="5.99735" id="16047356"/>
-        <Change property="StartTime" old="6.47143" new="6.49714" id="16047367"/>
-        <Change property="StartTime" old="7.45746" new="7.49575" id="16047389"/>
-        <Change property="StartTime" old="8.43741" new="8.49374" id="16047411"/>
-        <Change property="StartTime" old="8.94354" new="8.99435" id="16047423"/>
-        <Change property="StartTime" old="9.43147" new="9.49315" id="16047434"/>
-        <Change property="StartTime" old="9.93152" new="9.99315" id="16047447"/>
-        <Change property="StartTime" old="10.4016" new="10.4902" id="16047457"/>
-        <Change property="StartTime" old="10.9175" new="10.9918" id="16047470"/>
-        <Change property="StartTime" old="12.9874" new="12.9987" id="16055201"/>
-        <Change property="StartTime" old="13.4075" new="13.4907" id="16055210"/>
-        <Change property="StartTime" old="13.9295" new="13.9929" id="16055223"/>
-        <Change property="StartTime" old="14.4034" new="14.4903" id="16055234"/>
-        <Change property="StartTime" old="14.8994" new="14.9899" id="16055246"/>
-        <Change property="StartTime" old="15.4194" new="15.4919" id="16055258"/>
-        <Change property="StartTime" old="16.4554" new="16.4955" id="16055281"/>
-        <Change property="StartTime" old="16.8836" new="16.9884" id="16055292"/>
-        <Change property="StartTime" old="17.4337" new="17.4934" id="16055305"/>
-        <Change property="StartTime" old="18.4675" new="18.4967" id="16062591"/>
-        <Change property="StartTime" old="21.0395" new="21.0039" id="16062645"/>
-        <Change property="StartTime" old="21.4994" new="21.4999" id="16062655"/>
-        <Change property="StartTime" old="22.0174" new="22.0017" id="16062668"/>
-        <Change property="StartTime" old="22.4495" new="22.495" id="16062678"/>
-        <Change property="StartTime" old="23.4535" new="23.4953" id="16062701"/>
-        <Change property="StartTime" old="24.4496" new="24.495" id="16070405"/>
-        <Change property="StartTime" old="24.9495" new="24.9949" id="16070417"/>
-        <Change property="StartTime" old="25.4155" new="25.4915" id="16070428"/>
-        <Change property="StartTime" old="25.9675" new="25.9967" id="16070441"/>
-        <Change property="StartTime" old="26.4254" new="26.4925" id="16070453"/>
-        <Change property="StartTime" old="26.9254" new="26.9925" id="16070465"/>
-        <Change property="StartTime" old="28.9675" new="28.9968" id="16070507"/>
-        <Change property="StartTime" old="29.4294" new="29.4929" id="16070519"/>
-        <Change property="StartTime" old="29.9675" new="29.9968" id="16077353"/>
-        <Change property="StartTime" old="30.4496" new="30.495" id="16077365"/>
-        <Change property="StartTime" old="30.9534" new="30.9953" id="16077378"/>
-        <Change property="StartTime" old="31.4594" new="31.4959" id="16077390"/>
-        <Change property="StartTime" old="32.4774" new="32.4977" id="16077412"/>
+        <Change property="NoteNumber" old="48" new="45" id="6135922"/>
       </ChangedNotes>
       <AddedNotes/>
       <RemovedNotes/>
     </NoteDiffCommand>
     <MementoCommand obj-id="32" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="320512" y-origin="664.000000">
+      <SelectionMemento mouse-mode="MouseContent" zoom="256" left-frame="44544" y-origin="0.000000">
         <Selection>
-          <Region id="188831"/>
+          <MIDINotes region-id="100340">
+            <note note-id="6135922"/>
+          </MIDINotes>
           <Marker id="3724" start="no"/>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="320512" y-origin="664.000000">
+      <SelectionMemento mouse-mode="MouseContent" zoom="256" left-frame="44544" y-origin="0.000000">
         <Selection>
-          <Region id="188831"/>
-          <Marker id="3724" start="no"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1486462422" tv-usec="212057" name="add note">
-    <NoteDiffCommand midi-source="188822">
-      <ChangedNotes/>
-      <AddedNotes>
-        <note id="16176500" note="60" channel="0" time="33.5" length="0.5" velocity="77"/>
-      </AddedNotes>
-      <RemovedNotes/>
-    </NoteDiffCommand>
-    <MementoCommand obj-id="32" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseDraw" zoom="512" left-frame="411136" y-origin="664.000000">
-        <Selection>
-          <Marker id="3724" start="no"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseDraw" zoom="512" left-frame="411136" y-origin="664.000000">
-        <Selection>
-          <MIDINotes region-id="188831">
-            <note note-id="16176500"/>
+          <MIDINotes region-id="100340">
+            <note note-id="6135922"/>
           </MIDINotes>
           <Marker id="3724" start="no"/>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1486462423" tv-usec="565866" name="add note">
-    <NoteDiffCommand midi-source="188822">
-      <ChangedNotes/>
-      <AddedNotes>
-        <note id="16176741" note="62" channel="0" time="34.5" length="0.5" velocity="77"/>
-      </AddedNotes>
-      <RemovedNotes/>
-    </NoteDiffCommand>
-    <MementoCommand obj-id="32" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseDraw" zoom="512" left-frame="411136" y-origin="664.000000">
-        <Selection>
-          <MIDINotes region-id="188831">
-            <note note-id="16176500"/>
-          </MIDINotes>
-          <Marker id="3724" start="no"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseDraw" zoom="512" left-frame="411136" y-origin="664.000000">
-        <Selection>
-          <MIDINotes region-id="188831">
-            <note note-id="16176741"/>
-          </MIDINotes>
-          <Marker id="3724" start="no"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1486462461" tv-usec="198002" name="move notes">
-    <NoteDiffCommand midi-source="188822">
+  <UndoTransaction tv-sec="1486544752" tv-usec="840507" name="move notes">
+    <NoteDiffCommand midi-source="100336">
       <ChangedNotes>
-        <Change property="StartTime" old="34" new="34.5" id="16176741"/>
+        <Change property="NoteNumber" old="48" new="45" id="6135963"/>
       </ChangedNotes>
       <AddedNotes/>
       <RemovedNotes/>
     </NoteDiffCommand>
     <MementoCommand obj-id="32" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseDraw" zoom="256" left-frame="592640" y-origin="664.000000">
+      <SelectionMemento mouse-mode="MouseContent" zoom="256" left-frame="44544" y-origin="0.000000">
         <Selection>
-          <MIDINotes region-id="188831">
-            <note note-id="16176741"/>
+          <MIDINotes region-id="100340">
+            <note note-id="6135963"/>
           </MIDINotes>
           <Marker id="3724" start="no"/>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseDraw" zoom="256" left-frame="592640" y-origin="664.000000">
+      <SelectionMemento mouse-mode="MouseContent" zoom="256" left-frame="44544" y-origin="0.000000">
         <Selection>
-          <MIDINotes region-id="188831">
-            <note note-id="16176741"/>
+          <MIDINotes region-id="100340">
+            <note note-id="6135963"/>
           </MIDINotes>
           <Marker id="3724" start="no"/>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1486462479" tv-usec="453612" name="resize notes">
-    <NoteDiffCommand midi-source="188822">
+  <UndoTransaction tv-sec="1486544754" tv-usec="230730" name="move notes">
+    <NoteDiffCommand midi-source="100336">
       <ChangedNotes>
-        <Change property="Length" old="1.07814" new="1.00406" id="16077390"/>
+        <Change property="StartTime" old="2.00057" new="2" id="6136004"/>
+        <Change property="NoteNumber" old="48" new="45" id="6136004"/>
       </ChangedNotes>
       <AddedNotes/>
       <RemovedNotes/>
     </NoteDiffCommand>
     <MementoCommand obj-id="32" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseDraw" zoom="256" left-frame="592640" y-origin="664.000000">
+      <SelectionMemento mouse-mode="MouseContent" zoom="256" left-frame="44544" y-origin="0.000000">
         <Selection>
-          <MIDINotes region-id="188831">
-            <note note-id="16077390"/>
+          <MIDINotes region-id="100340">
+            <note note-id="6136004"/>
           </MIDINotes>
           <Marker id="3724" start="no"/>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseDraw" zoom="256" left-frame="592640" y-origin="664.000000">
+      <SelectionMemento mouse-mode="MouseContent" zoom="256" left-frame="44544" y-origin="0.000000">
         <Selection>
-          <MIDINotes region-id="188831">
-            <note note-id="16077390"/>
+          <MIDINotes region-id="100340">
+            <note note-id="6136004"/>
           </MIDINotes>
           <Marker id="3724" start="no"/>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1486462499" tv-usec="570492" name="set loop range from selection">
-    <MementoCommand obj-id="3724" type-name="ARDOUR::Location">
-      <Location id="3724" name="Loop" start="88200" end="793800" flags="IsAutoLoop" locked="no" position-lock-style="AudioTime"/>
-      <Location id="3724" name="Loop" start="617400" end="793800" flags="IsAutoLoop" locked="no" position-lock-style="AudioTime"/>
-    </MementoCommand>
-    <MementoCommand obj-id="32" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseRange" zoom="512" left-frame="532480" y-origin="664.000000">
-        <Selection>
-          <RouteView id="671"/>
-          <AudioRange start="617400" end="793800"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseRange" zoom="512" left-frame="532480" y-origin="664.000000">
-        <Selection>
-          <RouteView id="671"/>
-          <AudioRange start="617400" end="793800"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1486462515" tv-usec="868118" name="delete selection">
-    <NoteDiffCommand midi-source="188822">
-      <ChangedNotes/>
+  <UndoTransaction tv-sec="1486544755" tv-usec="778444" name="move notes">
+    <NoteDiffCommand midi-source="100336">
+      <ChangedNotes>
+        <Change property="StartTime" old="3.00089" new="3" id="6136045"/>
+        <Change property="NoteNumber" old="48" new="45" id="6136045"/>
+      </ChangedNotes>
       <AddedNotes/>
-      <RemovedNotes>
-        <note id="16077378" note="62" channel="0" time="30.9953" length="0.361995" velocity="53"/>
-      </RemovedNotes>
+      <RemovedNotes/>
     </NoteDiffCommand>
     <MementoCommand obj-id="32" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseContent" zoom="512" left-frame="532480" y-origin="664.000000">
+      <SelectionMemento mouse-mode="MouseContent" zoom="256" left-frame="44544" y-origin="0.000000">
         <Selection>
-          <MIDINotes region-id="188831">
-            <note note-id="16077378"/>
+          <MIDINotes region-id="100340">
+            <note note-id="6136045"/>
           </MIDINotes>
+          <Marker id="3724" start="no"/>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseContent" zoom="512" left-frame="532480" y-origin="664.000000">
-        <Selection/>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1486462538" tv-usec="342489" name="move marker">
-    <MementoCommand obj-id="25" type-name="ARDOUR::Locations">
-      <Locations>
-        <Location id="3704" name="session" start="0" end="793800" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
-        <Location id="3724" name="Loop" start="617400" end="793800" flags="IsAutoLoop" locked="no" position-lock-style="AudioTime"/>
-      </Locations>
-      <Locations>
-        <Location id="3704" name="session" start="0" end="793800" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
-        <Location id="3724" name="Loop" start="88200" end="793800" flags="IsAutoLoop" locked="no" position-lock-style="AudioTime"/>
-      </Locations>
-    </MementoCommand>
-    <MementoCommand obj-id="32" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseContent" zoom="2048" left-frame="0" y-origin="664.000000">
+      <SelectionMemento mouse-mode="MouseContent" zoom="256" left-frame="44544" y-origin="0.000000">
         <Selection>
-          <Marker id="3724" start="yes"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseContent" zoom="2048" left-frame="0" y-origin="664.000000">
-        <Selection>
-          <Marker id="3724" start="yes"/>
+          <MIDINotes region-id="100340">
+            <note note-id="6136045"/>
+          </MIDINotes>
+          <Marker id="3724" start="no"/>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1486462849" tv-usec="221727" name="Region end trim">
-    <StatefulDiffCommand obj-id="188831" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="819784" to="793800"/>
-        <length-beats from="37.1784126984" to="36"/>
-      </Changes>
-    </StatefulDiffCommand>
+  <UndoTransaction tv-sec="1486544761" tv-usec="64744" name="move notes">
+    <NoteDiffCommand midi-source="100336">
+      <ChangedNotes>
+        <Change property="NoteNumber" old="45" new="42" id="6135922"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
     <MementoCommand obj-id="32" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="0" y-origin="480.000000">
+      <SelectionMemento mouse-mode="MouseContent" zoom="256" left-frame="44544" y-origin="0.000000">
         <Selection>
-          <Region id="188831"/>
-          <Marker id="3724" start="yes"/>
+          <MIDINotes region-id="100340">
+            <note note-id="6135922"/>
+          </MIDINotes>
+          <Marker id="3724" start="no"/>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="0" y-origin="480.000000">
+      <SelectionMemento mouse-mode="MouseContent" zoom="256" left-frame="44544" y-origin="0.000000">
         <Selection>
-          <Region id="188831"/>
-          <Marker id="3724" start="yes"/>
+          <MIDINotes region-id="100340">
+            <note note-id="6135922"/>
+          </MIDINotes>
+          <Marker id="3724" start="no"/>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1486462851" tv-usec="566498" name="Region start trim">
-    <StatefulDiffCommand obj-id="188831" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <start from="0" to="82688"/>
-        <length from="793800" to="711112"/>
-        <position from="0" to="82688"/>
-        <beat from="0" to="3.75"/>
-        <start-beats from="0" to="3.75"/>
-        <length-beats from="36" to="32.25"/>
-      </Changes>
-    </StatefulDiffCommand>
+  <UndoTransaction tv-sec="1486544762" tv-usec="906483" name="move notes">
+    <NoteDiffCommand midi-source="100336">
+      <ChangedNotes>
+        <Change property="NoteNumber" old="45" new="42" id="6135963"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
     <MementoCommand obj-id="32" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="0" y-origin="480.000000">
+      <SelectionMemento mouse-mode="MouseContent" zoom="256" left-frame="44544" y-origin="0.000000">
         <Selection>
-          <Region id="188831"/>
-          <Marker id="3724" start="yes"/>
+          <MIDINotes region-id="100340">
+            <note note-id="6135963"/>
+          </MIDINotes>
+          <Marker id="3724" start="no"/>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="0" y-origin="480.000000">
+      <SelectionMemento mouse-mode="MouseContent" zoom="256" left-frame="44544" y-origin="0.000000">
         <Selection>
-          <Region id="188831"/>
-          <Marker id="3724" start="yes"/>
+          <MIDINotes region-id="100340">
+            <note note-id="6135963"/>
+          </MIDINotes>
+          <Marker id="3724" start="no"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1486544764" tv-usec="466517" name="move notes">
+    <NoteDiffCommand midi-source="100336">
+      <ChangedNotes>
+        <Change property="NoteNumber" old="45" new="42" id="6136004"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
+    <MementoCommand obj-id="32" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseContent" zoom="256" left-frame="44544" y-origin="0.000000">
+        <Selection>
+          <MIDINotes region-id="100340">
+            <note note-id="6136004"/>
+          </MIDINotes>
+          <Marker id="3724" start="no"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseContent" zoom="256" left-frame="44544" y-origin="0.000000">
+        <Selection>
+          <MIDINotes region-id="100340">
+            <note note-id="6136004"/>
+          </MIDINotes>
+          <Marker id="3724" start="no"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1486544766" tv-usec="574884" name="move notes">
+    <NoteDiffCommand midi-source="100336">
+      <ChangedNotes>
+        <Change property="NoteNumber" old="45" new="42" id="6136045"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
+    <MementoCommand obj-id="32" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseContent" zoom="256" left-frame="44544" y-origin="0.000000">
+        <Selection>
+          <MIDINotes region-id="100340">
+            <note note-id="6136045"/>
+          </MIDINotes>
+          <Marker id="3724" start="no"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseContent" zoom="256" left-frame="44544" y-origin="0.000000">
+        <Selection>
+          <MIDINotes region-id="100340">
+            <note note-id="6136045"/>
+          </MIDINotes>
+          <Marker id="3724" start="no"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1486544816" tv-usec="166671" name="move notes">
+    <NoteDiffCommand midi-source="3699">
+      <ChangedNotes>
+        <Change property="NoteNumber" old="48" new="42" id="135"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
+    <MementoCommand obj-id="32" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseContent" zoom="256" left-frame="0" y-origin="0.000000">
+        <Selection>
+          <MIDINotes region-id="100631">
+            <note note-id="135"/>
+          </MIDINotes>
+          <Marker id="3724" start="no"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseContent" zoom="256" left-frame="0" y-origin="0.000000">
+        <Selection>
+          <MIDINotes region-id="100631">
+            <note note-id="135"/>
+          </MIDINotes>
+          <Marker id="3724" start="no"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1486545995" tv-usec="577913" name="add automation event">
+    <MementoCommand source-id="100336" parameter="midi-pitch-bender-0" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="midi-pitch-bender-0" id="238365" default="8192" min-yval="0" max-yval="16383" interpolation-style="Linear" state="Play" style="Absolute">
+        <events>0 16383
+0.14875 0
+0.25 0
+1.0003125 16383
+1.00421875 15960
+1.008125 15537
+1.01208333333333 15114
+1.01598958333333 14691
+1.01989583333333 14268
+1.02380208333333 13845
+1.02770833333333 13422
+1.03161458333333 12999
+1.03557291666667 12576
+1.03947916666667 12153
+1.04338541666667 11730
+1.04729166666667 11307
+1.05119791666667 10884
+1.05510416666667 10461
+1.0590625 10038
+1.06296875 9615
+1.066875 9192
+1.07078125 8769
+1.0746875 8346
+1.07859375 7923
+1.08255208333333 7500
+1.08645833333333 7077
+1.09036458333333 6654
+1.09427083333333 6231
+1.09817708333333 5808
+1.10208333333333 5385
+1.10604166666667 4962
+1.10994791666667 4539
+1.11385416666667 4116
+1.11776041666667 3693
+1.12166666666667 3270
+1.12557291666667 2847
+1.12953125 2424
+1.1334375 2001
+1.13734375 1578
+1.14125 1155
+1.14515625 732
+1.1490625 309
+2.00057291666667 16383
+2.00447916666667 15960
+2.00838541666667 15537
+2.01234375 15114
+2.01625 14691
+2.02015625 14268
+2.0240625 13845
+2.02796875 13422
+2.031875 12999
+2.03583333333333 12576
+2.03973958333333 12153
+2.04364583333333 11730
+2.04755208333333 11307
+2.05145833333333 10884
+2.05536458333333 10461
+2.05932291666667 10038
+2.06322916666667 9615
+2.06713541666667 9192
+2.07104166666667 8769
+2.07494791666667 8346
+2.07885416666667 7923
+2.0828125 7500
+2.08671875 7077
+2.090625 6654
+2.09453125 6231
+2.0984375 5808
+2.10234375 5385
+2.10630208333333 4962
+2.11020833333333 4539
+2.11411458333333 4116
+2.11802083333333 3693
+2.12192708333333 3270
+2.12583333333333 2847
+2.12979166666667 2424
+2.13369791666667 2001
+2.13760416666667 1578
+2.14151041666667 1155
+2.14541666666667 732
+2.14932291666667 309
+3.00088541666667 16383
+3.00479166666667 15960
+3.00869791666667 15537
+3.01265625 15114
+3.0165625 14691
+3.02046875 14268
+3.024375 13845
+3.02828125 13422
+3.0321875 12999
+3.03614583333333 12576
+3.04005208333333 12153
+3.04395833333333 11730
+3.04786458333333 11307
+3.05177083333333 10884
+3.05567708333333 10461
+3.05963541666667 10038
+3.06354166666667 9615
+3.06744791666667 9192
+3.07135416666667 8769
+3.07526041666667 8346
+3.07916666666667 7923
+3.083125 7500
+3.08703125 7077
+3.0909375 6654
+3.09484375 6231
+3.09875 5808
+3.10265625 5385
+3.10661458333333 4962
+3.11052083333333 4539
+3.11442708333333 4116
+3.11833333333333 3693
+3.12223958333333 3270
+3.12614583333333 2847
+3.13010416666667 2424
+3.13401041666667 2001
+3.13791666666667 1578
+3.14182291666667 1155
+3.14572916666667 732
+3.14963541666667 309
+</events>
+      </AutomationList>
+      <AutomationList automation-id="midi-pitch-bender-0" id="238365" default="8192" min-yval="0" max-yval="16383" interpolation-style="Linear" state="Play" style="Absolute">
+        <events>0 16383
+0.14875 0
+0.25 0
+1.0003125 16383
+1.00421875 15960
+1.008125 15537
+1.01208333333333 15114
+1.01598958333333 14691
+1.01989583333333 14268
+1.02380208333333 13845
+1.02770833333333 13422
+1.03161458333333 12999
+1.03557291666667 12576
+1.03947916666667 12153
+1.04338541666667 11730
+1.04729166666667 11307
+1.05119791666667 10884
+1.05510416666667 10461
+1.0590625 10038
+1.06296875 9615
+1.066875 9192
+1.07078125 8769
+1.0746875 8346
+1.07859375 7923
+1.08255208333333 7500
+1.08645833333333 7077
+1.09036458333333 6654
+1.09427083333333 6231
+1.09817708333333 5808
+1.10208333333333 5385
+1.10604166666667 4962
+1.10994791666667 4539
+1.11385416666667 4116
+1.11776041666667 3693
+1.12166666666667 3270
+1.12557291666667 2847
+1.12953125 2424
+1.1334375 2001
+1.13734375 1578
+1.14125 1155
+1.14515625 732
+1.1490625 309
+1.25002267573696 2102
+2.00057291666667 16383
+2.00447916666667 15960
+2.00838541666667 15537
+2.01234375 15114
+2.01625 14691
+2.02015625 14268
+2.0240625 13845
+2.02796875 13422
+2.031875 12999
+2.03583333333333 12576
+2.03973958333333 12153
+2.04364583333333 11730
+2.04755208333333 11307
+2.05145833333333 10884
+2.05536458333333 10461
+2.05932291666667 10038
+2.06322916666667 9615
+2.06713541666667 9192
+2.07104166666667 8769
+2.07494791666667 8346
+2.07885416666667 7923
+2.0828125 7500
+2.08671875 7077
+2.090625 6654
+2.09453125 6231
+2.0984375 5808
+2.10234375 5385
+2.10630208333333 4962
+2.11020833333333 4539
+2.11411458333333 4116
+2.11802083333333 3693
+2.12192708333333 3270
+2.12583333333333 2847
+2.12979166666667 2424
+2.13369791666667 2001
+2.13760416666667 1578
+2.14151041666667 1155
+2.14541666666667 732
+2.14932291666667 309
+3.00088541666667 16383
+3.00479166666667 15960
+3.00869791666667 15537
+3.01265625 15114
+3.0165625 14691
+3.02046875 14268
+3.024375 13845
+3.02828125 13422
+3.0321875 12999
+3.03614583333333 12576
+3.04005208333333 12153
+3.04395833333333 11730
+3.04786458333333 11307
+3.05177083333333 10884
+3.05567708333333 10461
+3.05963541666667 10038
+3.06354166666667 9615
+3.06744791666667 9192
+3.07135416666667 8769
+3.07526041666667 8346
+3.07916666666667 7923
+3.083125 7500
+3.08703125 7077
+3.0909375 6654
+3.09484375 6231
+3.09875 5808
+3.10265625 5385
+3.10661458333333 4962
+3.11052083333333 4539
+3.11442708333333 4116
+3.11833333333333 3693
+3.12223958333333 3270
+3.12614583333333 2847
+3.13010416666667 2424
+3.13401041666667 2001
+3.13791666666667 1578
+3.14182291666667 1155
+3.14572916666667 732
+3.14963541666667 309
+</events>
+      </AutomationList>
+    </MementoCommand>
+    <MementoCommand obj-id="32" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseDraw" zoom="16" left-frame="104320" y-origin="60.000000">
+        <Selection>
+          <RouteView id="624"/>
+          <Marker id="3724" start="no"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseDraw" zoom="16" left-frame="104320" y-origin="60.000000">
+        <Selection>
+          <RouteView id="624"/>
+          <Marker id="3724" start="no"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1486545997" tv-usec="743825" name="automation event move">
+    <MementoUndoCommand source-id="100336" parameter="midi-pitch-bender-0" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="midi-pitch-bender-0" id="238365" default="8192" min-yval="0" max-yval="16383" interpolation-style="Linear" state="Play" style="Absolute">
+        <events>0 16383
+0.14875 0
+0.25 0
+1.0003125 16383
+1.00421875 15960
+1.008125 15537
+1.01208333333333 15114
+1.01598958333333 14691
+1.01989583333333 14268
+1.02380208333333 13845
+1.02770833333333 13422
+1.03161458333333 12999
+1.03557291666667 12576
+1.03947916666667 12153
+1.04338541666667 11730
+1.04729166666667 11307
+1.05119791666667 10884
+1.05510416666667 10461
+1.0590625 10038
+1.06296875 9615
+1.066875 9192
+1.07078125 8769
+1.0746875 8346
+1.07859375 7923
+1.08255208333333 7500
+1.08645833333333 7077
+1.09036458333333 6654
+1.09427083333333 6231
+1.09817708333333 5808
+1.10208333333333 5385
+1.10604166666667 4962
+1.10994791666667 4539
+1.11385416666667 4116
+1.11776041666667 3693
+1.12166666666667 3270
+1.12557291666667 2847
+1.12953125 2424
+1.1334375 2001
+1.13734375 1578
+1.14125 1155
+1.14515625 732
+1.1490625 309
+1.25002267573696 2102
+2.00057291666667 16383
+2.00447916666667 15960
+2.00838541666667 15537
+2.01234375 15114
+2.01625 14691
+2.02015625 14268
+2.0240625 13845
+2.02796875 13422
+2.031875 12999
+2.03583333333333 12576
+2.03973958333333 12153
+2.04364583333333 11730
+2.04755208333333 11307
+2.05145833333333 10884
+2.05536458333333 10461
+2.05932291666667 10038
+2.06322916666667 9615
+2.06713541666667 9192
+2.07104166666667 8769
+2.07494791666667 8346
+2.07885416666667 7923
+2.0828125 7500
+2.08671875 7077
+2.090625 6654
+2.09453125 6231
+2.0984375 5808
+2.10234375 5385
+2.10630208333333 4962
+2.11020833333333 4539
+2.11411458333333 4116
+2.11802083333333 3693
+2.12192708333333 3270
+2.12583333333333 2847
+2.12979166666667 2424
+2.13369791666667 2001
+2.13760416666667 1578
+2.14151041666667 1155
+2.14541666666667 732
+2.14932291666667 309
+3.00088541666667 16383
+3.00479166666667 15960
+3.00869791666667 15537
+3.01265625 15114
+3.0165625 14691
+3.02046875 14268
+3.024375 13845
+3.02828125 13422
+3.0321875 12999
+3.03614583333333 12576
+3.04005208333333 12153
+3.04395833333333 11730
+3.04786458333333 11307
+3.05177083333333 10884
+3.05567708333333 10461
+3.05963541666667 10038
+3.06354166666667 9615
+3.06744791666667 9192
+3.07135416666667 8769
+3.07526041666667 8346
+3.07916666666667 7923
+3.083125 7500
+3.08703125 7077
+3.0909375 6654
+3.09484375 6231
+3.09875 5808
+3.10265625 5385
+3.10661458333333 4962
+3.11052083333333 4539
+3.11442708333333 4116
+3.11833333333333 3693
+3.12223958333333 3270
+3.12614583333333 2847
+3.13010416666667 2424
+3.13401041666667 2001
+3.13791666666667 1578
+3.14182291666667 1155
+3.14572916666667 732
+3.14963541666667 309
+</events>
+      </AutomationList>
+    </MementoUndoCommand>
+    <MementoRedoCommand source-id="100336" parameter="midi-pitch-bender-0" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="midi-pitch-bender-0" id="238365" default="8192" min-yval="0" max-yval="16383" interpolation-style="Linear" state="Play" style="Absolute">
+        <events>0 16383
+0.14875 0
+0.25 0
+1.0003125 16383
+1.00421875 15960
+1.008125 15537
+1.01208333333333 15114
+1.01598958333333 14691
+1.01989583333333 14268
+1.02380208333333 13845
+1.02770833333333 13422
+1.03161458333333 12999
+1.03557291666667 12576
+1.03947916666667 12153
+1.04338541666667 11730
+1.04729166666667 11307
+1.05119791666667 10884
+1.05510416666667 10461
+1.0590625 10038
+1.06296875 9615
+1.066875 9192
+1.07078125 8769
+1.0746875 8346
+1.07859375 7923
+1.08255208333333 7500
+1.08645833333333 7077
+1.09036458333333 6654
+1.09427083333333 6231
+1.09817708333333 5808
+1.10208333333333 5385
+1.10604166666667 4962
+1.10994791666667 4539
+1.11385416666667 4116
+1.11776041666667 3693
+1.12166666666667 3270
+1.12557291666667 2847
+1.12953125 2424
+1.1334375 2001
+1.13734375 1578
+1.14125 1155
+1.14515625 732
+1.1490625 309
+1.25002267573696 0
+2.00057291666667 16383
+2.00447916666667 15960
+2.00838541666667 15537
+2.01234375 15114
+2.01625 14691
+2.02015625 14268
+2.0240625 13845
+2.02796875 13422
+2.031875 12999
+2.03583333333333 12576
+2.03973958333333 12153
+2.04364583333333 11730
+2.04755208333333 11307
+2.05145833333333 10884
+2.05536458333333 10461
+2.05932291666667 10038
+2.06322916666667 9615
+2.06713541666667 9192
+2.07104166666667 8769
+2.07494791666667 8346
+2.07885416666667 7923
+2.0828125 7500
+2.08671875 7077
+2.090625 6654
+2.09453125 6231
+2.0984375 5808
+2.10234375 5385
+2.10630208333333 4962
+2.11020833333333 4539
+2.11411458333333 4116
+2.11802083333333 3693
+2.12192708333333 3270
+2.12583333333333 2847
+2.12979166666667 2424
+2.13369791666667 2001
+2.13760416666667 1578
+2.14151041666667 1155
+2.14541666666667 732
+2.14932291666667 309
+3.00088541666667 16383
+3.00479166666667 15960
+3.00869791666667 15537
+3.01265625 15114
+3.0165625 14691
+3.02046875 14268
+3.024375 13845
+3.02828125 13422
+3.0321875 12999
+3.03614583333333 12576
+3.04005208333333 12153
+3.04395833333333 11730
+3.04786458333333 11307
+3.05177083333333 10884
+3.05567708333333 10461
+3.05963541666667 10038
+3.06354166666667 9615
+3.06744791666667 9192
+3.07135416666667 8769
+3.07526041666667 8346
+3.07916666666667 7923
+3.083125 7500
+3.08703125 7077
+3.0909375 6654
+3.09484375 6231
+3.09875 5808
+3.10265625 5385
+3.10661458333333 4962
+3.11052083333333 4539
+3.11442708333333 4116
+3.11833333333333 3693
+3.12223958333333 3270
+3.12614583333333 2847
+3.13010416666667 2424
+3.13401041666667 2001
+3.13791666666667 1578
+3.14182291666667 1155
+3.14572916666667 732
+3.14963541666667 309
+</events>
+      </AutomationList>
+    </MementoRedoCommand>
+    <MementoCommand obj-id="32" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseDraw" zoom="16" left-frame="104320" y-origin="60.000000">
+        <Selection>
+          <ControlPoint type="track" route-id="154" automation-list-id="238365" parameter="midi-pitch-bender-0" view-index="42"/>
+          <Marker id="3724" start="no"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseDraw" zoom="16" left-frame="104320" y-origin="60.000000">
+        <Selection>
+          <ControlPoint type="track" route-id="154" automation-list-id="238365" parameter="midi-pitch-bender-0" view-index="42"/>
+          <Marker id="3724" start="no"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1486546021" tv-usec="194793" name="automation event move">
+    <MementoUndoCommand source-id="100336" parameter="midi-pitch-bender-0" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="midi-pitch-bender-0" id="238365" default="8192" min-yval="0" max-yval="16383" interpolation-style="Linear" state="Play" style="Absolute">
+        <events>0 16383
+0.14875 0
+0.25 0
+1.0003125 16383
+1.00421875 15960
+1.008125 15537
+1.01208333333333 15114
+1.01598958333333 14691
+1.01989583333333 14268
+1.02380208333333 13845
+1.02770833333333 13422
+1.03161458333333 12999
+1.03557291666667 12576
+1.03947916666667 12153
+1.04338541666667 11730
+1.04729166666667 11307
+1.05119791666667 10884
+1.05510416666667 10461
+1.0590625 10038
+1.06296875 9615
+1.066875 9192
+1.07078125 8769
+1.0746875 8346
+1.07859375 7923
+1.08255208333333 7500
+1.08645833333333 7077
+1.09036458333333 6654
+1.09427083333333 6231
+1.09817708333333 5808
+1.10208333333333 5385
+1.10604166666667 4962
+1.10994791666667 4539
+1.11385416666667 4116
+1.11776041666667 3693
+1.12166666666667 3270
+1.12557291666667 2847
+1.12953125 2424
+1.1334375 2001
+1.13734375 1578
+1.14125 1155
+1.14515625 732
+1.1490625 309
+1.25002267573696 0
+2.00057291666667 16383
+2.00447916666667 15960
+2.00838541666667 15537
+2.01234375 15114
+2.01625 14691
+2.02015625 14268
+2.0240625 13845
+2.02796875 13422
+2.031875 12999
+2.03583333333333 12576
+2.03973958333333 12153
+2.04364583333333 11730
+2.04755208333333 11307
+2.05145833333333 10884
+2.05536458333333 10461
+2.05932291666667 10038
+2.06322916666667 9615
+2.06713541666667 9192
+2.07104166666667 8769
+2.07494791666667 8346
+2.07885416666667 7923
+2.0828125 7500
+2.08671875 7077
+2.090625 6654
+2.09453125 6231
+2.0984375 5808
+2.10234375 5385
+2.10630208333333 4962
+2.11020833333333 4539
+2.11411458333333 4116
+2.11802083333333 3693
+2.12192708333333 3270
+2.12583333333333 2847
+2.12979166666667 2424
+2.13369791666667 2001
+2.13760416666667 1578
+2.14151041666667 1155
+2.14541666666667 732
+2.14932291666667 309
+3.00088541666667 16383
+3.00479166666667 15960
+3.00869791666667 15537
+3.01265625 15114
+3.0165625 14691
+3.02046875 14268
+3.024375 13845
+3.02828125 13422
+3.0321875 12999
+3.03614583333333 12576
+3.04005208333333 12153
+3.04395833333333 11730
+3.04786458333333 11307
+3.05177083333333 10884
+3.05567708333333 10461
+3.05963541666667 10038
+3.06354166666667 9615
+3.06744791666667 9192
+3.07135416666667 8769
+3.07526041666667 8346
+3.07916666666667 7923
+3.083125 7500
+3.08703125 7077
+3.0909375 6654
+3.09484375 6231
+3.09875 5808
+3.10265625 5385
+3.10661458333333 4962
+3.11052083333333 4539
+3.11442708333333 4116
+3.11833333333333 3693
+3.12223958333333 3270
+3.12614583333333 2847
+3.13010416666667 2424
+3.13401041666667 2001
+3.13791666666667 1578
+3.14182291666667 1155
+3.14572916666667 732
+3.14963541666667 309
+</events>
+      </AutomationList>
+    </MementoUndoCommand>
+    <MementoRedoCommand source-id="100336" parameter="midi-pitch-bender-0" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="midi-pitch-bender-0" id="238365" default="8192" min-yval="0" max-yval="16383" interpolation-style="Linear" state="Play" style="Absolute">
+        <events>0 16383
+0.14875 0
+0.25 0
+1.0003125 16383
+1.00421875 15960
+1.008125 15537
+1.01208333333333 15114
+1.01598958333333 14691
+1.01989583333333 14268
+1.02380208333333 13845
+1.02770833333333 13422
+1.03161458333333 12999
+1.03557291666667 12576
+1.03947916666667 12153
+1.04338541666667 11730
+1.04729166666667 11307
+1.05119791666667 10884
+1.05510416666667 10461
+1.0590625 10038
+1.06296875 9615
+1.066875 9192
+1.07078125 8769
+1.0746875 8346
+1.07859375 7923
+1.08255208333333 7500
+1.08645833333333 7077
+1.09036458333333 6654
+1.09427083333333 6231
+1.09817708333333 5808
+1.10208333333333 5385
+1.10604166666667 4962
+1.10994791666667 4539
+1.11385416666667 4116
+1.11776041666667 3693
+1.12166666666667 3270
+1.12557291666667 2847
+1.12953125 2424
+1.1334375 2001
+1.13734375 1578
+1.14125 1155
+1.14515625 732
+1.1490625 0
+1.25002267573696 0
+2.00057291666667 16383
+2.00447916666667 15960
+2.00838541666667 15537
+2.01234375 15114
+2.01625 14691
+2.02015625 14268
+2.0240625 13845
+2.02796875 13422
+2.031875 12999
+2.03583333333333 12576
+2.03973958333333 12153
+2.04364583333333 11730
+2.04755208333333 11307
+2.05145833333333 10884
+2.05536458333333 10461
+2.05932291666667 10038
+2.06322916666667 9615
+2.06713541666667 9192
+2.07104166666667 8769
+2.07494791666667 8346
+2.07885416666667 7923
+2.0828125 7500
+2.08671875 7077
+2.090625 6654
+2.09453125 6231
+2.0984375 5808
+2.10234375 5385
+2.10630208333333 4962
+2.11020833333333 4539
+2.11411458333333 4116
+2.11802083333333 3693
+2.12192708333333 3270
+2.12583333333333 2847
+2.12979166666667 2424
+2.13369791666667 2001
+2.13760416666667 1578
+2.14151041666667 1155
+2.14541666666667 732
+2.14932291666667 309
+3.00088541666667 16383
+3.00479166666667 15960
+3.00869791666667 15537
+3.01265625 15114
+3.0165625 14691
+3.02046875 14268
+3.024375 13845
+3.02828125 13422
+3.0321875 12999
+3.03614583333333 12576
+3.04005208333333 12153
+3.04395833333333 11730
+3.04786458333333 11307
+3.05177083333333 10884
+3.05567708333333 10461
+3.05963541666667 10038
+3.06354166666667 9615
+3.06744791666667 9192
+3.07135416666667 8769
+3.07526041666667 8346
+3.07916666666667 7923
+3.083125 7500
+3.08703125 7077
+3.0909375 6654
+3.09484375 6231
+3.09875 5808
+3.10265625 5385
+3.10661458333333 4962
+3.11052083333333 4539
+3.11442708333333 4116
+3.11833333333333 3693
+3.12223958333333 3270
+3.12614583333333 2847
+3.13010416666667 2424
+3.13401041666667 2001
+3.13791666666667 1578
+3.14182291666667 1155
+3.14572916666667 732
+3.14963541666667 309
+</events>
+      </AutomationList>
+    </MementoRedoCommand>
+    <MementoCommand obj-id="32" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseContent" zoom="1" left-frame="112675" y-origin="60.000000">
+        <Selection>
+          <ControlPoint type="track" route-id="154" automation-list-id="238365" parameter="midi-pitch-bender-0" view-index="41"/>
+          <Marker id="3724" start="no"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseContent" zoom="1" left-frame="112675" y-origin="60.000000">
+        <Selection>
+          <ControlPoint type="track" route-id="154" automation-list-id="238365" parameter="midi-pitch-bender-0" view-index="41"/>
+          <Marker id="3724" start="no"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1486546027" tv-usec="663110" name="delete MIDI">
+    <MementoCommand obj-id="238365" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="midi-pitch-bender-0" id="238365" default="8192" min-yval="0" max-yval="16383" interpolation-style="Linear" state="Play" style="Absolute">
+        <events>0 16383
+0.14875 0
+0.25 0
+1.0003125 16383
+1.00421875 15960
+1.008125 15537
+1.01208333333333 15114
+1.01598958333333 14691
+1.01989583333333 14268
+1.02380208333333 13845
+1.02770833333333 13422
+1.03161458333333 12999
+1.03557291666667 12576
+1.03947916666667 12153
+1.04338541666667 11730
+1.04729166666667 11307
+1.05119791666667 10884
+1.05510416666667 10461
+1.0590625 10038
+1.06296875 9615
+1.066875 9192
+1.07078125 8769
+1.0746875 8346
+1.07859375 7923
+1.08255208333333 7500
+1.08645833333333 7077
+1.09036458333333 6654
+1.09427083333333 6231
+1.09817708333333 5808
+1.10208333333333 5385
+1.10604166666667 4962
+1.10994791666667 4539
+1.11385416666667 4116
+1.11776041666667 3693
+1.12166666666667 3270
+1.12557291666667 2847
+1.12953125 2424
+1.1334375 2001
+1.13734375 1578
+1.14125 1155
+1.14515625 732
+1.1490625 0
+1.25002267573696 0
+2.00057291666667 16383
+2.00447916666667 15960
+2.00838541666667 15537
+2.01234375 15114
+2.01625 14691
+2.02015625 14268
+2.0240625 13845
+2.02796875 13422
+2.031875 12999
+2.03583333333333 12576
+2.03973958333333 12153
+2.04364583333333 11730
+2.04755208333333 11307
+2.05145833333333 10884
+2.05536458333333 10461
+2.05932291666667 10038
+2.06322916666667 9615
+2.06713541666667 9192
+2.07104166666667 8769
+2.07494791666667 8346
+2.07885416666667 7923
+2.0828125 7500
+2.08671875 7077
+2.090625 6654
+2.09453125 6231
+2.0984375 5808
+2.10234375 5385
+2.10630208333333 4962
+2.11020833333333 4539
+2.11411458333333 4116
+2.11802083333333 3693
+2.12192708333333 3270
+2.12583333333333 2847
+2.12979166666667 2424
+2.13369791666667 2001
+2.13760416666667 1578
+2.14151041666667 1155
+2.14541666666667 732
+2.14932291666667 309
+3.00088541666667 16383
+3.00479166666667 15960
+3.00869791666667 15537
+3.01265625 15114
+3.0165625 14691
+3.02046875 14268
+3.024375 13845
+3.02828125 13422
+3.0321875 12999
+3.03614583333333 12576
+3.04005208333333 12153
+3.04395833333333 11730
+3.04786458333333 11307
+3.05177083333333 10884
+3.05567708333333 10461
+3.05963541666667 10038
+3.06354166666667 9615
+3.06744791666667 9192
+3.07135416666667 8769
+3.07526041666667 8346
+3.07916666666667 7923
+3.083125 7500
+3.08703125 7077
+3.0909375 6654
+3.09484375 6231
+3.09875 5808
+3.10265625 5385
+3.10661458333333 4962
+3.11052083333333 4539
+3.11442708333333 4116
+3.11833333333333 3693
+3.12223958333333 3270
+3.12614583333333 2847
+3.13010416666667 2424
+3.13401041666667 2001
+3.13791666666667 1578
+3.14182291666667 1155
+3.14572916666667 732
+3.14963541666667 309
+</events>
+      </AutomationList>
+      <AutomationList automation-id="midi-pitch-bender-0" id="238365" default="8192" min-yval="0" max-yval="16383" interpolation-style="Linear" state="Play" style="Absolute">
+        <events>0 16383
+0.14875 0
+0.25 0
+1.0003125 16383
+1.00421875 15960
+1.008125 15537
+1.01208333333333 15114
+1.12953125 2424
+1.1334375 2001
+1.13734375 1578
+1.14125 1155
+1.14515625 732
+1.1490625 0
+1.25002267573696 0
+2.00057291666667 16383
+2.00447916666667 15960
+2.00838541666667 15537
+2.01234375 15114
+2.01625 14691
+2.02015625 14268
+2.0240625 13845
+2.02796875 13422
+2.031875 12999
+2.03583333333333 12576
+2.03973958333333 12153
+2.04364583333333 11730
+2.04755208333333 11307
+2.05145833333333 10884
+2.05536458333333 10461
+2.05932291666667 10038
+2.06322916666667 9615
+2.06713541666667 9192
+2.07104166666667 8769
+2.07494791666667 8346
+2.07885416666667 7923
+2.0828125 7500
+2.08671875 7077
+2.090625 6654
+2.09453125 6231
+2.0984375 5808
+2.10234375 5385
+2.10630208333333 4962
+2.11020833333333 4539
+2.11411458333333 4116
+2.11802083333333 3693
+2.12192708333333 3270
+2.12583333333333 2847
+2.12979166666667 2424
+2.13369791666667 2001
+2.13760416666667 1578
+2.14151041666667 1155
+2.14541666666667 732
+2.14932291666667 309
+3.00088541666667 16383
+3.00479166666667 15960
+3.00869791666667 15537
+3.01265625 15114
+3.0165625 14691
+3.02046875 14268
+3.024375 13845
+3.02828125 13422
+3.0321875 12999
+3.03614583333333 12576
+3.04005208333333 12153
+3.04395833333333 11730
+3.04786458333333 11307
+3.05177083333333 10884
+3.05567708333333 10461
+3.05963541666667 10038
+3.06354166666667 9615
+3.06744791666667 9192
+3.07135416666667 8769
+3.07526041666667 8346
+3.07916666666667 7923
+3.083125 7500
+3.08703125 7077
+3.0909375 6654
+3.09484375 6231
+3.09875 5808
+3.10265625 5385
+3.10661458333333 4962
+3.11052083333333 4539
+3.11442708333333 4116
+3.11833333333333 3693
+3.12223958333333 3270
+3.12614583333333 2847
+3.13010416666667 2424
+3.13401041666667 2001
+3.13791666666667 1578
+3.14182291666667 1155
+3.14572916666667 732
+3.14963541666667 309
+</events>
+      </AutomationList>
+    </MementoCommand>
+    <MementoCommand obj-id="32" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseContent" zoom="16" left-frame="104832" y-origin="60.000000">
+        <Selection>
+          <ControlPoint type="track" route-id="154" automation-list-id="238365" parameter="midi-pitch-bender-0" view-index="7"/>
+          <ControlPoint type="track" route-id="154" automation-list-id="238365" parameter="midi-pitch-bender-0" view-index="8"/>
+          <ControlPoint type="track" route-id="154" automation-list-id="238365" parameter="midi-pitch-bender-0" view-index="9"/>
+          <ControlPoint type="track" route-id="154" automation-list-id="238365" parameter="midi-pitch-bender-0" view-index="10"/>
+          <ControlPoint type="track" route-id="154" automation-list-id="238365" parameter="midi-pitch-bender-0" view-index="11"/>
+          <ControlPoint type="track" route-id="154" automation-list-id="238365" parameter="midi-pitch-bender-0" view-index="12"/>
+          <ControlPoint type="track" route-id="154" automation-list-id="238365" parameter="midi-pitch-bender-0" view-index="13"/>
+          <ControlPoint type="track" route-id="154" automation-list-id="238365" parameter="midi-pitch-bender-0" view-index="14"/>
+          <ControlPoint type="track" route-id="154" automation-list-id="238365" parameter="midi-pitch-bender-0" view-index="15"/>
+          <ControlPoint type="track" route-id="154" automation-list-id="238365" parameter="midi-pitch-bender-0" view-index="16"/>
+          <ControlPoint type="track" route-id="154" automation-list-id="238365" parameter="midi-pitch-bender-0" view-index="17"/>
+          <ControlPoint type="track" route-id="154" automation-list-id="238365" parameter="midi-pitch-bender-0" view-index="18"/>
+          <ControlPoint type="track" route-id="154" automation-list-id="238365" parameter="midi-pitch-bender-0" view-index="19"/>
+          <ControlPoint type="track" route-id="154" automation-list-id="238365" parameter="midi-pitch-bender-0" view-index="20"/>
+          <ControlPoint type="track" route-id="154" automation-list-id="238365" parameter="midi-pitch-bender-0" view-index="21"/>
+          <ControlPoint type="track" route-id="154" automation-list-id="238365" parameter="midi-pitch-bender-0" view-index="22"/>
+          <ControlPoint type="track" route-id="154" automation-list-id="238365" parameter="midi-pitch-bender-0" view-index="23"/>
+          <ControlPoint type="track" route-id="154" automation-list-id="238365" parameter="midi-pitch-bender-0" view-index="24"/>
+          <ControlPoint type="track" route-id="154" automation-list-id="238365" parameter="midi-pitch-bender-0" view-index="25"/>
+          <ControlPoint type="track" route-id="154" automation-list-id="238365" parameter="midi-pitch-bender-0" view-index="26"/>
+          <ControlPoint type="track" route-id="154" automation-list-id="238365" parameter="midi-pitch-bender-0" view-index="27"/>
+          <ControlPoint type="track" route-id="154" automation-list-id="238365" parameter="midi-pitch-bender-0" view-index="28"/>
+          <ControlPoint type="track" route-id="154" automation-list-id="238365" parameter="midi-pitch-bender-0" view-index="29"/>
+          <ControlPoint type="track" route-id="154" automation-list-id="238365" parameter="midi-pitch-bender-0" view-index="30"/>
+          <ControlPoint type="track" route-id="154" automation-list-id="238365" parameter="midi-pitch-bender-0" view-index="31"/>
+          <ControlPoint type="track" route-id="154" automation-list-id="238365" parameter="midi-pitch-bender-0" view-index="32"/>
+          <ControlPoint type="track" route-id="154" automation-list-id="238365" parameter="midi-pitch-bender-0" view-index="33"/>
+          <ControlPoint type="track" route-id="154" automation-list-id="238365" parameter="midi-pitch-bender-0" view-index="34"/>
+          <ControlPoint type="track" route-id="154" automation-list-id="238365" parameter="midi-pitch-bender-0" view-index="35"/>
+          <Marker id="3724" start="no"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseContent" zoom="16" left-frame="104832" y-origin="60.000000">
+        <Selection>
+          <Marker id="3724" start="no"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1486546031" tv-usec="70040" name="delete MIDI">
+    <MementoCommand obj-id="238365" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="midi-pitch-bender-0" id="238365" default="8192" min-yval="0" max-yval="16383" interpolation-style="Linear" state="Play" style="Absolute">
+        <events>0 16383
+0.14875 0
+0.25 0
+1.0003125 16383
+1.00421875 15960
+1.008125 15537
+1.01208333333333 15114
+1.12953125 2424
+1.1334375 2001
+1.13734375 1578
+1.14125 1155
+1.14515625 732
+1.1490625 0
+1.25002267573696 0
+2.00057291666667 16383
+2.00447916666667 15960
+2.00838541666667 15537
+2.01234375 15114
+2.01625 14691
+2.02015625 14268
+2.0240625 13845
+2.02796875 13422
+2.031875 12999
+2.03583333333333 12576
+2.03973958333333 12153
+2.04364583333333 11730
+2.04755208333333 11307
+2.05145833333333 10884
+2.05536458333333 10461
+2.05932291666667 10038
+2.06322916666667 9615
+2.06713541666667 9192
+2.07104166666667 8769
+2.07494791666667 8346
+2.07885416666667 7923
+2.0828125 7500
+2.08671875 7077
+2.090625 6654
+2.09453125 6231
+2.0984375 5808
+2.10234375 5385
+2.10630208333333 4962
+2.11020833333333 4539
+2.11411458333333 4116
+2.11802083333333 3693
+2.12192708333333 3270
+2.12583333333333 2847
+2.12979166666667 2424
+2.13369791666667 2001
+2.13760416666667 1578
+2.14151041666667 1155
+2.14541666666667 732
+2.14932291666667 309
+3.00088541666667 16383
+3.00479166666667 15960
+3.00869791666667 15537
+3.01265625 15114
+3.0165625 14691
+3.02046875 14268
+3.024375 13845
+3.02828125 13422
+3.0321875 12999
+3.03614583333333 12576
+3.04005208333333 12153
+3.04395833333333 11730
+3.04786458333333 11307
+3.05177083333333 10884
+3.05567708333333 10461
+3.05963541666667 10038
+3.06354166666667 9615
+3.06744791666667 9192
+3.07135416666667 8769
+3.07526041666667 8346
+3.07916666666667 7923
+3.083125 7500
+3.08703125 7077
+3.0909375 6654
+3.09484375 6231
+3.09875 5808
+3.10265625 5385
+3.10661458333333 4962
+3.11052083333333 4539
+3.11442708333333 4116
+3.11833333333333 3693
+3.12223958333333 3270
+3.12614583333333 2847
+3.13010416666667 2424
+3.13401041666667 2001
+3.13791666666667 1578
+3.14182291666667 1155
+3.14572916666667 732
+3.14963541666667 309
+</events>
+      </AutomationList>
+      <AutomationList automation-id="midi-pitch-bender-0" id="238365" default="8192" min-yval="0" max-yval="16383" interpolation-style="Linear" state="Play" style="Absolute">
+        <events>0 16383
+0.14875 0
+0.25 0
+1.0003125 16383
+1.008125 15537
+1.01208333333333 15114
+1.12953125 2424
+1.1334375 2001
+1.13734375 1578
+1.14125 1155
+1.14515625 732
+1.1490625 0
+1.25002267573696 0
+2.00057291666667 16383
+2.00447916666667 15960
+2.00838541666667 15537
+2.01234375 15114
+2.01625 14691
+2.02015625 14268
+2.0240625 13845
+2.02796875 13422
+2.031875 12999
+2.03583333333333 12576
+2.03973958333333 12153
+2.04364583333333 11730
+2.04755208333333 11307
+2.05145833333333 10884
+2.05536458333333 10461
+2.05932291666667 10038
+2.06322916666667 9615
+2.06713541666667 9192
+2.07104166666667 8769
+2.07494791666667 8346
+2.07885416666667 7923
+2.0828125 7500
+2.08671875 7077
+2.090625 6654
+2.09453125 6231
+2.0984375 5808
+2.10234375 5385
+2.10630208333333 4962
+2.11020833333333 4539
+2.11411458333333 4116
+2.11802083333333 3693
+2.12192708333333 3270
+2.12583333333333 2847
+2.12979166666667 2424
+2.13369791666667 2001
+2.13760416666667 1578
+2.14151041666667 1155
+2.14541666666667 732
+2.14932291666667 309
+3.00088541666667 16383
+3.00479166666667 15960
+3.00869791666667 15537
+3.01265625 15114
+3.0165625 14691
+3.02046875 14268
+3.024375 13845
+3.02828125 13422
+3.0321875 12999
+3.03614583333333 12576
+3.04005208333333 12153
+3.04395833333333 11730
+3.04786458333333 11307
+3.05177083333333 10884
+3.05567708333333 10461
+3.05963541666667 10038
+3.06354166666667 9615
+3.06744791666667 9192
+3.07135416666667 8769
+3.07526041666667 8346
+3.07916666666667 7923
+3.083125 7500
+3.08703125 7077
+3.0909375 6654
+3.09484375 6231
+3.09875 5808
+3.10265625 5385
+3.10661458333333 4962
+3.11052083333333 4539
+3.11442708333333 4116
+3.11833333333333 3693
+3.12223958333333 3270
+3.12614583333333 2847
+3.13010416666667 2424
+3.13401041666667 2001
+3.13791666666667 1578
+3.14182291666667 1155
+3.14572916666667 732
+3.14963541666667 309
+</events>
+      </AutomationList>
+    </MementoCommand>
+    <MementoCommand obj-id="32" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseContent" zoom="2" left-frame="110092" y-origin="60.000000">
+        <Selection>
+          <ControlPoint type="track" route-id="154" automation-list-id="238365" parameter="midi-pitch-bender-0" view-index="4"/>
+          <Marker id="3724" start="no"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseContent" zoom="2" left-frame="110092" y-origin="60.000000">
+        <Selection>
+          <Marker id="3724" start="no"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1486546032" tv-usec="116814" name="delete MIDI">
+    <MementoCommand obj-id="238365" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="midi-pitch-bender-0" id="238365" default="8192" min-yval="0" max-yval="16383" interpolation-style="Linear" state="Play" style="Absolute">
+        <events>0 16383
+0.14875 0
+0.25 0
+1.0003125 16383
+1.008125 15537
+1.01208333333333 15114
+1.12953125 2424
+1.1334375 2001
+1.13734375 1578
+1.14125 1155
+1.14515625 732
+1.1490625 0
+1.25002267573696 0
+2.00057291666667 16383
+2.00447916666667 15960
+2.00838541666667 15537
+2.01234375 15114
+2.01625 14691
+2.02015625 14268
+2.0240625 13845
+2.02796875 13422
+2.031875 12999
+2.03583333333333 12576
+2.03973958333333 12153
+2.04364583333333 11730
+2.04755208333333 11307
+2.05145833333333 10884
+2.05536458333333 10461
+2.05932291666667 10038
+2.06322916666667 9615
+2.06713541666667 9192
+2.07104166666667 8769
+2.07494791666667 8346
+2.07885416666667 7923
+2.0828125 7500
+2.08671875 7077
+2.090625 6654
+2.09453125 6231
+2.0984375 5808
+2.10234375 5385
+2.10630208333333 4962
+2.11020833333333 4539
+2.11411458333333 4116
+2.11802083333333 3693
+2.12192708333333 3270
+2.12583333333333 2847
+2.12979166666667 2424
+2.13369791666667 2001
+2.13760416666667 1578
+2.14151041666667 1155
+2.14541666666667 732
+2.14932291666667 309
+3.00088541666667 16383
+3.00479166666667 15960
+3.00869791666667 15537
+3.01265625 15114
+3.0165625 14691
+3.02046875 14268
+3.024375 13845
+3.02828125 13422
+3.0321875 12999
+3.03614583333333 12576
+3.04005208333333 12153
+3.04395833333333 11730
+3.04786458333333 11307
+3.05177083333333 10884
+3.05567708333333 10461
+3.05963541666667 10038
+3.06354166666667 9615
+3.06744791666667 9192
+3.07135416666667 8769
+3.07526041666667 8346
+3.07916666666667 7923
+3.083125 7500
+3.08703125 7077
+3.0909375 6654
+3.09484375 6231
+3.09875 5808
+3.10265625 5385
+3.10661458333333 4962
+3.11052083333333 4539
+3.11442708333333 4116
+3.11833333333333 3693
+3.12223958333333 3270
+3.12614583333333 2847
+3.13010416666667 2424
+3.13401041666667 2001
+3.13791666666667 1578
+3.14182291666667 1155
+3.14572916666667 732
+3.14963541666667 309
+</events>
+      </AutomationList>
+      <AutomationList automation-id="midi-pitch-bender-0" id="238365" default="8192" min-yval="0" max-yval="16383" interpolation-style="Linear" state="Play" style="Absolute">
+        <events>0 16383
+0.14875 0
+0.25 0
+1.0003125 16383
+1.01208333333333 15114
+1.12953125 2424
+1.1334375 2001
+1.13734375 1578
+1.14125 1155
+1.14515625 732
+1.1490625 0
+1.25002267573696 0
+2.00057291666667 16383
+2.00447916666667 15960
+2.00838541666667 15537
+2.01234375 15114
+2.01625 14691
+2.02015625 14268
+2.0240625 13845
+2.02796875 13422
+2.031875 12999
+2.03583333333333 12576
+2.03973958333333 12153
+2.04364583333333 11730
+2.04755208333333 11307
+2.05145833333333 10884
+2.05536458333333 10461
+2.05932291666667 10038
+2.06322916666667 9615
+2.06713541666667 9192
+2.07104166666667 8769
+2.07494791666667 8346
+2.07885416666667 7923
+2.0828125 7500
+2.08671875 7077
+2.090625 6654
+2.09453125 6231
+2.0984375 5808
+2.10234375 5385
+2.10630208333333 4962
+2.11020833333333 4539
+2.11411458333333 4116
+2.11802083333333 3693
+2.12192708333333 3270
+2.12583333333333 2847
+2.12979166666667 2424
+2.13369791666667 2001
+2.13760416666667 1578
+2.14151041666667 1155
+2.14541666666667 732
+2.14932291666667 309
+3.00088541666667 16383
+3.00479166666667 15960
+3.00869791666667 15537
+3.01265625 15114
+3.0165625 14691
+3.02046875 14268
+3.024375 13845
+3.02828125 13422
+3.0321875 12999
+3.03614583333333 12576
+3.04005208333333 12153
+3.04395833333333 11730
+3.04786458333333 11307
+3.05177083333333 10884
+3.05567708333333 10461
+3.05963541666667 10038
+3.06354166666667 9615
+3.06744791666667 9192
+3.07135416666667 8769
+3.07526041666667 8346
+3.07916666666667 7923
+3.083125 7500
+3.08703125 7077
+3.0909375 6654
+3.09484375 6231
+3.09875 5808
+3.10265625 5385
+3.10661458333333 4962
+3.11052083333333 4539
+3.11442708333333 4116
+3.11833333333333 3693
+3.12223958333333 3270
+3.12614583333333 2847
+3.13010416666667 2424
+3.13401041666667 2001
+3.13791666666667 1578
+3.14182291666667 1155
+3.14572916666667 732
+3.14963541666667 309
+</events>
+      </AutomationList>
+    </MementoCommand>
+    <MementoCommand obj-id="32" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseContent" zoom="2" left-frame="110092" y-origin="60.000000">
+        <Selection>
+          <ControlPoint type="track" route-id="154" automation-list-id="238365" parameter="midi-pitch-bender-0" view-index="4"/>
+          <Marker id="3724" start="no"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseContent" zoom="2" left-frame="110092" y-origin="60.000000">
+        <Selection>
+          <Marker id="3724" start="no"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1486546032" tv-usec="918407" name="delete MIDI">
+    <MementoCommand obj-id="238365" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="midi-pitch-bender-0" id="238365" default="8192" min-yval="0" max-yval="16383" interpolation-style="Linear" state="Play" style="Absolute">
+        <events>0 16383
+0.14875 0
+0.25 0
+1.0003125 16383
+1.01208333333333 15114
+1.12953125 2424
+1.1334375 2001
+1.13734375 1578
+1.14125 1155
+1.14515625 732
+1.1490625 0
+1.25002267573696 0
+2.00057291666667 16383
+2.00447916666667 15960
+2.00838541666667 15537
+2.01234375 15114
+2.01625 14691
+2.02015625 14268
+2.0240625 13845
+2.02796875 13422
+2.031875 12999
+2.03583333333333 12576
+2.03973958333333 12153
+2.04364583333333 11730
+2.04755208333333 11307
+2.05145833333333 10884
+2.05536458333333 10461
+2.05932291666667 10038
+2.06322916666667 9615
+2.06713541666667 9192
+2.07104166666667 8769
+2.07494791666667 8346
+2.07885416666667 7923
+2.0828125 7500
+2.08671875 7077
+2.090625 6654
+2.09453125 6231
+2.0984375 5808
+2.10234375 5385
+2.10630208333333 4962
+2.11020833333333 4539
+2.11411458333333 4116
+2.11802083333333 3693
+2.12192708333333 3270
+2.12583333333333 2847
+2.12979166666667 2424
+2.13369791666667 2001
+2.13760416666667 1578
+2.14151041666667 1155
+2.14541666666667 732
+2.14932291666667 309
+3.00088541666667 16383
+3.00479166666667 15960
+3.00869791666667 15537
+3.01265625 15114
+3.0165625 14691
+3.02046875 14268
+3.024375 13845
+3.02828125 13422
+3.0321875 12999
+3.03614583333333 12576
+3.04005208333333 12153
+3.04395833333333 11730
+3.04786458333333 11307
+3.05177083333333 10884
+3.05567708333333 10461
+3.05963541666667 10038
+3.06354166666667 9615
+3.06744791666667 9192
+3.07135416666667 8769
+3.07526041666667 8346
+3.07916666666667 7923
+3.083125 7500
+3.08703125 7077
+3.0909375 6654
+3.09484375 6231
+3.09875 5808
+3.10265625 5385
+3.10661458333333 4962
+3.11052083333333 4539
+3.11442708333333 4116
+3.11833333333333 3693
+3.12223958333333 3270
+3.12614583333333 2847
+3.13010416666667 2424
+3.13401041666667 2001
+3.13791666666667 1578
+3.14182291666667 1155
+3.14572916666667 732
+3.14963541666667 309
+</events>
+      </AutomationList>
+      <AutomationList automation-id="midi-pitch-bender-0" id="238365" default="8192" min-yval="0" max-yval="16383" interpolation-style="Linear" state="Play" style="Absolute">
+        <events>0 16383
+0.14875 0
+0.25 0
+1.0003125 16383
+1.12953125 2424
+1.1334375 2001
+1.13734375 1578
+1.14125 1155
+1.14515625 732
+1.1490625 0
+1.25002267573696 0
+2.00057291666667 16383
+2.00447916666667 15960
+2.00838541666667 15537
+2.01234375 15114
+2.01625 14691
+2.02015625 14268
+2.0240625 13845
+2.02796875 13422
+2.031875 12999
+2.03583333333333 12576
+2.03973958333333 12153
+2.04364583333333 11730
+2.04755208333333 11307
+2.05145833333333 10884
+2.05536458333333 10461
+2.05932291666667 10038
+2.06322916666667 9615
+2.06713541666667 9192
+2.07104166666667 8769
+2.07494791666667 8346
+2.07885416666667 7923
+2.0828125 7500
+2.08671875 7077
+2.090625 6654
+2.09453125 6231
+2.0984375 5808
+2.10234375 5385
+2.10630208333333 4962
+2.11020833333333 4539
+2.11411458333333 4116
+2.11802083333333 3693
+2.12192708333333 3270
+2.12583333333333 2847
+2.12979166666667 2424
+2.13369791666667 2001
+2.13760416666667 1578
+2.14151041666667 1155
+2.14541666666667 732
+2.14932291666667 309
+3.00088541666667 16383
+3.00479166666667 15960
+3.00869791666667 15537
+3.01265625 15114
+3.0165625 14691
+3.02046875 14268
+3.024375 13845
+3.02828125 13422
+3.0321875 12999
+3.03614583333333 12576
+3.04005208333333 12153
+3.04395833333333 11730
+3.04786458333333 11307
+3.05177083333333 10884
+3.05567708333333 10461
+3.05963541666667 10038
+3.06354166666667 9615
+3.06744791666667 9192
+3.07135416666667 8769
+3.07526041666667 8346
+3.07916666666667 7923
+3.083125 7500
+3.08703125 7077
+3.0909375 6654
+3.09484375 6231
+3.09875 5808
+3.10265625 5385
+3.10661458333333 4962
+3.11052083333333 4539
+3.11442708333333 4116
+3.11833333333333 3693
+3.12223958333333 3270
+3.12614583333333 2847
+3.13010416666667 2424
+3.13401041666667 2001
+3.13791666666667 1578
+3.14182291666667 1155
+3.14572916666667 732
+3.14963541666667 309
+</events>
+      </AutomationList>
+    </MementoCommand>
+    <MementoCommand obj-id="32" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseContent" zoom="2" left-frame="110092" y-origin="60.000000">
+        <Selection>
+          <ControlPoint type="track" route-id="154" automation-list-id="238365" parameter="midi-pitch-bender-0" view-index="4"/>
+          <Marker id="3724" start="no"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseContent" zoom="2" left-frame="110092" y-origin="60.000000">
+        <Selection>
+          <Marker id="3724" start="no"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1486546038" tv-usec="278689" name="delete MIDI">
+    <MementoCommand obj-id="238365" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="midi-pitch-bender-0" id="238365" default="8192" min-yval="0" max-yval="16383" interpolation-style="Linear" state="Play" style="Absolute">
+        <events>0 16383
+0.14875 0
+0.25 0
+1.0003125 16383
+1.12953125 2424
+1.1334375 2001
+1.13734375 1578
+1.14125 1155
+1.14515625 732
+1.1490625 0
+1.25002267573696 0
+2.00057291666667 16383
+2.00447916666667 15960
+2.00838541666667 15537
+2.01234375 15114
+2.01625 14691
+2.02015625 14268
+2.0240625 13845
+2.02796875 13422
+2.031875 12999
+2.03583333333333 12576
+2.03973958333333 12153
+2.04364583333333 11730
+2.04755208333333 11307
+2.05145833333333 10884
+2.05536458333333 10461
+2.05932291666667 10038
+2.06322916666667 9615
+2.06713541666667 9192
+2.07104166666667 8769
+2.07494791666667 8346
+2.07885416666667 7923
+2.0828125 7500
+2.08671875 7077
+2.090625 6654
+2.09453125 6231
+2.0984375 5808
+2.10234375 5385
+2.10630208333333 4962
+2.11020833333333 4539
+2.11411458333333 4116
+2.11802083333333 3693
+2.12192708333333 3270
+2.12583333333333 2847
+2.12979166666667 2424
+2.13369791666667 2001
+2.13760416666667 1578
+2.14151041666667 1155
+2.14541666666667 732
+2.14932291666667 309
+3.00088541666667 16383
+3.00479166666667 15960
+3.00869791666667 15537
+3.01265625 15114
+3.0165625 14691
+3.02046875 14268
+3.024375 13845
+3.02828125 13422
+3.0321875 12999
+3.03614583333333 12576
+3.04005208333333 12153
+3.04395833333333 11730
+3.04786458333333 11307
+3.05177083333333 10884
+3.05567708333333 10461
+3.05963541666667 10038
+3.06354166666667 9615
+3.06744791666667 9192
+3.07135416666667 8769
+3.07526041666667 8346
+3.07916666666667 7923
+3.083125 7500
+3.08703125 7077
+3.0909375 6654
+3.09484375 6231
+3.09875 5808
+3.10265625 5385
+3.10661458333333 4962
+3.11052083333333 4539
+3.11442708333333 4116
+3.11833333333333 3693
+3.12223958333333 3270
+3.12614583333333 2847
+3.13010416666667 2424
+3.13401041666667 2001
+3.13791666666667 1578
+3.14182291666667 1155
+3.14572916666667 732
+3.14963541666667 309
+</events>
+      </AutomationList>
+      <AutomationList automation-id="midi-pitch-bender-0" id="238365" default="8192" min-yval="0" max-yval="16383" interpolation-style="Linear" state="Play" style="Absolute">
+        <events>0 16383
+0.14875 0
+0.25 0
+1.0003125 16383
+1.1490625 0
+1.25002267573696 0
+2.00057291666667 16383
+2.00447916666667 15960
+2.00838541666667 15537
+2.01234375 15114
+2.01625 14691
+2.02015625 14268
+2.0240625 13845
+2.02796875 13422
+2.031875 12999
+2.03583333333333 12576
+2.03973958333333 12153
+2.04364583333333 11730
+2.04755208333333 11307
+2.05145833333333 10884
+2.05536458333333 10461
+2.05932291666667 10038
+2.06322916666667 9615
+2.06713541666667 9192
+2.07104166666667 8769
+2.07494791666667 8346
+2.07885416666667 7923
+2.0828125 7500
+2.08671875 7077
+2.090625 6654
+2.09453125 6231
+2.0984375 5808
+2.10234375 5385
+2.10630208333333 4962
+2.11020833333333 4539
+2.11411458333333 4116
+2.11802083333333 3693
+2.12192708333333 3270
+2.12583333333333 2847
+2.12979166666667 2424
+2.13369791666667 2001
+2.13760416666667 1578
+2.14151041666667 1155
+2.14541666666667 732
+2.14932291666667 309
+3.00088541666667 16383
+3.00479166666667 15960
+3.00869791666667 15537
+3.01265625 15114
+3.0165625 14691
+3.02046875 14268
+3.024375 13845
+3.02828125 13422
+3.0321875 12999
+3.03614583333333 12576
+3.04005208333333 12153
+3.04395833333333 11730
+3.04786458333333 11307
+3.05177083333333 10884
+3.05567708333333 10461
+3.05963541666667 10038
+3.06354166666667 9615
+3.06744791666667 9192
+3.07135416666667 8769
+3.07526041666667 8346
+3.07916666666667 7923
+3.083125 7500
+3.08703125 7077
+3.0909375 6654
+3.09484375 6231
+3.09875 5808
+3.10265625 5385
+3.10661458333333 4962
+3.11052083333333 4539
+3.11442708333333 4116
+3.11833333333333 3693
+3.12223958333333 3270
+3.12614583333333 2847
+3.13010416666667 2424
+3.13401041666667 2001
+3.13791666666667 1578
+3.14182291666667 1155
+3.14572916666667 732
+3.14963541666667 309
+</events>
+      </AutomationList>
+    </MementoCommand>
+    <MementoCommand obj-id="32" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseContent" zoom="8" left-frame="108624" y-origin="90.000000">
+        <Selection>
+          <ControlPoint type="track" route-id="154" automation-list-id="238365" parameter="midi-pitch-bender-0" view-index="4"/>
+          <ControlPoint type="track" route-id="154" automation-list-id="238365" parameter="midi-pitch-bender-0" view-index="5"/>
+          <ControlPoint type="track" route-id="154" automation-list-id="238365" parameter="midi-pitch-bender-0" view-index="6"/>
+          <ControlPoint type="track" route-id="154" automation-list-id="238365" parameter="midi-pitch-bender-0" view-index="7"/>
+          <ControlPoint type="track" route-id="154" automation-list-id="238365" parameter="midi-pitch-bender-0" view-index="8"/>
+          <Marker id="3724" start="no"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseContent" zoom="8" left-frame="108624" y-origin="90.000000">
+        <Selection>
+          <Marker id="3724" start="no"/>
         </Selection>
       </SelectionMemento>
     </MementoCommand>

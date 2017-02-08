@@ -17,15 +17,14 @@
   </ExportPresets>
   <LastUsedSnapshot name="OSC96"/>
   <Main x="0" y="0" w="1918" h="1028" current-tab="editor"/>
-  <Editor id="18" edit-horizontal-pane-pos="0.816722" notebook-shrunk="0" edit-vertical-pane-pos="0.900000" mixer-width="Wide" zoom-focus="ZoomFocusPlayhead" zoom="2048" snap-to="SnapToBeatDiv4" snap-mode="SnapNormal" internal-snap-to="SnapToBeatDiv2" internal-snap-mode="SnapNormal" pre-internal-snap-to="SnapToBeatDiv4" pre-internal-snap-mode="SnapNormal" edit-point="EditAtMouse" visible-track-count="-1" playhead="0" left-frame="0" y-origin="480.000000" show-measures="yes" maximised="no" follow-playhead="no" stationary-playhead="no" region-list-sort-type="ByEndInFile" mouse-mode="MouseObject" join-object-range="no" show-editor-mixer="yes" show-editor-list="yes" editor-list-page="1" show-marker-lines="no" nudge-clock-value="220500">
+  <Editor id="18" edit-horizontal-pane-pos="0.816722" notebook-shrunk="0" edit-vertical-pane-pos="0.900000" mixer-width="Wide" zoom-focus="ZoomFocusPlayhead" zoom="512" snap-to="SnapToBeatDiv4" snap-mode="SnapNormal" internal-snap-to="SnapToBeatDiv4" internal-snap-mode="SnapNormal" pre-internal-snap-to="SnapToBar" pre-internal-snap-mode="SnapNormal" edit-point="EditAtMouse" visible-track-count="-1" playhead="88200" left-frame="0" y-origin="0.000000" show-measures="yes" maximised="no" follow-playhead="no" stationary-playhead="no" region-list-sort-type="ByEndInFile" mouse-mode="MouseContent" join-object-range="no" show-editor-mixer="yes" show-editor-list="yes" editor-list-page="1" show-marker-lines="no" nudge-clock-value="220500">
     <Window name="Editor" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" tabbed="yes"/>
     <Buttons>
       <Press/>
       <Release/>
     </Buttons>
     <Selection>
-      <Region id="188831"/>
-      <Marker id="3724" start="yes"/>
+      <Marker id="3724" start="no"/>
     </Selection>
     <RegionList sort-type="ByEndInFile" sort-ascending="yes" show-all="no" show-automatic-regions="yes"/>
     <ActionScript lua="Lua 5.3">c2NyaXB0cyA9IHt9IA==</ActionScript>
@@ -43,41 +42,31 @@
       <PluginInfo sort="6" unique-id="http://calf.sourceforge.net/plugins/MultibandCompressor" expanded="0"/>
       <PluginInfo sort="7" unique-id="urn:juce:TalFilter2" expanded="0"/>
       <PluginInfo sort="8" unique-id="http://calf.sourceforge.net/plugins/Limiter" expanded="0"/>
-      <PluginInfo sort="9" unique-id="1952017974" expanded="0"/>
-      <PluginInfo sort="10" unique-id="urn:ardour:a-comp#stereo" expanded="0"/>
-      <PluginInfo sort="11" unique-id="1a4364e9bd9ac6d9fa91211b3ec514f641eca283" expanded="0"/>
-      <PluginInfo sort="12" unique-id="http://calf.sourceforge.net/plugins/Reverb" expanded="0"/>
-      <PluginInfo sort="13" unique-id="http://gareus.org/oss/lv2/sisco#Stereo" expanded="0"/>
-      <PluginInfo sort="14" unique-id="http://calf.sourceforge.net/plugins/Gate" expanded="0"/>
-      <PluginInfo sort="15" unique-id="http://calf.sourceforge.net/plugins/SidechainCompressor" expanded="0"/>
-      <PluginInfo sort="16" unique-id="1278637617" expanded="0"/>
-      <PluginInfo sort="17" unique-id="urn:ardour:a-fluidsynth" expanded="0"/>
-      <PluginInfo sort="18" unique-id="http://calf.sourceforge.net/plugins/Fluidsynth" expanded="0"/>
-      <PluginInfo sort="19" unique-id="1483101268" expanded="0"/>
-      <PluginInfo sort="20" unique-id="http://eq10q.sourceforge.net/compressor_stereo" expanded="0"/>
-      <PluginInfo sort="21" unique-id="1466847281" expanded="0"/>
-      <PluginInfo sort="22" unique-id="http://kxstudio.sf.net/carla/plugins/carlapatchbay" expanded="0"/>
-      <PluginInfo sort="23" unique-id="http://gareus.org/oss/lv2/tuna#two" expanded="0"/>
-      <PluginInfo sort="24" unique-id="1279742052" expanded="0"/>
-      <PluginInfo sort="25" unique-id="urn:juce:TalReverb3" expanded="0"/>
-      <PluginInfo sort="26" unique-id="urn:juce:TalDub3" expanded="0"/>
-      <PluginInfo sort="27" unique-id="http://eq10q.sourceforge.net/eq/eq4qs" expanded="0"/>
-      <PluginInfo sort="28" unique-id="http://gareus.org/oss/lv2/balance" expanded="0"/>
-      <PluginInfo sort="29" unique-id="http://kxstudio.sf.net/carla/plugins/carlarack" expanded="0"/>
-      <PluginInfo sort="30" unique-id="http://lsp-plug.in/plugins/lv2/compressor_stereo" expanded="0"/>
-      <PluginInfo sort="31" unique-id="http://eq10q.sourceforge.net/eq/eq10qs" expanded="0"/>
-      <PluginInfo sort="32" unique-id="1395742323" expanded="0"/>
-      <PluginInfo sort="33" unique-id="1215901753" expanded="0"/>
-      <PluginInfo sort="34" unique-id="http://gareus.org/oss/lv2/fil4#stereo" expanded="0"/>
-      <PluginInfo sort="35" unique-id="http://calf.sourceforge.net/plugins/TransientDesigner" expanded="0"/>
-      <PluginInfo sort="36" unique-id="http://lsp-plug.in/plugins/lv2/para_equalizer_x16_stereo" expanded="0"/>
-      <PluginInfo sort="37" unique-id="http://lsp-plug.in/plugins/lv2/dyna_processor_stereo" expanded="0"/>
-      <PluginInfo sort="38" unique-id="http://lsp-plug.in/plugins/lv2/expander_stereo" expanded="0"/>
-      <PluginInfo sort="39" unique-id="http://lsp-plug.in/plugins/lv2/gate_stereo" expanded="0"/>
-      <PluginInfo sort="40" unique-id="http://lsp-plug.in/plugins/lv2/limiter_stereo" expanded="0"/>
-      <PluginInfo sort="41" unique-id="http://lsp-plug.in/plugins/lv2/impulse_responses_stereo" expanded="0"/>
-      <PluginInfo sort="42" unique-id="4b8061cfa9507036f494e922508e3133aae25b62" expanded="0"/>
-      <PluginInfo sort="43" unique-id="4393d8663ad91b27b31e6b3e4c0cae5658597b2e" expanded="0"/>
+      <PluginInfo sort="9" unique-id="urn:ardour:a-comp#stereo" expanded="0"/>
+      <PluginInfo sort="10" unique-id="1a4364e9bd9ac6d9fa91211b3ec514f641eca283" expanded="0"/>
+      <PluginInfo sort="11" unique-id="http://gareus.org/oss/lv2/sisco#Stereo" expanded="0"/>
+      <PluginInfo sort="12" unique-id="1278637617" expanded="0"/>
+      <PluginInfo sort="13" unique-id="1483101268" expanded="0"/>
+      <PluginInfo sort="14" unique-id="http://eq10q.sourceforge.net/compressor_stereo" expanded="0"/>
+      <PluginInfo sort="15" unique-id="1466847281" expanded="0"/>
+      <PluginInfo sort="16" unique-id="http://kxstudio.sf.net/carla/plugins/carlapatchbay" expanded="0"/>
+      <PluginInfo sort="17" unique-id="http://gareus.org/oss/lv2/tuna#two" expanded="0"/>
+      <PluginInfo sort="18" unique-id="urn:juce:TalReverb3" expanded="0"/>
+      <PluginInfo sort="19" unique-id="urn:juce:TalDub3" expanded="0"/>
+      <PluginInfo sort="20" unique-id="http://gareus.org/oss/lv2/balance" expanded="0"/>
+      <PluginInfo sort="21" unique-id="http://lsp-plug.in/plugins/lv2/compressor_stereo" expanded="0"/>
+      <PluginInfo sort="22" unique-id="http://eq10q.sourceforge.net/eq/eq10qs" expanded="0"/>
+      <PluginInfo sort="23" unique-id="http://gareus.org/oss/lv2/fil4#stereo" expanded="0"/>
+      <PluginInfo sort="24" unique-id="http://calf.sourceforge.net/plugins/TransientDesigner" expanded="0"/>
+      <PluginInfo sort="25" unique-id="http://lsp-plug.in/plugins/lv2/para_equalizer_x16_stereo" expanded="0"/>
+      <PluginInfo sort="26" unique-id="http://lsp-plug.in/plugins/lv2/dyna_processor_stereo" expanded="0"/>
+      <PluginInfo sort="27" unique-id="http://lsp-plug.in/plugins/lv2/expander_stereo" expanded="0"/>
+      <PluginInfo sort="28" unique-id="http://lsp-plug.in/plugins/lv2/gate_stereo" expanded="0"/>
+      <PluginInfo sort="29" unique-id="http://lsp-plug.in/plugins/lv2/limiter_stereo" expanded="0"/>
+      <PluginInfo sort="30" unique-id="http://lsp-plug.in/plugins/lv2/impulse_responses_stereo" expanded="0"/>
+      <PluginInfo sort="31" unique-id="4b8061cfa9507036f494e922508e3133aae25b62" expanded="0"/>
+      <PluginInfo sort="32" unique-id="4393d8663ad91b27b31e6b3e4c0cae5658597b2e" expanded="0"/>
+      <PluginInfo sort="33" unique-id="1131572325" expanded="0"/>
     </PluginOrder>
   </Mixer>
   <Preferences>
