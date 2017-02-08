@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="OSC96" sample-rate="44100" end-is-free="no" id-counter="252733" name-counter="5" event-counter="27708036" vca-counter="1">
+<Session version="3002" name="OSC96" sample-rate="44100" end-is-free="no" id-counter="280881" name-counter="5" event-counter="30268225" vca-counter="1">
   <ProgramVersion created-with="Ardour 5.5" modified-with="Ardour 5.5-741-gc59dded"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -105,9 +105,7 @@
     <Source name="Nabla 7.1-3.mid" type="midi" flags="Writable,CanRename" id="99118" origin=""/>
     <Source name="Nabla 8.1-1.mid" type="midi" flags="Writable,CanRename" id="99130" origin=""/>
     <Source name="Nabla 4.1-1.mid" type="midi" flags="Writable,CanRename" id="99741" origin=""/>
-    <Source name="Nabla 4.1-2.mid" type="midi" flags="Writable,CanRename" id="100019" origin="">
-      <InterpolationStyle parameter="midi-pitch-bender-0" style="Discrete"/>
-    </Source>
+    <Source name="Nabla 4.1-2.mid" type="midi" flags="Writable,CanRename" id="100019" origin=""/>
     <Source name="Snare Sizzle-9.mid" type="midi" flags="Writable,CanRename" id="100037" origin=""/>
     <Source name="Nabla 1.1-1.mid" type="midi" flags="Writable,CanRename" id="100336" origin=""/>
     <Source name="Nabla 2.1-1.mid" type="midi" flags="Writable,CanRename" id="100363" origin=""/>
@@ -120,6 +118,14 @@
     <Source name="Clap-4.mid" type="midi" flags="Writable,CanRename" id="188763" origin=""/>
     <Source name="Lead 1-2.mid" type="midi" flags="Writable,CanRename" id="188822" captured-for="Lead 1" origin=""/>
     <Source name="Audio+MIDI-2.mid" type="midi" flags="Writable,CanRename" id="202352" origin=""/>
+    <Source name="Audio+MIDI-1.mid" type="midi" flags="Writable,CanRename" id="280708" origin=""/>
+    <Source name="Audio+MIDI.2-1.mid" type="midi" flags="Writable,CanRename" id="280757" origin=""/>
+    <Source name="Chords Low Left-2.mid" type="midi" flags="Writable,CanRename,Empty" id="280781" origin=""/>
+    <Source name="Chords Low Right-2.mid" type="midi" flags="Writable,CanRename,Empty" id="280788" origin=""/>
+    <Source name="Chords Hi Left-2.mid" type="midi" flags="Writable,CanRename,Empty" id="280795" origin=""/>
+    <Source name="Chords Hi Right-2.mid" type="midi" flags="Writable,CanRename,Empty" id="280802" origin=""/>
+    <Source name="Chords Sine-2.mid" type="midi" flags="Writable,CanRename,Empty" id="280809" origin=""/>
+    <Source name="MIDI.1-1.mid" type="midi" flags="Writable,CanRename,Empty" id="280816" origin=""/>
   </Sources>
   <Regions>
     <Region name="Nabla 1-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="22050" position="88200" beat="4" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0" length-beats="1" id="3701" type="midi" first-edit="nothing" source-0="3699" master-source-0="3699"/>
@@ -576,17 +582,24 @@
     <Region name="Clap-2.15" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="16537" length="11025" position="137813" beat="6.25002267574" sync-position="16537" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="6" start-beats="0.75" length-beats="0.500022675737" id="188778" type="midi" first-edit="nothing" source-0="187912" master-source-0="187912"/>
     <Region name="Clap-2.16" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="16537" length="11025" position="148838" beat="6.75002267574" sync-position="16538" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="7" start-beats="0.75" length-beats="0.500022675737" id="188781" type="midi" first-edit="nothing" source-0="187912" master-source-0="187912"/>
     <Region name="Lead 1-2" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="819784" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0" length-beats="37.1784126984" id="188828" type="midi" first-edit="nothing" source-0="188822" master-source-0="188822"/>
+    <Region name="Audio+MIDI-2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="347288" position="88200" beat="4" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0" length-beats="15.75" id="202354" type="midi" first-edit="nothing" source-0="202352" master-source-0="202352"/>
+    <Region name="Audio+MIDI-2.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="1" length="347287" position="441001" beat="20.0000453515" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="4.5351473922e-05" length-beats="15.7499773243" id="235756" type="midi" first-edit="nothing" source-0="202352" master-source-0="202352"/>
+    <Region name="Audio+MIDI-2.2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="347288" position="802624" beat="36.4001814059" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="2" start-beats="0" length-beats="15.75" id="280697" type="midi" first-edit="nothing" source-0="202352" master-source-0="202352"/>
+    <Region name="Audio+MIDI-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="347288" position="88200" beat="4" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="2" start-beats="0" length-beats="15.75" id="280710" type="midi" first-edit="nothing" source-0="280708" master-source-0="280708"/>
+    <Region name="Audio+MIDI-2.3" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="347288" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0" length-beats="15.7500226757" id="280763" type="midi" first-edit="nothing" source-0="202352" master-source-0="202352"/>
+    <Region name="Audio+MIDI-1.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="347288" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="2" start-beats="0" length-beats="15.7500226757" id="280766" type="midi" first-edit="nothing" source-0="280708" master-source-0="280708"/>
+    <Region name="Audio+MIDI-2.4" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="1" position="352800" beat="16" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="1" start-beats="0" length-beats="4.5351473922e-05" id="280769" type="midi" first-edit="nothing" source-0="202352" master-source-0="202352"/>
   </Regions>
   <Locations>
     <Location id="3704" name="session" start="0" end="793800" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
-    <Location id="3724" name="Loop" start="88200" end="793800" flags="IsAutoLoop" locked="no" position-lock-style="AudioTime"/>
+    <Location id="3724" name="Loop" start="84104" end="793800" flags="IsAutoLoop" locked="no" position-lock-style="AudioTime"/>
   </Locations>
   <Bundles/>
   <VCAManager/>
   <Routes>
     <Route id="8746" name="Reverb Bus" default-type="audio" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak">
       <PresentationInfo order="0" flags="AudioBus,OrderSet" color="3850163199"/>
-      <Controllable name="solo" id="8754" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="1" soloed-by-downstream="0"/>
+      <Controllable name="solo" id="8754" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="8760" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
       <Controllable name="solo-safe" id="8762" flags="Toggle" value="0.000000000000" solo-safe="no"/>
       <IO name="Reverb Bus" id="8774" direction="Input" default-type="audio" user-latency="0">
@@ -791,7 +804,7 @@
     </Route>
     <Route id="8830" name="Drum Bus" default-type="audio" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" route-group="Drums">
       <PresentationInfo order="1" flags="AudioBus,OrderSet" color="2863326719"/>
-      <Controllable name="solo" id="8838" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="2" soloed-by-downstream="0"/>
+      <Controllable name="solo" id="8838" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="8844" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
       <Controllable name="solo-safe" id="8846" flags="Toggle" value="0.000000000000" solo-safe="no"/>
       <IO name="Drum Bus" id="8858" direction="Input" default-type="audio" user-latency="0">
@@ -993,7 +1006,7 @@
     </Route>
     <Route id="8704" name="Kick" default-type="audio" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" route-group="Drums">
       <PresentationInfo order="2" flags="AudioBus,OrderSet" color="3705988607"/>
-      <Controllable name="solo" id="8712" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="1" soloed-by-downstream="0"/>
+      <Controllable name="solo" id="8712" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="8718" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
       <Controllable name="solo-safe" id="8720" flags="Toggle" value="0.000000000000" solo-safe="no"/>
       <IO name="Kick" id="8732" direction="Input" default-type="audio" user-latency="0">
@@ -1247,7 +1260,7 @@
           <Port symbol="s_0" value="+3.000000"/>
           <Port symbol="xs_0" value="+0.000000"/>
           <Port symbol="xm_0" value="+0.000000"/>
-          <Port symbol="f_0" value="+28.751966"/>
+          <Port symbol="f_0" value="+25.652826"/>
           <Port symbol="g_0" value="+0.015850"/>
           <Port symbol="q_0" value="+0.000000"/>
           <Port symbol="hue_0" value="+0.000000"/>
@@ -1268,7 +1281,7 @@
           <Port symbol="f_2" value="+261.317963"/>
           <Port symbol="g_2" value="+0.213874"/>
           <Port symbol="q_2" value="+2.560852"/>
-          <Port symbol="hue_2" value="+0.305555"/>
+          <Port symbol="hue_2" value="+0.125000"/>
           <Port symbol="ft_3" value="+0.000000"/>
           <Port symbol="fm_3" value="+0.000000"/>
           <Port symbol="s_3" value="+0.000000"/>
@@ -1304,7 +1317,7 @@
           <Port symbol="f_6" value="+7254.080078"/>
           <Port symbol="g_6" value="+1.782831"/>
           <Port symbol="q_6" value="+0.000000"/>
-          <Port symbol="hue_6" value="+0.375000"/>
+          <Port symbol="hue_6" value="+1.000000"/>
           <Port symbol="ft_7" value="+0.000000"/>
           <Port symbol="fm_7" value="+0.000000"/>
           <Port symbol="s_7" value="+0.000000"/>
@@ -1403,7 +1416,7 @@
         <Controllable name="Filter slope 0" id="31583" flags="" value="3.000000000000" parameter="19" symbol="s_0"/>
         <Controllable name="Filter solo 0" id="31585" flags="Toggle" value="0.000000000000" parameter="20" symbol="xs_0"/>
         <Controllable name="Filter mute 0" id="31587" flags="Toggle" value="0.000000000000" parameter="21" symbol="xm_0"/>
-        <Controllable name="Frequency 0" id="31589" flags="" value="28.751966476440" parameter="22" symbol="f_0"/>
+        <Controllable name="Frequency 0" id="31589" flags="" value="25.652826309204" parameter="22" symbol="f_0"/>
         <Controllable name="Gain 0" id="31591" flags="" value="0.015850000083" parameter="23" symbol="g_0"/>
         <Controllable name="Quality factor 0" id="31593" flags="" value="0.000000000000" parameter="24" symbol="q_0"/>
         <Controllable name="Hue 0" id="31595" flags="" value="0.000000000000" parameter="25" symbol="hue_0"/>
@@ -1424,7 +1437,7 @@
         <Controllable name="Frequency 2" id="31625" flags="" value="261.317962646484" parameter="42" symbol="f_2"/>
         <Controllable name="Gain 2" id="31627" flags="" value="0.213873997331" parameter="43" symbol="g_2"/>
         <Controllable name="Quality factor 2" id="31629" flags="" value="2.560852050781" parameter="44" symbol="q_2"/>
-        <Controllable name="Hue 2" id="31631" flags="" value="0.305554986000" parameter="45" symbol="hue_2"/>
+        <Controllable name="Hue 2" id="31631" flags="" value="0.125000000000" parameter="45" symbol="hue_2"/>
         <Controllable name="Filter type 3" id="31633" flags="" value="0.000000000000" parameter="47" symbol="ft_3"/>
         <Controllable name="Filter mode 3" id="31635" flags="" value="0.000000000000" parameter="48" symbol="fm_3"/>
         <Controllable name="Filter slope 3" id="31637" flags="" value="0.000000000000" parameter="49" symbol="s_3"/>
@@ -1460,7 +1473,7 @@
         <Controllable name="Frequency 6" id="31697" flags="" value="7254.080078125000" parameter="82" symbol="f_6"/>
         <Controllable name="Gain 6" id="31699" flags="" value="1.782830953598" parameter="83" symbol="g_6"/>
         <Controllable name="Quality factor 6" id="31701" flags="" value="0.000000000000" parameter="84" symbol="q_6"/>
-        <Controllable name="Hue 6" id="31703" flags="" value="0.375000000000" parameter="85" symbol="hue_6"/>
+        <Controllable name="Hue 6" id="31703" flags="" value="1.000000000000" parameter="85" symbol="hue_6"/>
         <Controllable name="Filter type 7" id="31705" flags="" value="0.000000000000" parameter="87" symbol="ft_7"/>
         <Controllable name="Filter mode 7" id="31707" flags="" value="0.000000000000" parameter="88" symbol="fm_7"/>
         <Controllable name="Filter slope 7" id="31709" flags="" value="0.000000000000" parameter="89" symbol="s_7"/>
@@ -2014,7 +2027,7 @@
         <Controllable name="Analyse 0" id="252622" flags="Toggle" value="1.000000000000" parameter="2" symbol="on_0"/>
         <Controllable name="Solo 0" id="252624" flags="Toggle" value="0.000000000000" parameter="3" symbol="solo_0"/>
         <Controllable name="Freeze 0" id="252626" flags="Toggle" value="0.000000000000" parameter="4" symbol="frz_0"/>
-        <Controllable name="Hue 0" id="252628" flags="" value="0.284722268581" parameter="5" symbol="hue_0"/>
+        <Controllable name="Hue 0" id="252628" flags="" value="0.284722000360" parameter="5" symbol="hue_0"/>
         <Controllable name="Shift gain 0" id="252630" flags="" value="1.000000000000" parameter="6" symbol="sh_0"/>
         <Controllable name="Bypass" id="252632" flags="Toggle" value="0.000000000000" parameter="7" symbol="bypass"/>
         <Controllable name="FFT Tolerance" id="252634" flags="" value="2.000000000000" parameter="8" symbol="tol"/>
@@ -2763,7 +2776,7 @@
     </Route>
     <Route id="154" name="Kick 1" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" route-group="Drums" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="no" input-active="no">
       <PresentationInfo order="4" flags="MidiTrack,OrderSet" color="1927660543"/>
-      <Controllable name="solo" id="162" flags="Toggle,RealTime" value="1.000000000000" self-solo="yes" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo" id="162" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="168" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
       <Controllable name="solo-safe" id="170" flags="Toggle" value="0.000000000000" solo-safe="no"/>
       <IO name="Kick 1" id="182" direction="Input" default-type="midi" user-latency="0">
@@ -3464,7 +3477,7 @@
       <Controllable name="rec-safe" id="127475" flags="Toggle,RealTime" value="0.000000000000"/>
       <Controllable name="rec-enable" id="127473" flags="Toggle,RealTime" value="0.000000000000"/>
       <Diskstream flags="Recordable" playlist="Nabla 1.1" name="Nabla 1" id="195" speed="1.000000" capture-alignment="Automatic" record-safe="no"/>
-      <Controllable name="midi-pitch-bender-0" id="131956" flags="" value="16383.000000000000"/>
+      <Controllable name="midi-pitch-bender-0" id="131956" flags="" value="1349.467889908255"/>
     </Route>
     <Route id="201" name="Kick 2" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" route-group="Drums" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="no" input-active="no">
       <PresentationInfo order="5" flags="MidiTrack,OrderSet" color="2598728447"/>
@@ -5360,7 +5373,7 @@
       <Controllable name="rec-safe" id="128932" flags="Toggle,RealTime" value="0.000000000000"/>
       <Controllable name="rec-enable" id="128930" flags="Toggle,RealTime" value="0.000000000000"/>
       <Diskstream flags="Recordable" playlist="Nabla 4.1" name="Nabla 4" id="336" speed="1.000000" capture-alignment="Automatic" record-safe="no"/>
-      <Controllable name="midi-pitch-bender-0" id="132793" flags="" value="6828.000000000000"/>
+      <Controllable name="midi-pitch-bender-0" id="132793" flags="" value="12482.704742818973"/>
     </Route>
     <Route id="342" name="Snare Sizzle" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" route-group="Drums" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="no" input-active="no">
       <PresentationInfo order="8" flags="MidiTrack,OrderSet" color="3782403583"/>
@@ -5947,7 +5960,7 @@
     </Route>
     <Route id="624" name="Clap" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" route-group="Drums" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="no" input-active="no">
       <PresentationInfo order="10" flags="MidiTrack,OrderSet" color="3984488191"/>
-      <Controllable name="solo" id="632" flags="Toggle,RealTime" value="1.000000000000" self-solo="yes" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo" id="632" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="638" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
       <Controllable name="solo-safe" id="640" flags="Toggle" value="0.000000000000" solo-safe="no"/>
       <IO name="Clap" id="652" direction="Input" default-type="midi" user-latency="0">
@@ -7678,7 +7691,7 @@
     </Route>
     <Route id="8914" name="Bas Bus" default-type="audio" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" route-group="Bas">
       <PresentationInfo order="13" flags="AudioBus,OrderSet" color="3102054911"/>
-      <Controllable name="solo" id="8922" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="1" soloed-by-downstream="0"/>
+      <Controllable name="solo" id="8922" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="8928" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
       <Controllable name="solo-safe" id="8930" flags="Toggle" value="0.000000000000" solo-safe="no"/>
       <IO name="Bas Bus" id="8942" direction="Input" default-type="audio" user-latency="0">
@@ -8601,7 +8614,7 @@
         <Automation>
           <AutomationList automation-id="gain" id="201804" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute"/>
         </Automation>
-        <Controllable name="gaincontrol" id="201805" flags="GainLike" value="0.511862277985"/>
+        <Controllable name="gaincontrol" id="201805" flags="GainLike" value="0.985712349415"/>
       </Processor>
       <Processor id="201833" name="meter-Audio+MIDI" active="yes" user-latency="0" type="meter"/>
       <Processor id="201834" name="Chords Midi" active="yes" user-latency="0" own-input="yes" own-output="no" output="Chords Midi" type="main-outs" role="Main">
@@ -8755,14 +8768,14 @@
         </OutputMap-0>
         <ThruMap/>
         <lxvst last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes">
-          <parameters param-0="0" param-1="0.5" param-2="0.808823525906" param-3="0" param-4="0" param-5="0" param-6="0.448957026005" param-7="0" param-8="0" param-9="0.583333015442" param-10="1" param-11="0.130972087383" param-12="0" param-13="0" param-14="0.0519860386848" param-15="0" param-16="1" param-17="0.588235259056" param-18="0.25" param-19="0" param-20="0" param-21="0.279411792755" param-22="0.735294103622" param-23="0" param-24="1" param-25="0" param-26="1" param-27="0" param-28="0.5" param-29="0" param-30="0" param-31="1" param-32="0.10000000149" param-33="0.10000000149" param-34="0" param-35="0.5" param-36="0.5" param-37="0" param-38="0.143184483051" param-39="0.191044270992" param-40="0.5" param-41="0.5" param-42="0.949999988079" param-43="0" param-44="0.488383829594" param-45="0.118113994598" param-46="0.190148830414" param-47="1" param-48="1" param-49="0.0892206132412" param-50="0.489866912365" param-51="0.300000011921" param-52="0.0599999986589" param-53="0.0599999986589" param-54="0.300000011921"/>
+          <parameters param-0="0" param-1="0.5" param-2="0.808823525906" param-3="0" param-4="0.794117629528" param-5="1" param-6="0.448957026005" param-7="0" param-8="0" param-9="0.583333015442" param-10="1" param-11="0.130972087383" param-12="0" param-13="0" param-14="0.0519860386848" param-15="0" param-16="1" param-17="0.588235259056" param-18="0.25" param-19="0" param-20="0" param-21="0.279411792755" param-22="0.735294103622" param-23="0" param-24="1" param-25="0" param-26="1" param-27="0" param-28="0.5" param-29="0" param-30="0" param-31="0" param-32="0.10000000149" param-33="0.10000000149" param-34="0" param-35="0.5" param-36="0.5" param-37="0" param-38="0.143184483051" param-39="0.191044270992" param-40="0.5" param-41="0.5" param-42="0.949999988079" param-43="0" param-44="0.488383829594" param-45="0.118113994598" param-46="0.190148830414" param-47="1" param-48="1" param-49="0.0892206132412" param-50="0.489866912365" param-51="0.300000011921" param-52="0.0599999986589" param-53="0.0599999986589" param-54="0.300000011921"/>
         </lxvst>
         <Controllable name="GOD Mode" id="235831" flags="" value="0.000000000000" parameter="0"/>
         <Controllable name="Volume" id="235833" flags="" value="0.500000000000" parameter="1"/>
         <Controllable name="Syn Vol" id="235835" flags="" value="0.808823525906" parameter="2"/>
         <Controllable name="Syn Pan" id="235837" flags="" value="0.000000000000" parameter="3"/>
-        <Controllable name="Str Vol" id="235839" flags="" value="0.000000000000" parameter="4"/>
-        <Controllable name="Str Pan" id="235841" flags="" value="0.000000000000" parameter="5"/>
+        <Controllable name="Str Vol" id="235839" flags="" value="0.794117629528" parameter="4"/>
+        <Controllable name="Str Pan" id="235841" flags="" value="1.000000000000" parameter="5"/>
         <Controllable name="Tune" id="235843" flags="" value="0.448957026005" parameter="6"/>
         <Controllable name="Octave" id="235845" flags="" value="0.000000000000" parameter="7"/>
         <Controllable name="Joy FM" id="235847" flags="" value="0.000000000000" parameter="8"/>
@@ -8788,7 +8801,7 @@
         <Controllable name="VCF EG" id="235887" flags="" value="0.500000000000" parameter="28"/>
         <Controllable name="VCF Mode" id="235889" flags="" value="0.000000000000" parameter="29"/>
         <Controllable name="VCF KbdF" id="235891" flags="" value="0.000000000000" parameter="30"/>
-        <Controllable name="Str Oct" id="235893" flags="" value="1.000000000000" parameter="31"/>
+        <Controllable name="Str Oct" id="235893" flags="" value="0.000000000000" parameter="31"/>
         <Controllable name="Str EG A" id="235895" flags="" value="0.100000001490" parameter="32"/>
         <Controllable name="Str EG R" id="235897" flags="" value="0.100000001490" parameter="33"/>
         <Controllable name="Str Trig" id="235899" flags="" value="0.000000000000" parameter="34"/>
@@ -8969,14 +8982,14 @@
         </OutputMap-0>
         <ThruMap/>
         <lxvst last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes">
-          <parameters param-0="0" param-1="0.5" param-2="0.823529422283" param-3="1" param-4="0" param-5="1" param-6="0.602392494678" param-7="0" param-8="0" param-9="0.583333015442" param-10="1" param-11="0.101757109165" param-12="0" param-13="0" param-14="0.119539439678" param-15="0" param-16="1" param-17="0.588235259056" param-18="0.205882370472" param-19="0" param-20="0" param-21="0.264705896378" param-22="0.720588207245" param-23="0" param-24="1" param-25="0" param-26="1" param-27="0.46988850832" param-28="0.5" param-29="0" param-30="0" param-31="1" param-32="0.10000000149" param-33="0.10000000149" param-34="0" param-35="0.5" param-36="0.5" param-37="0" param-38="0.0772025808692" param-39="0.5" param-40="0.5" param-41="0.5" param-42="0.949999988079" param-43="0" param-44="0.489291608334" param-45="0.119243383408" param-46="0.199059844017" param-47="1" param-48="1" param-49="0.0892206132412" param-50="0.489866912365" param-51="0.300000011921" param-52="0.0599999986589" param-53="0.0599999986589" param-54="0.300000011921"/>
+          <parameters param-0="0" param-1="0.5" param-2="0.823529422283" param-3="1" param-4="0.838235259056" param-5="0" param-6="0.602392494678" param-7="0" param-8="0" param-9="0.583333015442" param-10="1" param-11="0.101757109165" param-12="0" param-13="0" param-14="0.119539439678" param-15="0" param-16="1" param-17="0.588235259056" param-18="0.205882370472" param-19="0" param-20="0" param-21="0.264705896378" param-22="0.720588207245" param-23="0" param-24="1" param-25="0" param-26="1" param-27="0.46988850832" param-28="0.5" param-29="0" param-30="0" param-31="0" param-32="0.10000000149" param-33="0.10000000149" param-34="0" param-35="0.5" param-36="0.5" param-37="0" param-38="0.0772025808692" param-39="0.5" param-40="0.5" param-41="0.5" param-42="0.949999988079" param-43="0" param-44="0.489291608334" param-45="0.119243383408" param-46="0.199059844017" param-47="1" param-48="1" param-49="0.0892206132412" param-50="0.489866912365" param-51="0.300000011921" param-52="0.0599999986589" param-53="0.0599999986589" param-54="0.300000011921"/>
         </lxvst>
         <Controllable name="GOD Mode" id="236703" flags="" value="0.000000000000" parameter="0"/>
         <Controllable name="Volume" id="236704" flags="" value="0.500000000000" parameter="1"/>
         <Controllable name="Syn Vol" id="236705" flags="" value="0.823529422283" parameter="2"/>
         <Controllable name="Syn Pan" id="236706" flags="" value="1.000000000000" parameter="3"/>
-        <Controllable name="Str Vol" id="236707" flags="" value="0.000000000000" parameter="4"/>
-        <Controllable name="Str Pan" id="236708" flags="" value="1.000000000000" parameter="5"/>
+        <Controllable name="Str Vol" id="236707" flags="" value="0.838235259056" parameter="4"/>
+        <Controllable name="Str Pan" id="236708" flags="" value="0.000000000000" parameter="5"/>
         <Controllable name="Tune" id="236709" flags="" value="0.602392494678" parameter="6"/>
         <Controllable name="Octave" id="236710" flags="" value="0.000000000000" parameter="7"/>
         <Controllable name="Joy FM" id="236711" flags="" value="0.000000000000" parameter="8"/>
@@ -9002,7 +9015,7 @@
         <Controllable name="VCF EG" id="236731" flags="" value="0.500000000000" parameter="28"/>
         <Controllable name="VCF Mode" id="236732" flags="" value="0.000000000000" parameter="29"/>
         <Controllable name="VCF KbdF" id="236733" flags="" value="0.000000000000" parameter="30"/>
-        <Controllable name="Str Oct" id="236734" flags="" value="1.000000000000" parameter="31"/>
+        <Controllable name="Str Oct" id="236734" flags="" value="0.000000000000" parameter="31"/>
         <Controllable name="Str EG A" id="236735" flags="" value="0.100000001490" parameter="32"/>
         <Controllable name="Str EG R" id="236736" flags="" value="0.100000001490" parameter="33"/>
         <Controllable name="Str Trig" id="236737" flags="" value="0.000000000000" parameter="34"/>
@@ -9183,14 +9196,14 @@
         </OutputMap-0>
         <ThruMap/>
         <lxvst last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes">
-          <parameters param-0="0" param-1="0.5" param-2="0.5" param-3="0" param-4="0" param-5="0" param-6="0.602590680122" param-7="1" param-8="0" param-9="0.583333015442" param-10="1" param-11="0" param-12="1" param-13="0.0682775974274" param-14="0" param-15="0.294117629528" param-16="1" param-17="0.588235259056" param-18="0.205882370472" param-19="0" param-20="0" param-21="0.397058844566" param-22="0.720588207245" param-23="0" param-24="1" param-25="0" param-26="1" param-27="0" param-28="0.5" param-29="0" param-30="0" param-31="1" param-32="0.10000000149" param-33="0.10000000149" param-34="0" param-35="0.5" param-36="0.5" param-37="0" param-38="0.0772025808692" param-39="0.5" param-40="0.5" param-41="0.5" param-42="0.949999988079" param-43="0" param-44="0.488841474056" param-45="0.109547555447" param-46="0.118538379669" param-47="1" param-48="1" param-49="0.0892206132412" param-50="0.489866912365" param-51="0.300000011921" param-52="0.0599999986589" param-53="0.0599999986589" param-54="0.300000011921"/>
+          <parameters param-0="0" param-1="0.5" param-2="0.5" param-3="0" param-4="0.5" param-5="1" param-6="0.602590680122" param-7="1" param-8="0" param-9="0.583333015442" param-10="1" param-11="0" param-12="1" param-13="0.0682775974274" param-14="0" param-15="0.897058844566" param-16="1" param-17="0.588235259056" param-18="0.205882370472" param-19="0" param-20="0" param-21="0.397058844566" param-22="0.720588207245" param-23="0" param-24="1" param-25="0" param-26="1" param-27="0" param-28="0.5" param-29="0" param-30="0" param-31="0.277901053429" param-32="0.10000000149" param-33="0.10000000149" param-34="0" param-35="0.5" param-36="0.5" param-37="0" param-38="0.0772025808692" param-39="0.5" param-40="0.5" param-41="0.5" param-42="0.949999988079" param-43="0" param-44="0.488841474056" param-45="0.109547555447" param-46="0.118538379669" param-47="1" param-48="1" param-49="0.0892206132412" param-50="0.489866912365" param-51="0.300000011921" param-52="0.0599999986589" param-53="0.0599999986589" param-54="0.300000011921"/>
         </lxvst>
         <Controllable name="GOD Mode" id="237011" flags="" value="0.000000000000" parameter="0"/>
         <Controllable name="Volume" id="237012" flags="" value="0.500000000000" parameter="1"/>
         <Controllable name="Syn Vol" id="237013" flags="" value="0.500000000000" parameter="2"/>
         <Controllable name="Syn Pan" id="237014" flags="" value="0.000000000000" parameter="3"/>
-        <Controllable name="Str Vol" id="237015" flags="" value="0.000000000000" parameter="4"/>
-        <Controllable name="Str Pan" id="237016" flags="" value="0.000000000000" parameter="5"/>
+        <Controllable name="Str Vol" id="237015" flags="" value="0.500000000000" parameter="4"/>
+        <Controllable name="Str Pan" id="237016" flags="" value="1.000000000000" parameter="5"/>
         <Controllable name="Tune" id="237017" flags="" value="0.602590680122" parameter="6"/>
         <Controllable name="Octave" id="237018" flags="" value="1.000000000000" parameter="7"/>
         <Controllable name="Joy FM" id="237019" flags="" value="0.000000000000" parameter="8"/>
@@ -9200,7 +9213,7 @@
         <Controllable name="MW Src" id="237023" flags="" value="1.000000000000" parameter="12"/>
         <Controllable name="MG Vib" id="237024" flags="" value="0.068277597427" parameter="13"/>
         <Controllable name="MG Speed" id="237025" flags="" value="0.000000000000" parameter="14"/>
-        <Controllable name="SG 16'" id="237026" flags="" value="0.294117629528" parameter="15"/>
+        <Controllable name="SG 16'" id="237026" flags="" value="0.897058844566" parameter="15"/>
         <Controllable name="SG 8'" id="237027" flags="" value="1.000000000000" parameter="16"/>
         <Controllable name="SG 4'" id="237028" flags="" value="0.588235259056" parameter="17"/>
         <Controllable name="SG 2'" id="237029" flags="" value="0.205882370472" parameter="18"/>
@@ -9216,7 +9229,7 @@
         <Controllable name="VCF EG" id="237039" flags="" value="0.500000000000" parameter="28"/>
         <Controllable name="VCF Mode" id="237040" flags="" value="0.000000000000" parameter="29"/>
         <Controllable name="VCF KbdF" id="237041" flags="" value="0.000000000000" parameter="30"/>
-        <Controllable name="Str Oct" id="237042" flags="" value="1.000000000000" parameter="31"/>
+        <Controllable name="Str Oct" id="237042" flags="" value="0.277901053429" parameter="31"/>
         <Controllable name="Str EG A" id="237043" flags="" value="0.100000001490" parameter="32"/>
         <Controllable name="Str EG R" id="237044" flags="" value="0.100000001490" parameter="33"/>
         <Controllable name="Str Trig" id="237045" flags="" value="0.000000000000" parameter="34"/>
@@ -9397,14 +9410,14 @@
         </OutputMap-0>
         <ThruMap/>
         <lxvst last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes">
-          <parameters param-0="0" param-1="0.5" param-2="0.5" param-3="1" param-4="0" param-5="1" param-6="0.450398147106" param-7="1" param-8="0" param-9="0.583333015442" param-10="1" param-11="0" param-12="1" param-13="0.0682775974274" param-14="0.0788790583611" param-15="0.308823525906" param-16="1" param-17="0.588235259056" param-18="0.205882370472" param-19="0" param-20="0" param-21="0.426470577717" param-22="0.720588207245" param-23="0" param-24="1" param-25="0" param-26="1" param-27="0" param-28="0.5" param-29="0" param-30="0" param-31="1" param-32="0.10000000149" param-33="0.10000000149" param-34="0" param-35="0.5" param-36="0.5" param-37="0" param-38="0.0772025808692" param-39="0.5" param-40="0.5" param-41="0.5" param-42="0.949999988079" param-43="0" param-44="0.503788948059" param-45="0.1011095047" param-46="0.116196215153" param-47="1" param-48="1" param-49="0.0892206132412" param-50="0.489866912365" param-51="0.300000011921" param-52="0.0599999986589" param-53="0.0599999986589" param-54="0.300000011921"/>
+          <parameters param-0="0" param-1="0.5" param-2="0.5" param-3="1" param-4="0.514705896378" param-5="0" param-6="0.450398147106" param-7="1" param-8="0" param-9="0.583333015442" param-10="1" param-11="0" param-12="1" param-13="0.0682775974274" param-14="0.0788790583611" param-15="0.882352948189" param-16="1" param-17="0.588235259056" param-18="0.205882370472" param-19="0" param-20="0" param-21="0.426470577717" param-22="0.720588207245" param-23="0" param-24="1" param-25="0" param-26="1" param-27="0" param-28="0.5" param-29="0" param-30="0" param-31="1" param-32="0.10000000149" param-33="0.10000000149" param-34="0" param-35="0.5" param-36="0.5" param-37="0" param-38="0.0772025808692" param-39="0.5" param-40="0.5" param-41="0.5" param-42="0.949999988079" param-43="0" param-44="0.503788948059" param-45="0.1011095047" param-46="0.116196215153" param-47="1" param-48="1" param-49="0.0892206132412" param-50="0.489866912365" param-51="0.300000011921" param-52="0.0599999986589" param-53="0.0599999986589" param-54="0.300000011921"/>
         </lxvst>
         <Controllable name="GOD Mode" id="237319" flags="" value="0.000000000000" parameter="0"/>
         <Controllable name="Volume" id="237320" flags="" value="0.500000000000" parameter="1"/>
         <Controllable name="Syn Vol" id="237321" flags="" value="0.500000000000" parameter="2"/>
         <Controllable name="Syn Pan" id="237322" flags="" value="1.000000000000" parameter="3"/>
-        <Controllable name="Str Vol" id="237323" flags="" value="0.000000000000" parameter="4"/>
-        <Controllable name="Str Pan" id="237324" flags="" value="1.000000000000" parameter="5"/>
+        <Controllable name="Str Vol" id="237323" flags="" value="0.514705896378" parameter="4"/>
+        <Controllable name="Str Pan" id="237324" flags="" value="0.000000000000" parameter="5"/>
         <Controllable name="Tune" id="237325" flags="" value="0.450398147106" parameter="6"/>
         <Controllable name="Octave" id="237326" flags="" value="1.000000000000" parameter="7"/>
         <Controllable name="Joy FM" id="237327" flags="" value="0.000000000000" parameter="8"/>
@@ -9414,7 +9427,7 @@
         <Controllable name="MW Src" id="237331" flags="" value="1.000000000000" parameter="12"/>
         <Controllable name="MG Vib" id="237332" flags="" value="0.068277597427" parameter="13"/>
         <Controllable name="MG Speed" id="237333" flags="" value="0.078879058361" parameter="14"/>
-        <Controllable name="SG 16'" id="237334" flags="" value="0.308823525906" parameter="15"/>
+        <Controllable name="SG 16'" id="237334" flags="" value="0.882352948189" parameter="15"/>
         <Controllable name="SG 8'" id="237335" flags="" value="1.000000000000" parameter="16"/>
         <Controllable name="SG 4'" id="237336" flags="" value="0.588235259056" parameter="17"/>
         <Controllable name="SG 2'" id="237337" flags="" value="0.205882370472" parameter="18"/>
@@ -9746,7 +9759,7 @@
           <script lua="Lua 5.3">YXJkb3VyIHsKCVsidHlwZSJdICAgID0gImRzcCIsCgluYW1lICAgICAgICA9ICJhLUFtcGxpZmllciIsCgljYXRlZ29yeSAgICA9ICJBbXBsaWZpZXIiLAoJbGljZW5zZSAgICAgPSAiTUlUIiwKCWF1dGhvciAgICAgID0gIkFyZG91ciBUZWFtIiwKCWRlc2NyaXB0aW9uID0gW1tWZXJzYXRpbGUgKy8tIDIwZEIgbXVsdGljaGFubmVsIGFtcGxpZmllcl1dCn0KCmZ1bmN0aW9uIGRzcF9pb2NvbmZpZyAoKQoJcmV0dXJuCgl7CgkJLS0gLTEsIC0xID0gYW55IG51bWJlciBvZiBjaGFubmVscyBhcyBsb25nIGFzIGlucHV0IGFuZCBvdXRwdXQgY291bnQgbWF0Y2hlcwoJCXsgYXVkaW9faW4gPSAtMSwgYXVkaW9fb3V0ID0gLTF9LAoJfQplbmQKCgpmdW5jdGlvbiBkc3BfcGFyYW1zICgpCglyZXR1cm4KCXsKCQl7IFsidHlwZSJdID0gImlucHV0IiwgbmFtZSA9ICJHYWluIiwgbWluID0gLTIwLCBtYXggPSAyMCwgZGVmYXVsdCA9IDAsIHVuaXQ9ImRCIn0sCgl9CmVuZAoKbG9jYWwgbHBmID0gMC4wMiAtLSBwYXJhbWV0ZXIgbG93LXBhc3MgZmlsdGVyIHRpbWUtY29uc3RhbnQKbG9jYWwgY3VyX2dhaW4gPSAwIC0tIGN1cnJlbnQgc21vb3RoZWQgZ2FpbiAoZEIpCgotLSBjYWxsZWQgb25jZSB3aGVuIHBsdWdpbiBpcyBpbnN0YW50aWF0ZWQKZnVuY3Rpb24gZHNwX2luaXQgKHJhdGUpCglscGYgPSA3ODAgLyByYXRlIC0tIGludGVycG9sYXRpb24gdGltZSBjb25zdGFudAplbmQKCmZ1bmN0aW9uIGxvd19wYXNzX2ZpbHRlcl9wYXJhbSAob2xkLCBuZXcsIGxpbWl0KQoJaWYgbWF0aC5hYnMgKG9sZCAtIG5ldykgPCBsaW1pdCAgdGhlbgoJCXJldHVybiBuZXcKCWVsc2UKCQlyZXR1cm4gb2xkICsgbHBmICogKG5ldyAtIG9sZCkKCWVuZAplbmQKCi0tIHRoZSBEU1AgY2FsbGJhY2sgZnVuY3Rpb24KLS0gImlucyIgYW5kICJvdXRzIiBhcmUgaHR0cDovL21hbnVhbC5hcmRvdXIub3JnL2x1YS1zY3JpcHRpbmcvY2xhc3NfcmVmZXJlbmNlLyNDOkZsb2F0QXJyYXkKZnVuY3Rpb24gZHNwX3J1biAoaW5zLCBvdXRzLCBuX3NhbXBsZXMpCglsb2NhbCBjdHJsID0gQ3RybFBvcnRzOmFycmF5KCkgLS0gZ2V0IGNvbnRyb2wgcG9ydCBhcnJheSAocmVhZC93cml0ZSkKCWxvY2FsIHNpeiA9IG5fc2FtcGxlcyAtLSBzYW1wbGVzIHJlbWFpbmluZyB0byBwcm9jZXNzCglsb2NhbCBvZmYgPSAwIC0tIGFscmVhZHkgcHJvY2Vzc2VkIHNhbXBsZXMKCWxvY2FsIGNoYW5nZWQgPSBmYWxzZQoKCS0tIGlmIHRoZSBnYWluIHBhcmFtZXRlciB3YXMgY2hhbmdlZCwgcHJvY2VzcyBhdCBtb3N0IDMyIHNhbXBsZXMgYXQgYSB0aW1lCgktLSBhbmQgaW50ZXJwb2xhdGUgZ2FpbiB1bnRpbCB0aGUgY3VycmVudCBzZXR0aW5ncyBtYXRjaCB0aGUgdGFyZ2V0IHZhbHVlcwoJaWYgY3VyX2dhaW4gfj0gY3RybFsxXSB0aGVuCgkJY2hhbmdlZCA9IHRydWUKCQlzaXogPSAzMgoJZW5kCgoJd2hpbGUgbl9zYW1wbGVzID4gMCBkbwoJCWlmIHNpeiA+IG5fc2FtcGxlcyB0aGVuIHNpeiA9IG5fc2FtcGxlcyBlbmQgLS0gcHJvY2VzcyBhdCBtb3N0ICJyZW1haW5pbmcgc2FtcGxlcyIKCQlpZiBjaGFuZ2VkIHRoZW4KCQkJLS0gc21vb3RoIGdhaW4gY2hhbmdlcyBhYm92ZSAwLjAyIGRCIGRpZmZlcmVuY2UKCQkJY3VyX2dhaW4gPSBsb3dfcGFzc19maWx0ZXJfcGFyYW0gKGN1cl9nYWluLCBjdHJsWzFdLCAwLjAyKQoJCWVuZAoKCQlsb2NhbCBnYWluID0gQVJET1VSLkRTUC5kQl90b19jb2VmZmljaWVudCAoY3VyX2dhaW4pIC0tIDEwIF4gKDAuMDUgKiBjdXJfZ2FpbikKCgkJZm9yIGMgPSAxLCNpbnMgZG8gLS0gcHJvY2VzcyBhbGwgY2hhbm5lbHMKCQkJLS0gY2hlY2sgaWYgb3V0cHV0IGFuZCBpbnB1dCBidWZmZXJzIGZvciB0aGlzIGNoYW5uZWwgYXJlIGlkZW50aWNhbAoJCQktLSBodHRwOi8vbWFudWFsLmFyZG91ci5vcmcvbHVhLXNjcmlwdGluZy9jbGFzc19yZWZlcmVuY2UvI0M6RmxvYXRBcnJheQoJCQlpZiBub3QgaW5zW2NdOnNhbWVpbnN0YW5jZSAob3V0c1tjXSkgdGhlbgoJCQkJLS0gaHR0cDovL21hbnVhbC5hcmRvdXIub3JnL2x1YS1zY3JpcHRpbmcvY2xhc3NfcmVmZXJlbmNlLyNBUkRPVVI6RFNQCgkJCQlBUkRPVVIuRFNQLmNvcHlfdmVjdG9yIChvdXRzW2NdOm9mZnNldCAob2ZmKSwgaW5zW2NdOm9mZnNldCAob2ZmKSwgc2l6KQoJCQllbmQKCQkJQVJET1VSLkRTUC5hcHBseV9nYWluX3RvX2J1ZmZlciAob3V0c1tjXTpvZmZzZXQgKG9mZiksIHNpeiwgZ2Fpbik7IC0tIGFwcGx5LWdhaW4sIHByb2Nlc3MgaW4tcGxhY2UKCQllbmQKCQluX3NhbXBsZXMgPSBuX3NhbXBsZXMgLSBzaXoKCQlvZmYgPSBvZmYgKyBzaXoKCWVuZAoKLS1bWwoJaWYgY2hhbmdlZCB0aGVuCgkJc2VsZjpxdWV1ZV9kcmF3ICgpIC0tIG5vdGlmeSBkaXNwbGF5CgllbmQKLS1dXQplbmQKCi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KLS0tIGlubGluZSBkaXNwbGF5ICsgdGV4dCBleGFtcGxlCgotLVtbCmxvY2FsIHR4dCA9IG5pbCAtLSBjYWNoZSBwYW5nbyBjb250ZXh0IGdsb2JhbGx5CgpmdW5jdGlvbiByZW5kZXJfaW5saW5lIChjdHgsIHcsIG1heF9oKQoJbG9jYWwgY3RybCA9IEN0cmxQb3J0czphcnJheSAoKSAtLSBnZXQgY29udHJvbCBwb3J0cwoKCWlmIG5vdCB0eHQgdGhlbgoJCS0tIGFsbG9jYXRlIFBhbmdvTGF5b3V0IGFuZCBzZXQgZm9udAoJCS0taHR0cDovL21hbnVhbC5hcmRvdXIub3JnL2x1YS1zY3JpcHRpbmcvY2xhc3NfcmVmZXJlbmNlLyNDYWlybzpQYW5nb0xheW91dAoJCXR4dCA9IENhaXJvLlBhbmdvTGF5b3V0IChjdHgsICJNb25vIDhweCIpCgllbmQKCgl0eHQ6c2V0X3RleHQgKHN0cmluZy5mb3JtYXQgKCIlKy4yZiBkQiIsIGN0cmxbMV0pKTsKCXR3LCB0aCA9IHR4dDpnZXRfcGl4ZWxfc2l6ZSAoKQoKCWxvY2FsIGggPSB0aCArIDQgLS0gdXNlIHRleHQtaGVpZ2h0IHdpdGggNHB4IHBhZGRpbmcKCWlmIChoID4gbWF4X2gpIHRoZW4gaCA9IG1heF9oIGVuZCAtLSBidXQgYXQgbW9zdCBtYXgtaGVpZ2h0CgoJLS0gY2xlYXIgYmFja2dyb3VuZAoJY3R4OnJlY3RhbmdsZSAoMCwgMCwgdywgaCkKCWN0eDpzZXRfc291cmNlX3JnYmEgKC4yLCAuMiwgLjIsIDEuMCkKCWN0eDpmaWxsICgpCgoJLS0gY2VudGVyIHRleHQKCWN0eDpzZXRfc291cmNlX3JnYmEgKC44LCAuOCwgLjgsIDEuMCkKCWN0eDptb3ZlX3RvICguNSAqICh3IC0gdHcpLCAuNSAqIChoIC0gdGgpKQoJdHh0OnNob3dfaW5fY2Fpcm9fY29udGV4dCAoY3R4KQoKCXJldHVybiB7dywgaH0KZW5kCi0tXV0K</script>
           <Port id="0" value="+3.505157"/>
         </luaproc>
-        <Controllable name="Gain" id="251839" flags="" value="3.505156755447" parameter="0"/>
+        <Controllable name="Gain" id="251839" flags="" value="3.505156993866" parameter="0"/>
       </Processor>
       <Processor id="251496" name="Amp" active="yes" user-latency="0" type="amp">
         <Automation>
@@ -9779,8 +9792,8 @@
       <Diskstream flags="Recordable" playlist="Chords Sine" name="Chords Sine" id="251518" speed="1.000000" capture-alignment="Automatic" record-safe="no"/>
     </Route>
     <Route id="8872" name="Chords Bus" default-type="audio" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" route-group="Chords">
-      <PresentationInfo order="22" flags="AudioBus,OrderSet" color="1925309951"/>
-      <Controllable name="solo" id="8880" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="1" soloed-by-downstream="0"/>
+      <PresentationInfo order="22" flags="AudioBus,Selected,OrderSet" color="1925309951"/>
+      <Controllable name="solo" id="8880" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="8886" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
       <Controllable name="solo-safe" id="8888" flags="Toggle" value="0.000000000000" solo-safe="no"/>
       <IO name="Chords Bus" id="8900" direction="Input" default-type="audio" user-latency="0">
@@ -10029,7 +10042,7 @@
           <Port symbol="fft" value="+2.000000"/>
           <Port symbol="react" value="+0.200000"/>
           <Port symbol="shift" value="+1.000000"/>
-          <Port symbol="fsel" value="+1.000000"/>
+          <Port symbol="fsel" value="+0.000000"/>
           <Port symbol="bal" value="+0.000000"/>
           <Port symbol="fftv_l" value="+1.000000"/>
           <Port symbol="fftv_r" value="+1.000000"/>
@@ -10074,8 +10087,8 @@
           <Port symbol="s_4" value="+3.000000"/>
           <Port symbol="xs_4" value="+0.000000"/>
           <Port symbol="xm_4" value="+0.000000"/>
-          <Port symbol="f_4" value="+100.000000"/>
-          <Port symbol="g_4" value="+1.000000"/>
+          <Port symbol="f_4" value="+69.151894"/>
+          <Port symbol="g_4" value="+1.292921"/>
           <Port symbol="q_4" value="+0.000000"/>
           <Port symbol="hue_4" value="+0.250000"/>
           <Port symbol="ft_5" value="+0.000000"/>
@@ -10086,15 +10099,15 @@
           <Port symbol="f_5" value="+160.000000"/>
           <Port symbol="g_5" value="+1.000000"/>
           <Port symbol="q_5" value="+0.000000"/>
-          <Port symbol="hue_5" value="+0.312500"/>
-          <Port symbol="ft_6" value="+0.000000"/>
+          <Port symbol="hue_5" value="+0.388889"/>
+          <Port symbol="ft_6" value="+1.000000"/>
           <Port symbol="fm_6" value="+0.000000"/>
           <Port symbol="s_6" value="+0.000000"/>
           <Port symbol="xs_6" value="+0.000000"/>
           <Port symbol="xm_6" value="+0.000000"/>
-          <Port symbol="f_6" value="+250.000000"/>
-          <Port symbol="g_6" value="+1.000000"/>
-          <Port symbol="q_6" value="+0.000000"/>
+          <Port symbol="f_6" value="+324.823456"/>
+          <Port symbol="g_6" value="+0.637658"/>
+          <Port symbol="q_6" value="+2.210942"/>
           <Port symbol="hue_6" value="+0.375000"/>
           <Port symbol="ft_7" value="+0.000000"/>
           <Port symbol="fm_7" value="+0.000000"/>
@@ -10146,8 +10159,8 @@
           <Port symbol="s_12" value="+0.000000"/>
           <Port symbol="xs_12" value="+0.000000"/>
           <Port symbol="xm_12" value="+0.000000"/>
-          <Port symbol="f_12" value="+4000.000000"/>
-          <Port symbol="g_12" value="+1.683356"/>
+          <Port symbol="f_12" value="+5171.502930"/>
+          <Port symbol="g_12" value="+1.423749"/>
           <Port symbol="q_12" value="+0.000000"/>
           <Port symbol="hue_12" value="+0.750000"/>
           <Port symbol="ft_13" value="+0.000000"/>
@@ -10185,7 +10198,7 @@
         <Controllable name="FFT analysis" id="250898" flags="" value="2.000000000000" parameter="8" symbol="fft"/>
         <Controllable name="FFT reactivity" id="250900" flags="" value="0.200000002980" parameter="9" symbol="react"/>
         <Controllable name="Shift gain" id="250902" flags="" value="1.000000000000" parameter="10" symbol="shift"/>
-        <Controllable name="Filter select" id="250904" flags="" value="1.000000000000" parameter="11" symbol="fsel"/>
+        <Controllable name="Filter select" id="250904" flags="" value="0.000000000000" parameter="11" symbol="fsel"/>
         <Controllable name="Output balance" id="250906" flags="" value="0.000000000000" parameter="12" symbol="bal"/>
         <Controllable name="FFT visibility Left" id="250908" flags="Toggle" value="1.000000000000" parameter="14" symbol="fftv_l"/>
         <Controllable name="FFT visibility Right" id="250910" flags="Toggle" value="1.000000000000" parameter="16" symbol="fftv_r"/>
@@ -10230,8 +10243,8 @@
         <Controllable name="Filter slope 4" id="250988" flags="" value="3.000000000000" parameter="59" symbol="s_4"/>
         <Controllable name="Filter solo 4" id="250990" flags="Toggle" value="0.000000000000" parameter="60" symbol="xs_4"/>
         <Controllable name="Filter mute 4" id="250992" flags="Toggle" value="0.000000000000" parameter="61" symbol="xm_4"/>
-        <Controllable name="Frequency 4" id="250994" flags="" value="100.000000000000" parameter="62" symbol="f_4"/>
-        <Controllable name="Gain 4" id="250996" flags="" value="1.000000000000" parameter="63" symbol="g_4"/>
+        <Controllable name="Frequency 4" id="250994" flags="" value="69.151893615723" parameter="62" symbol="f_4"/>
+        <Controllable name="Gain 4" id="250996" flags="" value="1.292921304703" parameter="63" symbol="g_4"/>
         <Controllable name="Quality factor 4" id="250998" flags="" value="0.000000000000" parameter="64" symbol="q_4"/>
         <Controllable name="Hue 4" id="251000" flags="" value="0.250000000000" parameter="65" symbol="hue_4"/>
         <Controllable name="Filter type 5" id="251002" flags="" value="0.000000000000" parameter="67" symbol="ft_5"/>
@@ -10242,15 +10255,15 @@
         <Controllable name="Frequency 5" id="251012" flags="" value="160.000000000000" parameter="72" symbol="f_5"/>
         <Controllable name="Gain 5" id="251014" flags="" value="1.000000000000" parameter="73" symbol="g_5"/>
         <Controllable name="Quality factor 5" id="251016" flags="" value="0.000000000000" parameter="74" symbol="q_5"/>
-        <Controllable name="Hue 5" id="251018" flags="" value="0.312500000000" parameter="75" symbol="hue_5"/>
-        <Controllable name="Filter type 6" id="251020" flags="" value="0.000000000000" parameter="77" symbol="ft_6"/>
+        <Controllable name="Hue 5" id="251018" flags="" value="0.388889133930" parameter="75" symbol="hue_5"/>
+        <Controllable name="Filter type 6" id="251020" flags="" value="1.000000000000" parameter="77" symbol="ft_6"/>
         <Controllable name="Filter mode 6" id="251022" flags="" value="0.000000000000" parameter="78" symbol="fm_6"/>
         <Controllable name="Filter slope 6" id="251024" flags="" value="0.000000000000" parameter="79" symbol="s_6"/>
         <Controllable name="Filter solo 6" id="251026" flags="Toggle" value="0.000000000000" parameter="80" symbol="xs_6"/>
         <Controllable name="Filter mute 6" id="251028" flags="Toggle" value="0.000000000000" parameter="81" symbol="xm_6"/>
-        <Controllable name="Frequency 6" id="251030" flags="" value="250.000000000000" parameter="82" symbol="f_6"/>
-        <Controllable name="Gain 6" id="251032" flags="" value="1.000000000000" parameter="83" symbol="g_6"/>
-        <Controllable name="Quality factor 6" id="251034" flags="" value="0.000000000000" parameter="84" symbol="q_6"/>
+        <Controllable name="Frequency 6" id="251030" flags="" value="324.823455810547" parameter="82" symbol="f_6"/>
+        <Controllable name="Gain 6" id="251032" flags="" value="0.637658119202" parameter="83" symbol="g_6"/>
+        <Controllable name="Quality factor 6" id="251034" flags="" value="2.210942268372" parameter="84" symbol="q_6"/>
         <Controllable name="Hue 6" id="251036" flags="" value="0.375000000000" parameter="85" symbol="hue_6"/>
         <Controllable name="Filter type 7" id="251038" flags="" value="0.000000000000" parameter="87" symbol="ft_7"/>
         <Controllable name="Filter mode 7" id="251040" flags="" value="0.000000000000" parameter="88" symbol="fm_7"/>
@@ -10302,8 +10315,8 @@
         <Controllable name="Filter slope 12" id="251132" flags="" value="0.000000000000" parameter="139" symbol="s_12"/>
         <Controllable name="Filter solo 12" id="251134" flags="Toggle" value="0.000000000000" parameter="140" symbol="xs_12"/>
         <Controllable name="Filter mute 12" id="251136" flags="Toggle" value="0.000000000000" parameter="141" symbol="xm_12"/>
-        <Controllable name="Frequency 12" id="251138" flags="" value="4000.000000000000" parameter="142" symbol="f_12"/>
-        <Controllable name="Gain 12" id="251140" flags="" value="1.683356165886" parameter="143" symbol="g_12"/>
+        <Controllable name="Frequency 12" id="251138" flags="" value="5171.502929687500" parameter="142" symbol="f_12"/>
+        <Controllable name="Gain 12" id="251140" flags="" value="1.423748970032" parameter="143" symbol="g_12"/>
         <Controllable name="Quality factor 12" id="251142" flags="" value="0.000000000000" parameter="144" symbol="q_12"/>
         <Controllable name="Hue 12" id="251144" flags="" value="0.750000000000" parameter="145" symbol="hue_12"/>
         <Controllable name="Filter type 13" id="251146" flags="" value="0.000000000000" parameter="147" symbol="ft_13"/>
@@ -10399,11 +10412,11 @@
           <Port symbol="scr" value="+10.000000"/>
           <Port symbol="scp" value="+1.000000"/>
           <Port symbol="cm" value="+0.000000"/>
-          <Port symbol="al" value="+0.036123"/>
-          <Port symbol="at" value="+20.000000"/>
+          <Port symbol="al" value="+0.108723"/>
+          <Port symbol="at" value="+2.836353"/>
           <Port symbol="rrl" value="+0.000000"/>
           <Port symbol="rt" value="+100.000000"/>
-          <Port symbol="cr" value="+4.000000"/>
+          <Port symbol="cr" value="+5.406926"/>
           <Port symbol="kn" value="+0.501180"/>
           <Port symbol="mk" value="+1.389894"/>
           <Port symbol="cdr" value="+0.000000"/>
@@ -10429,13 +10442,13 @@
         <Controllable name="Sidechain reactivity" id="252005" flags="" value="10.000000000000" parameter="14" symbol="scr"/>
         <Controllable name="Sidechain preamp" id="252007" flags="" value="1.000000000000" parameter="15" symbol="scp"/>
         <Controllable name="Compression mode" id="252009" flags="" value="0.000000000000" parameter="16" symbol="cm"/>
-        <Controllable name="Attack level" id="252011" flags="" value="0.036123458296" parameter="17" symbol="al"/>
-        <Controllable name="Attack time" id="252013" flags="" value="20.000000000000" parameter="18" symbol="at"/>
+        <Controllable name="Attack level" id="252011" flags="" value="0.108722522855" parameter="17" symbol="al"/>
+        <Controllable name="Attack time" id="252013" flags="" value="2.836353063583" parameter="18" symbol="at"/>
         <Controllable name="Relative release level" id="252015" flags="" value="0.000000000000" parameter="19" symbol="rrl"/>
         <Controllable name="Release time" id="252017" flags="" value="100.000000000000" parameter="20" symbol="rt"/>
-        <Controllable name="Ratio" id="252019" flags="" value="4.000000000000" parameter="21" symbol="cr"/>
+        <Controllable name="Ratio" id="252019" flags="" value="5.406926155090" parameter="21" symbol="cr"/>
         <Controllable name="Knee" id="252021" flags="" value="0.501179993153" parameter="22" symbol="kn"/>
-        <Controllable name="Makeup gain" id="252023" flags="" value="1.389893889427" parameter="23" symbol="mk"/>
+        <Controllable name="Makeup gain" id="252023" flags="" value="1.389894008636" parameter="23" symbol="mk"/>
         <Controllable name="Dry gain" id="252025" flags="" value="0.000000000000" parameter="24" symbol="cdr"/>
         <Controllable name="Wet gain" id="252027" flags="" value="1.000000000000" parameter="25" symbol="cwt"/>
         <Controllable name="Sidechain level visibility" id="252029" flags="Toggle" value="1.000000000000" parameter="27" symbol="slv"/>
@@ -10551,7 +10564,7 @@
         <Controllable name="Sidechain reactivity" id="98939" flags="" value="10.000000000000" parameter="16" symbol="scr"/>
         <Controllable name="Sidechain preamp" id="98941" flags="" value="1.000000000000" parameter="17" symbol="scp"/>
         <Controllable name="Compression mode" id="98943" flags="" value="0.000000000000" parameter="18" symbol="cm"/>
-        <Controllable name="Attack level" id="98945" flags="" value="0.236953392625" parameter="19" symbol="al"/>
+        <Controllable name="Attack level" id="98945" flags="" value="0.236953005195" parameter="19" symbol="al"/>
         <Controllable name="Attack time" id="98947" flags="" value="5.388648986816" parameter="20" symbol="at"/>
         <Controllable name="Relative release level" id="98949" flags="" value="0.000000000000" parameter="21" symbol="rrl"/>
         <Controllable name="Release time" id="98951" flags="" value="50.168281555176" parameter="22" symbol="rt"/>
@@ -10568,39 +10581,11 @@
         <Controllable name="Input level visibility Right" id="98973" flags="Toggle" value="1.000000000000" parameter="40" symbol="ilv_r"/>
         <Controllable name="Output level visibility Right" id="98975" flags="Toggle" value="1.000000000000" parameter="41" symbol="olv_r"/>
       </Processor>
-      <Processor id="252117" name="Reverb Bus" active="yes" user-latency="0" own-input="yes" own-output="yes" type="intsend" role="Aux" bitslot="5" selfdestruct="no" target="8746" allow-feedback="0">
-        <Automation>
-          <AutomationList automation-id="gain" id="252130" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute"/>
-        </Automation>
-        <PannerShell bypassed="no" user-panner="" linked-to-route="yes">
-          <Panner uri="http://ardour.org/plugin/panner_2in2out" type="Equal Power Stereo"/>
-        </PannerShell>
-        <Pannable>
-          <Controllable name="pan-azimuth" id="8891" flags="" value="0.500000000000"/>
-          <Controllable name="pan-width" id="8895" flags="" value="1.000000000000"/>
-          <Controllable name="pan-elevation" id="8893" flags="" value="0.000000000000"/>
-          <Controllable name="pan-frontback" id="8897" flags="" value="0.000000000000"/>
-          <Controllable name="pan-lfe" id="8899" flags="" value="0.000000000000"/>
-          <Automation>
-            <AutomationList automation-id="pan-azimuth" id="129970" default="0.5" min-yval="0" max-yval="1" interpolation-style="Linear" state="Off" style="Absolute"/>
-            <AutomationList automation-id="pan-elevation" id="129972" default="0" min-yval="0" max-yval="1" interpolation-style="Linear" state="Off" style="Absolute"/>
-            <AutomationList automation-id="pan-width" id="129974" default="0" min-yval="-1" max-yval="1" interpolation-style="Linear" state="Off" style="Absolute"/>
-            <AutomationList automation-id="pan-frontback" id="129976" default="0" min-yval="0" max-yval="1" interpolation-style="Linear" state="Off" style="Absolute"/>
-            <AutomationList automation-id="pan-lfe" id="129978" default="0" min-yval="0" max-yval="1" interpolation-style="Linear" state="Off" style="Absolute"/>
-          </Automation>
-        </Pannable>
-        <Processor id="252132" name="Amp" active="yes" user-latency="0" type="amp">
-          <Automation>
-            <AutomationList automation-id="gain" id="252130" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute"/>
-          </Automation>
-          <Controllable name="gaincontrol" id="252131" flags="GainLike" value="0.033128567040"/>
-        </Processor>
-      </Processor>
       <Processor id="8902" name="Amp" active="yes" user-latency="0" type="amp">
         <Automation>
           <AutomationList automation-id="gain" id="129955" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute"/>
         </Automation>
-        <Controllable name="gaincontrol" id="8876" flags="GainLike" value="0.578343570232"/>
+        <Controllable name="gaincontrol" id="8876" flags="GainLike" value="0.661203920841"/>
       </Processor>
       <Processor id="8904" name="meter-Bus 5" active="yes" user-latency="0" type="meter"/>
       <Processor id="8905" name="Chords Bus" active="yes" user-latency="0" own-input="yes" own-output="no" output="Chords Bus" type="main-outs" role="Main">
@@ -10934,15 +10919,27 @@
       <Region name="Nabla 2 1.8-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="88200" position="705600" beat="32" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="12" start-beats="0" length-beats="4" id="100657" type="midi" first-edit="nothing" source-0="100386" master-source-0="100386"/>
     </Playlist>
     <Playlist id="201843" name="Audio+MIDI.2" type="midi" orig-track-id="201801" shared-with-ids="" frozen="no" combine-ops="0">
-      <Region name="Audio+MIDI-2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="347288" position="88200" beat="4" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0" length-beats="15.75" id="202354" type="midi" first-edit="nothing" source-0="202352" master-source-0="202352"/>
-      <Region name="Audio+MIDI-2.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="347288" position="441000" beat="20" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="1" start-beats="0" length-beats="15.75" id="235756" type="midi" first-edit="nothing" source-0="202352" master-source-0="202352"/>
+      <Region name="Audio+MIDI.2-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="352800" position="88200" beat="4" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0" length-beats="16" id="280759" type="midi" first-edit="nothing" source-0="280757" master-source-0="280757"/>
+      <Region name="Audio+MIDI.3-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="352800" position="441000" beat="20" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="1" start-beats="0" length-beats="16" id="280829" type="midi" first-edit="nothing" source-0="280757" master-source-0="280757"/>
     </Playlist>
-    <Playlist id="202117" name="Chords Low Left" type="midi" orig-track-id="202075" shared-with-ids="" frozen="no" combine-ops="0"/>
-    <Playlist id="236534" name="Chords Low Right" type="midi" orig-track-id="236577" shared-with-ids="" frozen="no" combine-ops="0"/>
-    <Playlist id="236842" name="Chords Hi Left" type="midi" orig-track-id="236885" shared-with-ids="" frozen="no" combine-ops="0"/>
-    <Playlist id="237150" name="Chords Hi Right" type="midi" orig-track-id="237193" shared-with-ids="" frozen="no" combine-ops="0"/>
-    <Playlist id="251519" name="Chords Sine" type="midi" orig-track-id="251259" shared-with-ids="" frozen="no" combine-ops="0"/>
-    <Playlist id="252206" name="MIDI.1" type="midi" orig-track-id="252164" shared-with-ids="" frozen="no" combine-ops="0"/>
+    <Playlist id="202117" name="Chords Low Left" type="midi" orig-track-id="202075" shared-with-ids="" frozen="no" combine-ops="0">
+      <Region name="Chords Low Left-2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="0" position="88200" beat="4" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0" length-beats="0" id="280783" type="midi" first-edit="nothing" source-0="280781" master-source-0="280781"/>
+    </Playlist>
+    <Playlist id="236534" name="Chords Low Right" type="midi" orig-track-id="236577" shared-with-ids="" frozen="no" combine-ops="0">
+      <Region name="Chords Low Right-2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="0" position="88200" beat="4" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0" length-beats="0" id="280790" type="midi" first-edit="nothing" source-0="280788" master-source-0="280788"/>
+    </Playlist>
+    <Playlist id="236842" name="Chords Hi Left" type="midi" orig-track-id="236885" shared-with-ids="" frozen="no" combine-ops="0">
+      <Region name="Chords Hi Left-2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="0" position="88200" beat="4" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0" length-beats="0" id="280797" type="midi" first-edit="nothing" source-0="280795" master-source-0="280795"/>
+    </Playlist>
+    <Playlist id="237150" name="Chords Hi Right" type="midi" orig-track-id="237193" shared-with-ids="" frozen="no" combine-ops="0">
+      <Region name="Chords Hi Right-2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="0" position="88200" beat="4" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0" length-beats="0" id="280804" type="midi" first-edit="nothing" source-0="280802" master-source-0="280802"/>
+    </Playlist>
+    <Playlist id="251519" name="Chords Sine" type="midi" orig-track-id="251259" shared-with-ids="" frozen="no" combine-ops="0">
+      <Region name="Chords Sine-2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="0" position="88200" beat="4" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0" length-beats="0" id="280811" type="midi" first-edit="nothing" source-0="280809" master-source-0="280809"/>
+    </Playlist>
+    <Playlist id="252206" name="MIDI.1" type="midi" orig-track-id="252164" shared-with-ids="" frozen="no" combine-ops="0">
+      <Region name="MIDI.1-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="0" position="88200" beat="4" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0" length-beats="0" id="280818" type="midi" first-edit="nothing" source-0="280816" master-source-0="280816"/>
+    </Playlist>
   </Playlists>
   <UnusedPlaylists>
     <Playlist id="525" name="Nabla 8.1" type="midi" orig-track-id="483" shared-with-ids="" frozen="no" combine-ops="0">
@@ -11005,14 +11002,14 @@
     </Processor>
   </Click>
   <LTC-In>
-    <IO name="LTC In" id="37" direction="Input" default-type="audio" user-latency="0">
+    <IO name="LTC In" id="38" direction="Input" default-type="audio" user-latency="0">
       <Port type="audio" name="LTC-in">
         <Connection other="system:capture_1"/>
       </Port>
     </IO>
   </LTC-In>
   <LTC-Out>
-    <IO name="LTC Out" id="38" direction="Output" default-type="audio" user-latency="0">
+    <IO name="LTC Out" id="39" direction="Output" default-type="audio" user-latency="0">
       <Port type="audio" name="LTC-out"/>
     </IO>
   </LTC-Out>
@@ -11058,7 +11055,21 @@
         <Field name="date" enabled="false" value="D_None"/>
       </ExportFilename>
     </ExportProfile>
-    <RulerVisibility timecode="no" bbt="yes" samples="no" minsec="no" tempo="yes" meter="no" marker="yes" rangemarker="no" transportmarker="yes" cdmarker="no" videotl="no"/>
+    <RulerVisibility timecode="no" bbt="yes" samples="no" minsec="yes" tempo="yes" meter="no" marker="yes" rangemarker="no" transportmarker="yes" cdmarker="no" videotl="no"/>
+    <ClockModes>
+      <Clock name="primary" mode="Timecode" on="yes"/>
+      <Clock name="secondary" mode="MinSec" on="yes"/>
+      <Clock name="bigclock" mode="Timecode" on="yes"/>
+      <Clock name="nudge" mode="Timecode" on="yes"/>
+      <Clock name="selection-start" mode="Timecode" on="no"/>
+      <Clock name="selection-end" mode="Timecode" on="no"/>
+      <Clock name="selection-length" mode="Timecode" on="no"/>
+      <Clock name="punch-start" mode="Timecode" on="no"/>
+      <Clock name="punch-end" mode="Timecode" on="no"/>
+      <Clock name="selection-start" mode="Timecode" on="no"/>
+      <Clock name="selection-end" mode="Timecode" on="no"/>
+      <Clock name="selection-length" mode="Timecode" on="no"/>
+    </ClockModes>
     <UI>
       <Window name="key-editor" visible="no" x-off="991" y-off="562" x-size="604" y-size="447"/>
       <Window name="session-options-editor" visible="no" x-off="0" y-off="269" x-size="694" y-size="354"/>
@@ -11067,7 +11078,7 @@
       <Window name="add-routes" visible="no" x-off="-1" y-off="-1" x-size="478" y-size="342"/>
       <Window name="add-video" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="inspector" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="audio-midi-setup" visible="no" x-off="376" y-off="225" x-size="576" y-size="420"/>
+      <Window name="audio-midi-setup" visible="no" x-off="951" y-off="0" x-size="576" y-size="420"/>
       <Window name="video-export" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="script-manager" visible="no" x-off="292" y-off="345" x-size="187" y-size="284"/>
       <Window name="bundle-manager" visible="no" x-off="87" y-off="134" x-size="480" y-size="240"/>
@@ -11077,8 +11088,8 @@
       <Window name="midi-connection-manager" visible="no" x-off="14" y-off="102" x-size="541" y-size="499"/>
       <Window name="RPM-8746" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-8830" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="RPM-51" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-8704" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-51" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-8788" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-154" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-201" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -11090,7 +11101,6 @@
       <Window name="RPM-389" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-577" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-8914" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="RPM-8872" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-530" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-671" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-201801" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -11098,6 +11108,9 @@
       <Window name="RPM-236577" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-236885" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-237193" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-251259" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-8872" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-252164" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-8746-8782" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-8746-8777" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-8746-71383" visible="no" x-off="554" y-off="240" x-size="559" y-size="53" custom-ui="no"/>
@@ -11124,22 +11137,13 @@
       <Window name="PM-8860-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-8862-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-8863-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-51-82" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="P-51-174971" visible="no" x-off="350" y-off="508" x-size="471" y-size="53" custom-ui="no"/>
-      <Window name="P-51-81" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="P-51-83" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="P-51-84" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="PM-82-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-174971-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-81-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-83-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-84-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-8704-8740" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-8704-8735" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-8704-31555" visible="no" x-off="852" y-off="0" x-size="471" y-size="53" custom-ui="no"/>
       <Window name="P-8704-31184" visible="no" x-off="852" y-off="0" x-size="471" y-size="53" custom-ui="no"/>
       <Window name="P-8704-174946" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-8704-235806" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-8704-252062" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-8704-8734" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-8704-8736" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-8704-8737" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
@@ -11149,9 +11153,22 @@
       <Window name="PM-31184-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-174946-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-235806-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-252062-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-8734-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-8736-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-8737-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-51-82" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-51-174971" visible="no" x-off="350" y-off="508" x-size="471" y-size="53" custom-ui="no"/>
+      <Window name="P-51-81" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-51-252620" visible="no" x-off="429" y-off="409" x-size="471" y-size="53" custom-ui="no"/>
+      <Window name="P-51-83" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-51-84" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="PM-82-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-174971-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-81-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-252620-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-83-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-84-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-8788-8824" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-8788-8819" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-8788-60455" visible="no" x-off="1062" y-off="72" x-size="471" y-size="53" custom-ui="no"/>
@@ -11168,7 +11185,7 @@
       <Window name="PM-60832-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-8820-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-8821-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-154-1826" visible="no" x-off="2064" y-off="320" x-size="900" y-size="565" custom-ui="yes"/>
+      <Window name="P-154-1826" visible="no" x-off="2064" y-off="320" x-size="900" y-size="565" custom-ui="no"/>
       <Window name="P-154-175023" visible="no" x-off="350" y-off="508" x-size="471" y-size="53" custom-ui="no"/>
       <Window name="P-154-184" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-154-186" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
@@ -11178,7 +11195,7 @@
       <Window name="PM-184-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-186-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-187-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-201-1943" visible="no" x-off="637" y-off="0" x-size="900" y-size="565" custom-ui="yes"/>
+      <Window name="P-201-1943" visible="no" x-off="637" y-off="0" x-size="900" y-size="565" custom-ui="no"/>
       <Window name="P-201-29705" visible="no" x-off="852" y-off="0" x-size="471" y-size="53" custom-ui="no"/>
       <Window name="P-201-30041" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-201-231" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
@@ -11190,7 +11207,7 @@
       <Window name="PM-231-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-233-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-234-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-30157-30333" visible="no" x-off="214" y-off="153" x-size="900" y-size="565" custom-ui="yes"/>
+      <Window name="P-30157-30333" visible="no" x-off="214" y-off="153" x-size="900" y-size="565" custom-ui="no"/>
       <Window name="P-30157-30802" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-30157-30890" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-30157-30891" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
@@ -11202,8 +11219,8 @@
       <Window name="PM-30891-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-30893-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-30894-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-295-2177" visible="no" x-off="637" y-off="0" x-size="900" y-size="565" custom-ui="yes"/>
-      <Window name="P-295-60855" visible="no" x-off="1001" y-off="0" x-size="593" y-size="294" custom-ui="no"/>
+      <Window name="P-295-2177" visible="no" x-off="637" y-off="0" x-size="900" y-size="565" custom-ui="no"/>
+      <Window name="P-295-60855" visible="no" x-off="1001" y-off="0" x-size="593" y-size="294" custom-ui="yes"/>
       <Window name="P-295-325" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-295-327" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-295-328" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
@@ -11212,8 +11229,8 @@
       <Window name="PM-325-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-327-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-328-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-342-2294" visible="no" x-off="847" y-off="0" x-size="900" y-size="565" custom-ui="yes"/>
-      <Window name="P-342-60870" visible="no" x-off="1001" y-off="0" x-size="593" y-size="294" custom-ui="no"/>
+      <Window name="P-342-2294" visible="no" x-off="847" y-off="0" x-size="900" y-size="565" custom-ui="no"/>
+      <Window name="P-342-60870" visible="no" x-off="1001" y-off="0" x-size="593" y-size="294" custom-ui="yes"/>
       <Window name="P-342-372" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-342-374" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-342-375" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
@@ -11251,7 +11268,7 @@
       <Window name="PM-656-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-657-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-389-2411" visible="no" x-off="383" y-off="0" x-size="900" y-size="565" custom-ui="no"/>
-      <Window name="P-389-81977" visible="no" x-off="484" y-off="282" x-size="471" y-size="53" custom-ui="yes"/>
+      <Window name="P-389-81977" visible="no" x-off="484" y-off="282" x-size="471" y-size="53" custom-ui="no"/>
       <Window name="P-389-419" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-389-421" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-389-422" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
@@ -11260,8 +11277,8 @@
       <Window name="PM-419-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-421-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-422-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-577-2879" visible="no" x-off="135" y-off="252" x-size="900" y-size="565" custom-ui="yes"/>
-      <Window name="P-577-174812" visible="no" x-off="289" y-off="387" x-size="593" y-size="294" custom-ui="yes"/>
+      <Window name="P-577-2879" visible="no" x-off="135" y-off="252" x-size="900" y-size="565" custom-ui="no"/>
+      <Window name="P-577-174812" visible="no" x-off="289" y-off="387" x-size="593" y-size="294" custom-ui="no"/>
       <Window name="P-577-607" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-577-609" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-577-610" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
@@ -11284,18 +11301,6 @@
       <Window name="PM-8944-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-8946-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-8947-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-8872-8908" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="P-8872-8903" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="P-8872-98917" visible="no" x-off="1114" y-off="89" x-size="471" y-size="53" custom-ui="yes"/>
-      <Window name="P-8872-8902" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="P-8872-8904" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="P-8872-8905" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="PM-8908-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-8903-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-98917-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-8902-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-8904-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-8905-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-530-2762" visible="no" x-off="899" y-off="0" x-size="900" y-size="565" custom-ui="no"/>
       <Window name="P-530-137082" visible="no" x-off="0" y-off="120" x-size="471" y-size="53" custom-ui="no"/>
       <Window name="P-530-560" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
@@ -11306,7 +11311,7 @@
       <Window name="PM-560-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-562-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-563-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-671-3113" visible="no" x-off="0" y-off="0" x-size="900" y-size="565" custom-ui="yes"/>
+      <Window name="P-671-3113" visible="no" x-off="0" y-off="0" x-size="900" y-size="565" custom-ui="no"/>
       <Window name="P-671-188904" visible="no" x-off="0" y-off="0" x-size="593" y-size="294" custom-ui="no"/>
       <Window name="P-671-701" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-671-188920" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
@@ -11356,38 +11361,42 @@
       <Window name="PM-237430-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-237433-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-237434-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-8872-250888" visible="no" x-off="429" y-off="409" x-size="471" y-size="53" custom-ui="yes"/>
-      <Window name="PM-250888-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="RPM-251259" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-251259-251440" visible="no" x-off="214" y-off="153" x-size="900" y-size="565" custom-ui="yes"/>
+      <Window name="P-251259-251440" visible="no" x-off="214" y-off="153" x-size="900" y-size="565" custom-ui="no"/>
+      <Window name="P-251259-251820" visible="no" x-off="368" y-off="288" x-size="593" y-size="294" custom-ui="no"/>
+      <Window name="P-251259-251837" visible="no" x-off="368" y-off="332" x-size="593" y-size="207" custom-ui="no"/>
       <Window name="P-251259-251496" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-251259-251499" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-251259-251500" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="PM-251440-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-251820-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-251837-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-251496-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-251499-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-251500-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-251259-251820" visible="no" x-off="368" y-off="288" x-size="593" y-size="294" custom-ui="yes"/>
-      <Window name="PM-251820-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-251259-251837" visible="no" x-off="368" y-off="332" x-size="593" y-size="207" custom-ui="no"/>
-      <Window name="PM-251837-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-8872-8908" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-8872-8903" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-8872-250888" visible="no" x-off="429" y-off="409" x-size="471" y-size="53" custom-ui="yes"/>
       <Window name="P-8872-251983" visible="no" x-off="429" y-off="409" x-size="471" y-size="53" custom-ui="yes"/>
+      <Window name="P-8872-98917" visible="no" x-off="1114" y-off="89" x-size="471" y-size="53" custom-ui="no"/>
+      <Window name="P-8872-8902" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-8872-8904" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-8872-8905" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="PM-8908-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-8903-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-250888-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-251983-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-8704-252062" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="PM-252062-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-8872-252117" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="PM-252117-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="RPM-252164" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-98917-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-8902-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-8904-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-8905-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-252164-252503" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-252164-252194" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-252164-252196" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-252164-252197" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="PM-252503-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-252194-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-252196-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-252197-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-252164-252503" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="PM-252503-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-51-252620" visible="no" x-off="429" y-off="409" x-size="471" y-size="53" custom-ui="yes"/>
-      <Window name="PM-252620-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <GUIObjectState>
         <Object id="rtav 51" height="30" visible="1"/>
         <Object id="automation 55" height="30" visible="0"/>
@@ -11635,7 +11644,7 @@
         <Object id="rtav 248" height="30" visible="1" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors"/>
         <Object id="automation 252" height="30" visible="0"/>
         <Object id="automation 248 12/0/0" height="30" visible="0"/>
-        <Object id="rtav 295" height="30" visible="1" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors" note-range-min="49" note-range-max="71"/>
+        <Object id="rtav 295" height="30" visible="1" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors" note-range-min="51" note-range-max="67"/>
         <Object id="automation 299" height="30" visible="0"/>
         <Object id="automation 295 12/0/0" height="30" visible="0"/>
         <Object id="rtav 342" height="30" visible="1" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors"/>
@@ -11647,13 +11656,13 @@
         <Object id="rtav 530" height="30" visible="1" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors"/>
         <Object id="automation 534" height="30" visible="0"/>
         <Object id="automation 530 12/0/0" height="30" visible="0"/>
-        <Object id="rtav 577" height="147" visible="1" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors"/>
+        <Object id="rtav 577" height="30" visible="1" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors"/>
         <Object id="automation 581" height="30" visible="0"/>
         <Object id="automation 577 12/0/0" height="30" visible="0"/>
-        <Object id="rtav 624" height="128" visible="1" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors" note-range-min="34" note-range-max="59"/>
+        <Object id="rtav 624" height="131" visible="1" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors" note-range-min="34" note-range-max="59"/>
         <Object id="automation 628" height="30" visible="0"/>
         <Object id="automation 624 12/0/0" height="30" visible="0"/>
-        <Object id="rtav 671" height="115" visible="1" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors"/>
+        <Object id="rtav 671" height="30" visible="1" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors"/>
         <Object id="automation 675" height="30" visible="0"/>
         <Object id="automation 671 12/0/0" height="30" visible="0"/>
         <Object id="rtav 718" height="30" visible="1" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors"/>
@@ -11699,7 +11708,7 @@
         <Object id="automation 878" height="30" visible="0"/>
         <Object id="automation 882" height="30" visible="0"/>
         <Object id="automation 1840" height="64" visible="0"/>
-        <Object id="automation 154 15/0/0" height="136" visible="1"/>
+        <Object id="automation 154 15/0/0" height="30" visible="1"/>
         <Object id="automation 1844" height="64" visible="0"/>
         <Object id="rtav 8704" height="30" visible="1"/>
         <Object id="automation 8708" height="30" visible="0"/>
@@ -11807,6 +11816,7 @@
           <Object id="processor 252117">
             <Object id="control 252131" visible="1"/>
           </Object>
+          <Object id="processor 280848"/>
         </Object>
         <Object id="strip 8914" visible="1" strip-width="Wide">
           <Object id="processor 8944"/>
@@ -11923,14 +11933,14 @@
         <Object id="strip 188178" strip-width="Wide" visible="1">
           <Object id="processor 188208"/>
         </Object>
-        <Object id="rtav 201801" height="30" visible="1" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors" note-range-min="53" note-range-max="71"/>
-        <Object id="automation 201805" height="64" visible="0"/>
-        <Object id="automation 201801 12/0/0" height="64" visible="0"/>
-        <Object id="automation 201820" height="64" visible="0"/>
-        <Object id="automation 201824" height="64" visible="0"/>
+        <Object id="rtav 201801" height="64" visible="1" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors" note-range-min="53" note-range-max="86"/>
+        <Object id="automation 201805" height="30" visible="0"/>
+        <Object id="automation 201801 12/0/0" height="30" visible="0"/>
+        <Object id="automation 201820" height="30" visible="0"/>
+        <Object id="automation 201824" height="30" visible="0"/>
         <Object id="rtav 202075" height="30" visible="1" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors"/>
-        <Object id="automation 202079" height="64" visible="0"/>
-        <Object id="automation 202075 12/0/0" height="64" visible="0"/>
+        <Object id="automation 202079" height="30" visible="0"/>
+        <Object id="automation 202075 12/0/0" height="30" visible="0"/>
         <Object id="strip 201801" visible="1" strip-width="Wide">
           <Object id="processor 202070"/>
           <Object id="processor 202448"/>
@@ -11945,23 +11955,23 @@
           <Object id="processor 202105"/>
           <Object id="processor 235829"/>
         </Object>
-        <Object id="automation 202094" height="64" visible="0"/>
-        <Object id="automation 202098" height="64" visible="0"/>
+        <Object id="automation 202094" height="30" visible="0"/>
+        <Object id="automation 202098" height="30" visible="0"/>
         <Object id="rtav 236577" height="30" visible="1" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors"/>
-        <Object id="automation 236816" height="64" visible="0"/>
-        <Object id="automation 236577 12/0/0" height="64" visible="0"/>
-        <Object id="automation 236580" height="64" visible="0"/>
-        <Object id="automation 236581" height="64" visible="0"/>
+        <Object id="automation 236816" height="30" visible="0"/>
+        <Object id="automation 236577 12/0/0" height="30" visible="0"/>
+        <Object id="automation 236580" height="30" visible="0"/>
+        <Object id="automation 236581" height="30" visible="0"/>
         <Object id="rtav 236885" height="30" visible="1" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors"/>
-        <Object id="automation 237124" height="64" visible="0"/>
-        <Object id="automation 236885 12/0/0" height="64" visible="0"/>
-        <Object id="automation 236888" height="64" visible="0"/>
-        <Object id="automation 236889" height="64" visible="0"/>
+        <Object id="automation 237124" height="30" visible="0"/>
+        <Object id="automation 236885 12/0/0" height="30" visible="0"/>
+        <Object id="automation 236888" height="30" visible="0"/>
+        <Object id="automation 236889" height="30" visible="0"/>
         <Object id="rtav 237193" height="30" visible="1" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors"/>
-        <Object id="automation 237432" height="64" visible="0"/>
-        <Object id="automation 237193 12/0/0" height="64" visible="0"/>
-        <Object id="automation 237196" height="64" visible="0"/>
-        <Object id="automation 237197" height="64" visible="0"/>
+        <Object id="automation 237432" height="30" visible="0"/>
+        <Object id="automation 237193 12/0/0" height="30" visible="0"/>
+        <Object id="automation 237196" height="30" visible="0"/>
+        <Object id="automation 237197" height="30" visible="0"/>
         <Object id="strip 236577" visible="1" strip-width="Wide">
           <Object id="processor 236758"/>
           <Object id="processor 236814"/>
@@ -11974,28 +11984,28 @@
           <Object id="processor 237374"/>
           <Object id="processor 237430"/>
         </Object>
-        <Object id="automation 201801 13/1/0" height="64" visible="0"/>
-        <Object id="automation 201801 13/74/0" height="64" visible="1"/>
+        <Object id="automation 201801 13/1/0" height="30" visible="0"/>
+        <Object id="automation 201801 13/74/0" height="68" visible="1"/>
         <Object id="rtav 251259" height="30" visible="1" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors"/>
-        <Object id="automation 251498" height="64" visible="0"/>
-        <Object id="automation 251259 12/0/0" height="64" visible="0"/>
-        <Object id="automation 251262" height="64" visible="0"/>
-        <Object id="automation 251263" height="64" visible="0"/>
+        <Object id="automation 251498" height="30" visible="0"/>
+        <Object id="automation 251259 12/0/0" height="30" visible="0"/>
+        <Object id="automation 251262" height="30" visible="0"/>
+        <Object id="automation 251263" height="30" visible="0"/>
         <Object id="strip 251259" strip-width="Wide" visible="1">
           <Object id="processor 251440"/>
           <Object id="processor 251496"/>
           <Object id="processor 251820"/>
           <Object id="processor 251837"/>
         </Object>
-        <Object id="rtav 252164" height="64" visible="1" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors"/>
-        <Object id="automation 252168" height="64" visible="0"/>
-        <Object id="automation 252164 12/0/0" height="64" visible="0"/>
+        <Object id="rtav 252164" height="30" visible="1" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors"/>
+        <Object id="automation 252168" height="30" visible="0"/>
+        <Object id="automation 252164 12/0/0" height="30" visible="0"/>
         <Object id="strip 252164" strip-width="Wide" visible="1">
           <Object id="processor 252194"/>
           <Object id="processor 252503"/>
         </Object>
-        <Object id="automation 252183" height="64" visible="0"/>
-        <Object id="automation 252187" height="64" visible="0"/>
+        <Object id="automation 252183" height="30" visible="0"/>
+        <Object id="automation 252187" height="30" visible="0"/>
       </GUIObjectState>
     </UI>
     <Videomonitor active="no"/>
