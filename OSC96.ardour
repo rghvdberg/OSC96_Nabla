@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="OSC96" sample-rate="44100" end-is-free="no" id-counter="529460" name-counter="14" event-counter="59836901" vca-counter="1">
+<Session version="3002" name="OSC96" sample-rate="44100" end-is-free="no" id-counter="545249" name-counter="14" event-counter="59990251" vca-counter="1">
   <ProgramVersion created-with="Ardour 5.5" modified-with="Ardour 5.6"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -1580,7 +1580,7 @@
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state20">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state21">
           <Port symbol="bypass" value="+0.000000"/>
           <Port symbol="fft" value="+6.000000"/>
           <Port symbol="dry" value="+0.000000"/>
@@ -1626,8 +1626,8 @@
         <Controllable name="Channel source Right" id="294907" flags="" value="2.000000000000" parameter="28" symbol="cs_r"/>
         <Controllable name="Makeup gain Right" id="294909" flags="" value="1.000000000000" parameter="29" symbol="mk_r"/>
         <Controllable name="Pre-delay Right" id="294911" flags="" value="0.000000000000" parameter="31" symbol="pd_r"/>
-        <Controllable name="property-http://lsp-plug.in/plugins/lv2/impulse_responses_stereo/ports#ifn0" id="516821" flags="" property="347"/>
-        <Controllable name="property-http://lsp-plug.in/plugins/lv2/impulse_responses_stereo/ports#ifn1" id="516822" flags="" property="356"/>
+        <Controllable name="property-http://lsp-plug.in/plugins/lv2/impulse_responses_stereo/ports#ifn0" id="532591" flags="" property="347"/>
+        <Controllable name="property-http://lsp-plug.in/plugins/lv2/impulse_responses_stereo/ports#ifn1" id="532592" flags="" property="356"/>
       </Processor>
       <Processor id="295165" name="a-Compressor stereo" active="yes" user-latency="0" type="lv2" unique-id="urn:ardour:a-comp#stereo" count="1" custom="no">
         <Automation>
@@ -1811,7 +1811,7 @@
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state20">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state21">
           <Port symbol="bypass" value="+0.000000"/>
           <Port symbol="fft" value="+6.000000"/>
           <Port symbol="dry" value="+0.000000"/>
@@ -1857,8 +1857,8 @@
         <Controllable name="Channel source Right" id="294907" flags="" value="2.000000000000" parameter="28" symbol="cs_r"/>
         <Controllable name="Makeup gain Right" id="294909" flags="" value="1.000000000000" parameter="29" symbol="mk_r"/>
         <Controllable name="Pre-delay Right" id="294911" flags="" value="0.000000000000" parameter="31" symbol="pd_r"/>
-        <Controllable name="property-http://lsp-plug.in/plugins/lv2/impulse_responses_stereo/ports#ifn0" id="516930" flags="" property="347"/>
-        <Controllable name="property-http://lsp-plug.in/plugins/lv2/impulse_responses_stereo/ports#ifn1" id="516931" flags="" property="356"/>
+        <Controllable name="property-http://lsp-plug.in/plugins/lv2/impulse_responses_stereo/ports#ifn0" id="532700" flags="" property="347"/>
+        <Controllable name="property-http://lsp-plug.in/plugins/lv2/impulse_responses_stereo/ports#ifn1" id="532701" flags="" property="356"/>
       </Processor>
       <Processor id="235772" name="a-Compressor stereo" active="yes" user-latency="0" type="lv2" unique-id="urn:ardour:a-comp#stereo" count="1" custom="no">
         <Automation>
@@ -11905,7 +11905,7 @@
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="no" state-dir="state11"/>
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="no" state-dir="state12"/>
       </Processor>
       <Processor id="252194" name="Amp" active="yes" user-latency="0" type="amp">
         <Automation>
@@ -12325,31 +12325,6 @@
       <Clock name="selection-length" mode="Timecode" on="no"/>
     </ClockModes>
     <RulerVisibility timecode="no" bbt="yes" samples="no" minsec="no" tempo="yes" meter="no" marker="yes" rangemarker="no" transportmarker="yes" cdmarker="no" videotl="no"/>
-    <ExportRevision revision="5"/>
-    <ExportProfile>
-      <ExportTimespan format="Timecode">
-        <Range id="3704"/>
-      </ExportTimespan>
-      <ExportChannelConfiguration split="false" channels="2">
-        <Channel number="1">
-          <Port name="Master/audio_out 1"/>
-        </Channel>
-        <Channel number="2">
-          <Port name="Master/audio_out 2"/>
-        </Channel>
-      </ExportChannelConfiguration>
-      <ExportFormat id="7bb867db-67b0-4aaf-9987-38c31e15052e"/>
-      <ExportFilename>
-        <Folder relative="true" path="/export"/>
-        <Field name="label" enabled="false"/>
-        <Field name="session" enabled="true"/>
-        <Field name="snapshot" enabled="false"/>
-        <Field name="timespan" enabled="false"/>
-        <Field name="revision" enabled="false"/>
-        <Field name="time" enabled="false" value="T_None"/>
-        <Field name="date" enabled="false" value="D_None"/>
-      </ExportFilename>
-    </ExportProfile>
     <UI>
       <Window name="key-editor" visible="no" x-off="991" y-off="562" x-size="604" y-size="473"/>
       <Window name="session-options-editor" visible="no" x-off="0" y-off="269" x-size="694" y-size="354"/>
@@ -13415,6 +13390,31 @@
         <Object id="automation 201801 13/114/0" height="188" visible="1"/>
       </GUIObjectState>
     </UI>
+    <ExportRevision revision="5"/>
+    <ExportProfile>
+      <ExportTimespan format="Timecode">
+        <Range id="3704"/>
+      </ExportTimespan>
+      <ExportChannelConfiguration split="false" channels="2">
+        <Channel number="1">
+          <Port name="Master/audio_out 1"/>
+        </Channel>
+        <Channel number="2">
+          <Port name="Master/audio_out 2"/>
+        </Channel>
+      </ExportChannelConfiguration>
+      <ExportFormat id="7bb867db-67b0-4aaf-9987-38c31e15052e"/>
+      <ExportFilename>
+        <Folder relative="true" path="/export"/>
+        <Field name="label" enabled="false"/>
+        <Field name="session" enabled="true"/>
+        <Field name="snapshot" enabled="false"/>
+        <Field name="timespan" enabled="false"/>
+        <Field name="revision" enabled="false"/>
+        <Field name="time" enabled="false" value="T_None"/>
+        <Field name="date" enabled="false" value="D_None"/>
+      </ExportFilename>
+    </ExportProfile>
     <Videomonitor active="no"/>
   </Extra>
   <Script lua="Lua 5.3">c2NyaXB0cyA9IHt9IA==</Script>

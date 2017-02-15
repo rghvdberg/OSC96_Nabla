@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="OSC96" sample-rate="44100" end-is-free="no" id-counter="513690" name-counter="14" event-counter="59358665" vca-counter="1">
+<Session version="3002" name="OSC96" sample-rate="44100" end-is-free="no" id-counter="529460" name-counter="14" event-counter="59836901" vca-counter="1">
   <ProgramVersion created-with="Ardour 5.5" modified-with="Ardour 5.6"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -1580,7 +1580,7 @@
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state19">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state20">
           <Port symbol="bypass" value="+0.000000"/>
           <Port symbol="fft" value="+6.000000"/>
           <Port symbol="dry" value="+0.000000"/>
@@ -1626,8 +1626,8 @@
         <Controllable name="Channel source Right" id="294907" flags="" value="2.000000000000" parameter="28" symbol="cs_r"/>
         <Controllable name="Makeup gain Right" id="294909" flags="" value="1.000000000000" parameter="29" symbol="mk_r"/>
         <Controllable name="Pre-delay Right" id="294911" flags="" value="0.000000000000" parameter="31" symbol="pd_r"/>
-        <Controllable name="property-http://lsp-plug.in/plugins/lv2/impulse_responses_stereo/ports#ifn0" id="500427" flags="" property="392"/>
-        <Controllable name="property-http://lsp-plug.in/plugins/lv2/impulse_responses_stereo/ports#ifn1" id="500428" flags="" property="401"/>
+        <Controllable name="property-http://lsp-plug.in/plugins/lv2/impulse_responses_stereo/ports#ifn0" id="516821" flags="" property="347"/>
+        <Controllable name="property-http://lsp-plug.in/plugins/lv2/impulse_responses_stereo/ports#ifn1" id="516822" flags="" property="356"/>
       </Processor>
       <Processor id="295165" name="a-Compressor stereo" active="yes" user-latency="0" type="lv2" unique-id="urn:ardour:a-comp#stereo" count="1" custom="no">
         <Automation>
@@ -1811,7 +1811,7 @@
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state19">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state20">
           <Port symbol="bypass" value="+0.000000"/>
           <Port symbol="fft" value="+6.000000"/>
           <Port symbol="dry" value="+0.000000"/>
@@ -1857,8 +1857,8 @@
         <Controllable name="Channel source Right" id="294907" flags="" value="2.000000000000" parameter="28" symbol="cs_r"/>
         <Controllable name="Makeup gain Right" id="294909" flags="" value="1.000000000000" parameter="29" symbol="mk_r"/>
         <Controllable name="Pre-delay Right" id="294911" flags="" value="0.000000000000" parameter="31" symbol="pd_r"/>
-        <Controllable name="property-http://lsp-plug.in/plugins/lv2/impulse_responses_stereo/ports#ifn0" id="500536" flags="" property="392"/>
-        <Controllable name="property-http://lsp-plug.in/plugins/lv2/impulse_responses_stereo/ports#ifn1" id="500537" flags="" property="401"/>
+        <Controllable name="property-http://lsp-plug.in/plugins/lv2/impulse_responses_stereo/ports#ifn0" id="516930" flags="" property="347"/>
+        <Controllable name="property-http://lsp-plug.in/plugins/lv2/impulse_responses_stereo/ports#ifn1" id="516931" flags="" property="356"/>
       </Processor>
       <Processor id="235772" name="a-Compressor stereo" active="yes" user-latency="0" type="lv2" unique-id="urn:ardour:a-comp#stereo" count="1" custom="no">
         <Automation>
@@ -4479,7 +4479,7 @@
       <Controllable name="rec-safe" id="127475" flags="Toggle,RealTime" value="0.000000000000"/>
       <Controllable name="rec-enable" id="127473" flags="Toggle,RealTime" value="0.000000000000"/>
       <Diskstream flags="Recordable" playlist="Nabla 1.1" name="Nabla 1" id="195" speed="1.000000" capture-alignment="Automatic" record-safe="no"/>
-      <Controllable name="midi-pitch-bender-0" id="131956" flags="" value="14916.139239842691"/>
+      <Controllable name="midi-pitch-bender-0" id="131956" flags="" value="16383.000000000000"/>
     </Route>
     <Route id="201" name="Kick 2" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" route-group="Drums" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="no" input-active="no">
       <PresentationInfo order="7" flags="MidiTrack,OrderSet" color="2598728447"/>
@@ -6375,7 +6375,7 @@
       <Controllable name="rec-safe" id="128932" flags="Toggle,RealTime" value="0.000000000000"/>
       <Controllable name="rec-enable" id="128930" flags="Toggle,RealTime" value="0.000000000000"/>
       <Diskstream flags="Recordable" playlist="Nabla 4.1" name="Nabla 4" id="336" speed="1.000000" capture-alignment="Automatic" record-safe="no"/>
-      <Controllable name="midi-pitch-bender-0" id="132793" flags="" value="11816.845387527286"/>
+      <Controllable name="midi-pitch-bender-0" id="132793" flags="" value="7135.000000000000"/>
     </Route>
     <Route id="342" name="Snare Sizzle" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" route-group="Drums" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="no" input-active="no">
       <PresentationInfo order="10" flags="MidiTrack,OrderSet" color="3782403583"/>
@@ -9682,7 +9682,7 @@
       <Controllable name="midicc-0-1" id="251206" flags="" value="0.000000000000"/>
       <Controllable name="midicc-0-74" id="251211" flags="" value="127.000000000000"/>
       <Controllable name="midicc-0-113" id="433195" flags="" value="64.000000000000"/>
-      <Controllable name="midicc-0-114" id="448325" flags="" value="55.000000000000"/>
+      <Controllable name="midicc-0-114" id="448325" flags="" value="43.000000000000"/>
     </Route>
     <Route id="251259" name="Chords Sine" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" route-group="Chords" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="no" input-active="yes">
       <PresentationInfo order="19" flags="MidiTrack,OrderSet" color="2508580351"/>
@@ -9810,7 +9810,7 @@
         </OutputMap-0>
         <ThruMap/>
         <lxvst last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes">
-          <parameters param-0="0" param-1="1" param-2="1" param-3="0.5" param-4="0" param-5="0.00408029556274" param-6="0.450398147106" param-7="0" param-8="0" param-9="0.583333015442" param-10="1" param-11="0" param-12="1" param-13="0.0682775974274" param-14="0.0788790583611" param-15="0" param-16="1" param-17="0" param-18="0" param-19="0" param-20="0.132352948189" param-21="0.544117689133" param-22="0.102941155434" param-23="0.0882353186607" param-24="1" param-25="0" param-26="1" param-27="0" param-28="0.5" param-29="0" param-30="0" param-31="1" param-32="0.10000000149" param-33="0.10000000149" param-34="0" param-35="0.503937005997" param-36="0.433070868254" param-37="0" param-38="0.0772025808692" param-39="0.5" param-40="0.5" param-41="0.5" param-42="0.949999988079" param-43="0" param-44="0.600000023842" param-45="0.40000000596" param-46="0.300000011921" param-47="1" param-48="1" param-49="0.0892206132412" param-50="0.489866912365" param-51="0.300000011921" param-52="0.0599999986589" param-53="0.0599999986589" param-54="0.300000011921"/>
+          <parameters param-0="0" param-1="1" param-2="1" param-3="0.5" param-4="0" param-5="0.00408029556274" param-6="0.450398147106" param-7="0" param-8="0" param-9="0.583333015442" param-10="1" param-11="0" param-12="1" param-13="0.0682775974274" param-14="0.0788790583611" param-15="0" param-16="1" param-17="0" param-18="0" param-19="0" param-20="0.132352948189" param-21="0.544117689133" param-22="0.102941155434" param-23="0.0882353186607" param-24="1" param-25="0" param-26="1" param-27="0" param-28="0.5" param-29="0" param-30="0" param-31="1" param-32="0.10000000149" param-33="0.10000000149" param-34="0" param-35="0.503937005997" param-36="0.338582664728" param-37="0" param-38="0.0772025808692" param-39="0.5" param-40="0.5" param-41="0.5" param-42="0.949999988079" param-43="0" param-44="0.600000023842" param-45="0.40000000596" param-46="0.300000011921" param-47="1" param-48="1" param-49="0.0892206132412" param-50="0.489866912365" param-51="0.300000011921" param-52="0.0599999986589" param-53="0.0599999986589" param-54="0.300000011921"/>
         </lxvst>
         <Controllable name="GOD Mode" id="251385" flags="" value="0.000000000000" parameter="0"/>
         <Controllable name="Volume" id="251386" flags="" value="1.000000000000" parameter="1"/>
@@ -9848,7 +9848,7 @@
         <Controllable name="Str EG R" id="251418" flags="" value="0.100000001490" parameter="33"/>
         <Controllable name="Str Trig" id="251419" flags="" value="0.000000000000" parameter="34"/>
         <Controllable name="EQ Low" id="251420" flags="" value="0.503937005997" parameter="35"/>
-        <Controllable name="EQ High" id="251421" flags="" value="0.433070868254" parameter="36"/>
+        <Controllable name="EQ High" id="251421" flags="" value="0.338582664728" parameter="36"/>
         <Controllable name="Phaser" id="251422" flags="" value="0.000000000000" parameter="37"/>
         <Controllable name="Ph Speed" id="251423" flags="" value="0.077202580869" parameter="38"/>
         <Controllable name="Ph Feed" id="251424" flags="" value="0.500000000000" parameter="39"/>
@@ -10103,7 +10103,7 @@
         </OutputMap-0>
         <ThruMap/>
         <lxvst last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes">
-          <parameters param-0="0" param-1="0.5" param-2="0" param-3="0.505583047867" param-4="1" param-5="0" param-6="0.40000000596" param-7="0" param-8="1" param-9="0.583333015442" param-10="0" param-11="0" param-12="1" param-13="0" param-14="0.46900832653" param-15="0" param-16="0" param-17="0" param-18="0" param-19="0" param-20="0" param-21="0" param-22="1" param-23="0" param-24="0" param-25="0" param-26="1" param-27="0" param-28="0.5" param-29="0" param-30="0" param-31="0.672869801521" param-32="0" param-33="0" param-34="0" param-35="0.503937005997" param-36="0.433070868254" param-37="0" param-38="0.0772025808692" param-39="0.5" param-40="0.5" param-41="0.5" param-42="0.949999988079" param-43="0" param-44="0.600000023842" param-45="0.40000000596" param-46="0.300000011921" param-47="1" param-48="1" param-49="0.298969358206" param-50="0.355670511723" param-51="0.484537422657" param-52="0.417525947094" param-53="0.3814432621" param-54="0.469072014093"/>
+          <parameters param-0="0" param-1="0.5" param-2="0" param-3="0.505583047867" param-4="1" param-5="0" param-6="0.40000000596" param-7="0" param-8="1" param-9="0.583333015442" param-10="0" param-11="0" param-12="1" param-13="0" param-14="0.46900832653" param-15="0" param-16="0" param-17="0" param-18="0" param-19="0" param-20="0" param-21="0" param-22="1" param-23="0" param-24="0" param-25="0" param-26="1" param-27="0" param-28="0.5" param-29="0" param-30="0" param-31="0.672869801521" param-32="0" param-33="0" param-34="0" param-35="0.503937005997" param-36="0.338582664728" param-37="0" param-38="0.0772025808692" param-39="0.5" param-40="0.5" param-41="0.5" param-42="0.949999988079" param-43="0" param-44="0.600000023842" param-45="0.40000000596" param-46="0.300000011921" param-47="1" param-48="1" param-49="0.298969358206" param-50="0.355670511723" param-51="0.484537422657" param-52="0.417525947094" param-53="0.3814432621" param-54="0.469072014093"/>
         </lxvst>
         <Controllable name="GOD Mode" id="399872" flags="" value="0.000000000000" parameter="0"/>
         <Controllable name="Volume" id="399873" flags="" value="0.500000000000" parameter="1"/>
@@ -10141,7 +10141,7 @@
         <Controllable name="Str EG R" id="399905" flags="" value="0.000000000000" parameter="33"/>
         <Controllable name="Str Trig" id="399906" flags="" value="0.000000000000" parameter="34"/>
         <Controllable name="EQ Low" id="399907" flags="" value="0.503937005997" parameter="35"/>
-        <Controllable name="EQ High" id="399908" flags="" value="0.433070868254" parameter="36"/>
+        <Controllable name="EQ High" id="399908" flags="" value="0.338582664728" parameter="36"/>
         <Controllable name="Phaser" id="399909" flags="" value="0.000000000000" parameter="37"/>
         <Controllable name="Ph Speed" id="399910" flags="" value="0.077202580869" parameter="38"/>
         <Controllable name="Ph Feed" id="399911" flags="" value="0.500000000000" parameter="39"/>
@@ -10317,7 +10317,7 @@
         </OutputMap-0>
         <ThruMap/>
         <lxvst last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes">
-          <parameters param-0="0" param-1="0.5" param-2="0" param-3="0.5" param-4="1" param-5="1" param-6="0.5" param-7="0" param-8="1" param-9="0.583333015442" param-10="0" param-11="0" param-12="1" param-13="0" param-14="0.46900832653" param-15="0" param-16="0" param-17="0" param-18="0" param-19="0" param-20="0" param-21="0" param-22="1" param-23="0" param-24="0" param-25="0" param-26="1" param-27="0" param-28="0.5" param-29="0" param-30="0" param-31="0.675887227058" param-32="0" param-33="0" param-34="0" param-35="0.503937005997" param-36="0.433070868254" param-37="0" param-38="0.0772025808692" param-39="0.5" param-40="0.5" param-41="0.5" param-42="0.949999988079" param-43="0" param-44="0.600000023842" param-45="0.40000000596" param-46="0.300000011921" param-47="1" param-48="1" param-49="0.298969358206" param-50="0.355670511723" param-51="0.484537422657" param-52="0.417525947094" param-53="0.3814432621" param-54="0.469072014093"/>
+          <parameters param-0="0" param-1="0.5" param-2="0" param-3="0.5" param-4="1" param-5="1" param-6="0.5" param-7="0" param-8="1" param-9="0.583333015442" param-10="0" param-11="0" param-12="1" param-13="0" param-14="0.46900832653" param-15="0" param-16="0" param-17="0" param-18="0" param-19="0" param-20="0" param-21="0" param-22="1" param-23="0" param-24="0" param-25="0" param-26="1" param-27="0" param-28="0.5" param-29="0" param-30="0" param-31="0.675887227058" param-32="0" param-33="0" param-34="0" param-35="0.503937005997" param-36="0.338582664728" param-37="0" param-38="0.0772025808692" param-39="0.5" param-40="0.5" param-41="0.5" param-42="0.949999988079" param-43="0" param-44="0.600000023842" param-45="0.40000000596" param-46="0.300000011921" param-47="1" param-48="1" param-49="0.298969358206" param-50="0.355670511723" param-51="0.484537422657" param-52="0.417525947094" param-53="0.3814432621" param-54="0.469072014093"/>
         </lxvst>
         <Controllable name="GOD Mode" id="400539" flags="" value="0.000000000000" parameter="0"/>
         <Controllable name="Volume" id="400540" flags="" value="0.500000000000" parameter="1"/>
@@ -10355,7 +10355,7 @@
         <Controllable name="Str EG R" id="400572" flags="" value="0.000000000000" parameter="33"/>
         <Controllable name="Str Trig" id="400573" flags="" value="0.000000000000" parameter="34"/>
         <Controllable name="EQ Low" id="400574" flags="" value="0.503937005997" parameter="35"/>
-        <Controllable name="EQ High" id="400575" flags="" value="0.433070868254" parameter="36"/>
+        <Controllable name="EQ High" id="400575" flags="" value="0.338582664728" parameter="36"/>
         <Controllable name="Phaser" id="400576" flags="" value="0.000000000000" parameter="37"/>
         <Controllable name="Ph Speed" id="400577" flags="" value="0.077202580869" parameter="38"/>
         <Controllable name="Ph Feed" id="400578" flags="" value="0.500000000000" parameter="39"/>
@@ -10531,7 +10531,7 @@
         </OutputMap-0>
         <ThruMap/>
         <lxvst last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes">
-          <parameters param-0="0" param-1="0.5" param-2="0" param-3="0.510601460934" param-4="1" param-5="1" param-6="0.600000023842" param-7="1" param-8="1" param-9="0.583333015442" param-10="0" param-11="0" param-12="1" param-13="0" param-14="0.46900832653" param-15="0" param-16="0" param-17="0" param-18="0" param-19="0" param-20="0" param-21="0" param-22="1" param-23="0" param-24="0" param-25="0" param-26="1" param-27="0" param-28="0.5" param-29="0" param-30="0" param-31="1" param-32="0" param-33="0" param-34="0" param-35="0.503937005997" param-36="0.433070868254" param-37="0" param-38="0.0772025808692" param-39="0.5" param-40="0.5" param-41="0.5" param-42="0.949999988079" param-43="0" param-44="0.600000023842" param-45="0.40000000596" param-46="0.300000011921" param-47="1" param-48="1" param-49="0.298969358206" param-50="0.355670511723" param-51="0.484537422657" param-52="0.417525947094" param-53="0.3814432621" param-54="0.469072014093"/>
+          <parameters param-0="0" param-1="0.5" param-2="0" param-3="0.510601460934" param-4="1" param-5="1" param-6="0.600000023842" param-7="1" param-8="1" param-9="0.583333015442" param-10="0" param-11="0" param-12="1" param-13="0" param-14="0.46900832653" param-15="0" param-16="0" param-17="0" param-18="0" param-19="0" param-20="0" param-21="0" param-22="1" param-23="0" param-24="0" param-25="0" param-26="1" param-27="0" param-28="0.5" param-29="0" param-30="0" param-31="1" param-32="0" param-33="0" param-34="0" param-35="0.503937005997" param-36="0.338582664728" param-37="0" param-38="0.0772025808692" param-39="0.5" param-40="0.5" param-41="0.5" param-42="0.949999988079" param-43="0" param-44="0.600000023842" param-45="0.40000000596" param-46="0.300000011921" param-47="1" param-48="1" param-49="0.298969358206" param-50="0.355670511723" param-51="0.484537422657" param-52="0.417525947094" param-53="0.3814432621" param-54="0.469072014093"/>
         </lxvst>
         <Controllable name="GOD Mode" id="400848" flags="" value="0.000000000000" parameter="0"/>
         <Controllable name="Volume" id="400849" flags="" value="0.500000000000" parameter="1"/>
@@ -10569,7 +10569,7 @@
         <Controllable name="Str EG R" id="400881" flags="" value="0.000000000000" parameter="33"/>
         <Controllable name="Str Trig" id="400882" flags="" value="0.000000000000" parameter="34"/>
         <Controllable name="EQ Low" id="400883" flags="" value="0.503937005997" parameter="35"/>
-        <Controllable name="EQ High" id="400884" flags="" value="0.433070868254" parameter="36"/>
+        <Controllable name="EQ High" id="400884" flags="" value="0.338582664728" parameter="36"/>
         <Controllable name="Phaser" id="400885" flags="" value="0.000000000000" parameter="37"/>
         <Controllable name="Ph Speed" id="400886" flags="" value="0.077202580869" parameter="38"/>
         <Controllable name="Ph Feed" id="400887" flags="" value="0.500000000000" parameter="39"/>
@@ -10745,7 +10745,7 @@
         </OutputMap-0>
         <ThruMap/>
         <lxvst last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes">
-          <parameters param-0="0" param-1="0.5" param-2="0" param-3="0.5" param-4="1" param-5="0" param-6="0.5" param-7="0" param-8="1" param-9="0.583333015442" param-10="0" param-11="0" param-12="1" param-13="0" param-14="0.46900832653" param-15="0" param-16="0" param-17="0" param-18="0" param-19="0" param-20="0" param-21="0" param-22="1" param-23="0" param-24="0" param-25="0" param-26="1" param-27="0" param-28="0.5" param-29="0" param-30="0" param-31="1" param-32="0" param-33="0" param-34="0" param-35="0.503937005997" param-36="0.433070868254" param-37="0" param-38="0.0772025808692" param-39="0.5" param-40="0.5" param-41="0.5" param-42="0.949999988079" param-43="0" param-44="0.600000023842" param-45="0.40000000596" param-46="0.300000011921" param-47="1" param-48="1" param-49="0.298969358206" param-50="0.355670511723" param-51="0.484537422657" param-52="0.417525947094" param-53="0.3814432621" param-54="0.469072014093"/>
+          <parameters param-0="0" param-1="0.5" param-2="0" param-3="0.5" param-4="1" param-5="0" param-6="0.5" param-7="0" param-8="1" param-9="0.583333015442" param-10="0" param-11="0" param-12="1" param-13="0" param-14="0.46900832653" param-15="0" param-16="0" param-17="0" param-18="0" param-19="0" param-20="0" param-21="0" param-22="1" param-23="0" param-24="0" param-25="0" param-26="1" param-27="0" param-28="0.5" param-29="0" param-30="0" param-31="1" param-32="0" param-33="0" param-34="0" param-35="0.503937005997" param-36="0.338582664728" param-37="0" param-38="0.0772025808692" param-39="0.5" param-40="0.5" param-41="0.5" param-42="0.949999988079" param-43="0" param-44="0.600000023842" param-45="0.40000000596" param-46="0.300000011921" param-47="1" param-48="1" param-49="0.298969358206" param-50="0.355670511723" param-51="0.484537422657" param-52="0.417525947094" param-53="0.3814432621" param-54="0.469072014093"/>
         </lxvst>
         <Controllable name="GOD Mode" id="401157" flags="" value="0.000000000000" parameter="0"/>
         <Controllable name="Volume" id="401158" flags="" value="0.500000000000" parameter="1"/>
@@ -10783,7 +10783,7 @@
         <Controllable name="Str EG R" id="401190" flags="" value="0.000000000000" parameter="33"/>
         <Controllable name="Str Trig" id="401191" flags="" value="0.000000000000" parameter="34"/>
         <Controllable name="EQ Low" id="401192" flags="" value="0.503937005997" parameter="35"/>
-        <Controllable name="EQ High" id="401193" flags="" value="0.433070868254" parameter="36"/>
+        <Controllable name="EQ High" id="401193" flags="" value="0.338582664728" parameter="36"/>
         <Controllable name="Phaser" id="401194" flags="" value="0.000000000000" parameter="37"/>
         <Controllable name="Ph Speed" id="401195" flags="" value="0.077202580869" parameter="38"/>
         <Controllable name="Ph Feed" id="401196" flags="" value="0.500000000000" parameter="39"/>
@@ -11623,7 +11623,7 @@
         <Controllable name="Sidechain reactivity" id="98939" flags="" value="10.000000000000" parameter="16" symbol="scr"/>
         <Controllable name="Sidechain preamp" id="98941" flags="" value="1.000000000000" parameter="17" symbol="scp"/>
         <Controllable name="Compression mode" id="98943" flags="" value="0.000000000000" parameter="18" symbol="cm"/>
-        <Controllable name="Attack level" id="98945" flags="" value="0.299494951963" parameter="19" symbol="al"/>
+        <Controllable name="Attack level" id="98945" flags="" value="0.299495011568" parameter="19" symbol="al"/>
         <Controllable name="Attack time" id="98947" flags="" value="10.525041580200" parameter="20" symbol="at"/>
         <Controllable name="Relative release level" id="98949" flags="" value="0.000000000000" parameter="21" symbol="rrl"/>
         <Controllable name="Release time" id="98951" flags="" value="248.143814086914" parameter="22" symbol="rt"/>
@@ -11651,7 +11651,7 @@
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="8876" flags="GainLike" value="0.341353652721"/>
+        <Controllable name="gaincontrol" id="8876" flags="GainLike" value="0.405686527491"/>
       </Processor>
       <Processor id="295000" name="Reverb Bus" active="yes" user-latency="0" own-input="yes" own-output="yes" type="intsend" role="Aux" bitslot="5" selfdestruct="no" target="294940" allow-feedback="0">
         <Automation>
@@ -11905,7 +11905,7 @@
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="no" state-dir="state10"/>
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="no" state-dir="state11"/>
       </Processor>
       <Processor id="252194" name="Amp" active="yes" user-latency="0" type="amp">
         <Automation>
@@ -12358,7 +12358,7 @@
       <Window name="add-routes" visible="no" x-off="-1" y-off="-1" x-size="478" y-size="342"/>
       <Window name="add-video" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="inspector" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="audio-midi-setup" visible="no" x-off="0" y-off="130" x-size="576" y-size="420"/>
+      <Window name="audio-midi-setup" visible="no" x-off="1117" y-off="0" x-size="576" y-size="420"/>
       <Window name="video-export" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="script-manager" visible="no" x-off="292" y-off="345" x-size="187" y-size="284"/>
       <Window name="bundle-manager" visible="no" x-off="87" y-off="134" x-size="480" y-size="240"/>
@@ -12570,7 +12570,7 @@
       <Window name="PM-654-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-656-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-657-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-389-2411" visible="no" x-off="383" y-off="0" x-size="900" y-size="565" custom-ui="yes"/>
+      <Window name="P-389-2411" visible="no" x-off="383" y-off="0" x-size="900" y-size="565" custom-ui="no"/>
       <Window name="P-389-81977" visible="no" x-off="484" y-off="282" x-size="471" y-size="53" custom-ui="no"/>
       <Window name="P-389-419" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-389-421" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
@@ -12593,7 +12593,7 @@
       <Window name="P-8914-8950" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-8914-8945" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-8914-174120" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="P-8914-174869" visible="no" x-off="350" y-off="508" x-size="471" y-size="53" custom-ui="yes"/>
+      <Window name="P-8914-174869" visible="no" x-off="350" y-off="508" x-size="471" y-size="53" custom-ui="no"/>
       <Window name="P-8914-8944" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-8914-8946" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-8914-8947" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
@@ -12614,14 +12614,16 @@
       <Window name="PM-560-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-562-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-563-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-671-3113" visible="no" x-off="445" y-off="196" x-size="900" y-size="565" custom-ui="yes"/>
+      <Window name="P-671-3113" visible="no" x-off="445" y-off="196" x-size="900" y-size="565" custom-ui="no"/>
       <Window name="P-671-188904" visible="no" x-off="0" y-off="0" x-size="593" y-size="294" custom-ui="no"/>
+      <Window name="P-671-513310" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-671-701" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-671-295224" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-671-703" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-671-704" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="PM-3113-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-188904-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-513310-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-701-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-295224-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-703-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -12680,6 +12682,7 @@
       <Window name="P-8872-8903" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-8872-250888" visible="no" x-off="429" y-off="409" x-size="471" y-size="53" custom-ui="no"/>
       <Window name="P-8872-402466" visible="no" x-off="14" y-off="74" x-size="471" y-size="53" custom-ui="no"/>
+      <Window name="P-8872-513233" visible="no" x-off="0" y-off="314" x-size="471" y-size="53" custom-ui="no"/>
       <Window name="P-8872-8902" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-8872-295000" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-8872-8904" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
@@ -12688,6 +12691,7 @@
       <Window name="PM-8903-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-250888-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-402466-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-513233-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-8902-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-295000-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-8904-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -12702,10 +12706,6 @@
       <Window name="PM-252194-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-252196-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-252197-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-8872-513233" visible="no" x-off="0" y-off="314" x-size="471" y-size="53" custom-ui="yes"/>
-      <Window name="PM-513233-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-671-513310" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="PM-513310-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <GUIObjectState>
         <Object id="rtav 51" height="30" visible="1"/>
         <Object id="automation 55" height="30" visible="0"/>
