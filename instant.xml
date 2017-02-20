@@ -17,13 +17,14 @@
   </ExportPresets>
   <LastUsedSnapshot name="OSC96"/>
   <Main x="0" y="0" w="1918" h="1028" current-tab="editor"/>
-  <Editor id="18" edit-horizontal-pane-pos="0.816722" notebook-shrunk="0" edit-vertical-pane-pos="0.900000" mixer-width="Wide" zoom-focus="ZoomFocusPlayhead" zoom="2048" snap-to="SnapToBeatDiv2" snap-mode="SnapNormal" internal-snap-to="SnapToBeatDiv3" internal-snap-mode="SnapNormal" pre-internal-snap-to="SnapToBeatDiv2" pre-internal-snap-mode="SnapNormal" edit-point="EditAtPlayhead" visible-track-count="-1" playhead="3032524" left-frame="2054144" y-origin="450.000000" show-measures="yes" maximised="no" follow-playhead="no" stationary-playhead="no" region-list-sort-type="ByEndInFile" mouse-mode="MouseObject" join-object-range="no" show-editor-mixer="yes" show-editor-list="yes" editor-list-page="1" show-marker-lines="no" nudge-clock-value="220500">
+  <Editor id="18" edit-horizontal-pane-pos="0.816722" notebook-shrunk="0" edit-vertical-pane-pos="0.900000" mixer-width="Wide" zoom-focus="ZoomFocusPlayhead" zoom="2048" snap-to="SnapToBeatDiv6" snap-mode="SnapNormal" internal-snap-to="SnapToBeatDiv6" internal-snap-mode="SnapNormal" pre-internal-snap-to="SnapToBeatDiv6" pre-internal-snap-mode="SnapNormal" edit-point="EditAtPlayhead" visible-track-count="-1" playhead="2774625" left-frame="1540096" y-origin="773.000000" show-measures="yes" maximised="no" follow-playhead="yes" stationary-playhead="no" region-list-sort-type="ByEndInFile" mouse-mode="MouseDraw" join-object-range="no" show-editor-mixer="yes" show-editor-list="yes" editor-list-page="1" show-marker-lines="no" nudge-clock-value="220500">
     <Window name="Editor" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" tabbed="yes"/>
     <Buttons>
       <Press/>
       <Release/>
     </Buttons>
     <Selection>
+      <ControlPoint type="track" route-id="8872" automation-list-id="789455" parameter="parameter-0" view-index="1"/>
       <Marker id="3704" start="no"/>
     </Selection>
     <RegionList sort-type="ByEndInFile" sort-ascending="yes" show-all="no" show-automatic-regions="yes"/>
@@ -31,7 +32,7 @@
     <ActionHooks/>
   </Editor>
   <Mixer mixer-rhs-pane1-pos="0.600000" mixer-rhs-pane2-pos="0.700000" mixer-list-hpane-pos="0.099687" mixer-inner-pane-pos="0.931918" narrow-strips="no" show-mixer="no" show-mixer-list="no" maximised="no">
-    <Window name="Mixer" visible="no" x-off="0" y-off="0" x-size="1918" y-size="1028" tabbed="no"/>
+    <Window name="Mixer" visible="no" x-off="0" y-off="0" x-size="1918" y-size="1028" tabbed="yes"/>
     <PluginOrder>
       <PluginInfo sort="0" unique-id="http://calf.sourceforge.net/plugins/HaasEnhancer" expanded="0"/>
       <PluginInfo sort="1" unique-id="80fa9fa88c54df4a9f8f871af5d6f9da846ca4e7" expanded="0"/>
@@ -53,7 +54,6 @@
       <PluginInfo sort="17" unique-id="http://lsp-plug.in/plugins/lv2/spectrum_analyzer_x1" expanded="0"/>
       <PluginInfo sort="18" unique-id="http://calf.sourceforge.net/plugins/Analyzer" expanded="0"/>
       <PluginInfo sort="19" unique-id="http://invadarecords.com/plugins/lv2/meter" expanded="0"/>
-      <PluginInfo sort="20" unique-id="http://gareus.org/oss/lv2/meters#SigDistHist" expanded="0"/>
     </PluginOrder>
   </Mixer>
   <Preferences>
