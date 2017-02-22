@@ -6,8 +6,8 @@ This is a work in progress music project beging made using:
 
 All sounds are made by multiple instances of one synthesizer plugin. 
 In this project the synth used is [Nabla](https://www.fullbucket.de/music/nabla.html) by Full Bucket Music.
-Although this project is made on Linux, various Windows plugins are used. 
-These are 'bridged' by [Airwave](https://github.com/phantom-code/airwave/releases). Very cool software, check it out.
+Although this project is made on Linux, Nabla is a Windows plugin. 
+In order to run a Windows plugin on linux I use [Airwave](https://github.com/phantom-code/airwave/releases). Very cool software, check it out.
 
 Plugins used (so far):
   * [Nabla](https://www.fullbucket.de/music/nabla.html) by Full Bucket Music
