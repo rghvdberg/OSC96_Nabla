@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <UndoHistory>
-  <UndoTransaction tv-sec="1487343880" tv-usec="140727198513608" name="move marker">
+  <UndoTransaction tv-sec="1487343880" tv-usec="140725718409224" name="move marker">
     <MementoCommand obj-id="25" type-name="ARDOUR::Locations">
       <Locations>
         <Location id="3704" name="session" start="80850" end="3454500" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
@@ -26,7 +26,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1487343891" tv-usec="140727198513608" name="move marker">
+  <UndoTransaction tv-sec="1487343891" tv-usec="140725718409224" name="move marker">
     <MementoCommand obj-id="25" type-name="ARDOUR::Locations">
       <Locations>
         <Location id="3704" name="session" start="80850" end="4376925" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
@@ -52,7 +52,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1487589396" tv-usec="140727198513608" name="automation event move">
+  <UndoTransaction tv-sec="1487589396" tv-usec="140725718409224" name="automation event move">
     <MementoUndoCommand source-id="697599" parameter="midi-pitch-bender-0" type-name="ARDOUR::AutomationList">
       <AutomationList automation-id="midi-pitch-bender-0" id="742075" default="8192" min-yval="0" max-yval="16383" interpolation-style="Linear" state="Play" style="Absolute">
         <events>0 7876
@@ -94,7 +94,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1487589403" tv-usec="140727198513608" name="automation event move">
+  <UndoTransaction tv-sec="1487589403" tv-usec="140725718409224" name="automation event move">
     <MementoUndoCommand source-id="697599" parameter="midi-pitch-bender-0" type-name="ARDOUR::AutomationList">
       <AutomationList automation-id="midi-pitch-bender-0" id="742075" default="8192" min-yval="0" max-yval="16383" interpolation-style="Linear" state="Play" style="Absolute">
         <events>0 7876
@@ -136,7 +136,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1487589405" tv-usec="140727198513608" name="automation event move">
+  <UndoTransaction tv-sec="1487589405" tv-usec="140725718409224" name="automation event move">
     <MementoUndoCommand source-id="697599" parameter="midi-pitch-bender-0" type-name="ARDOUR::AutomationList">
       <AutomationList automation-id="midi-pitch-bender-0" id="742075" default="8192" min-yval="0" max-yval="16383" interpolation-style="Linear" state="Play" style="Absolute">
         <events>0 7876
@@ -178,7 +178,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1487589428" tv-usec="140727198513608" name="automation event move">
+  <UndoTransaction tv-sec="1487589428" tv-usec="140725718409224" name="automation event move">
     <MementoUndoCommand source-id="697599" parameter="midi-pitch-bender-0" type-name="ARDOUR::AutomationList">
       <AutomationList automation-id="midi-pitch-bender-0" id="742075" default="8192" min-yval="0" max-yval="16383" interpolation-style="Linear" state="Play" style="Absolute">
         <events>0 7876
@@ -220,7 +220,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1487589504" tv-usec="140727198513608" name="automation event move">
+  <UndoTransaction tv-sec="1487589504" tv-usec="140725718409224" name="automation event move">
     <MementoUndoCommand source-id="697599" parameter="midi-pitch-bender-0" type-name="ARDOUR::AutomationList">
       <AutomationList automation-id="midi-pitch-bender-0" id="742075" default="8192" min-yval="0" max-yval="16383" interpolation-style="Linear" state="Play" style="Absolute">
         <events>0 7876
@@ -262,7 +262,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1487589514" tv-usec="140727198513608" name="automation event move">
+  <UndoTransaction tv-sec="1487589514" tv-usec="140725718409224" name="automation event move">
     <MementoUndoCommand source-id="697599" parameter="midi-pitch-bender-0" type-name="ARDOUR::AutomationList">
       <AutomationList automation-id="midi-pitch-bender-0" id="742075" default="8192" min-yval="0" max-yval="16383" interpolation-style="Linear" state="Play" style="Absolute">
         <events>0 7876
@@ -304,7 +304,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1487589539" tv-usec="140727198513608" name="resize notes">
+  <UndoTransaction tv-sec="1487589539" tv-usec="140725718409224" name="resize notes">
     <NoteDiffCommand midi-source="697599">
       <ChangedNotes/>
       <AddedNotes/>
@@ -339,7 +339,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1487589544" tv-usec="140727198513608" name="resize notes">
+  <UndoTransaction tv-sec="1487589544" tv-usec="140725718409224" name="resize notes">
     <NoteDiffCommand midi-source="697599">
       <ChangedNotes>
         <Change property="Length" old="3.66667" new="3.83333" id="67709167"/>
@@ -381,7 +381,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1487589553" tv-usec="140727198513608" name="change velocities">
+  <UndoTransaction tv-sec="1487589553" tv-usec="140725718409224" name="change velocities">
     <NoteDiffCommand midi-source="697599">
       <ChangedNotes>
         <Change property="Velocity" old="63" new="62" id="67709167"/>
@@ -423,7 +423,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1487589554" tv-usec="140727198513608" name="change velocities">
+  <UndoTransaction tv-sec="1487589554" tv-usec="140725718409224" name="change velocities">
     <NoteDiffCommand midi-source="697599">
       <ChangedNotes>
         <Change property="Velocity" old="62" new="61" id="67709167"/>
@@ -465,7 +465,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1487589558" tv-usec="140727198513608" name="resize notes">
+  <UndoTransaction tv-sec="1487589558" tv-usec="140725718409224" name="resize notes">
     <NoteDiffCommand midi-source="697599">
       <ChangedNotes>
         <Change property="Length" old="3.83333" new="4" id="67709167"/>
@@ -507,7 +507,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1487589566" tv-usec="140727198513608" name="change velocities">
+  <UndoTransaction tv-sec="1487589566" tv-usec="140725718409224" name="change velocities">
     <NoteDiffCommand midi-source="697599">
       <ChangedNotes>
         <Change property="Velocity" old="61" new="60" id="67709167"/>
@@ -549,7 +549,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1487589566" tv-usec="140727198513608" name="change velocities">
+  <UndoTransaction tv-sec="1487589566" tv-usec="140725718409224" name="change velocities">
     <NoteDiffCommand midi-source="697599">
       <ChangedNotes>
         <Change property="Velocity" old="60" new="59" id="67709167"/>
@@ -591,7 +591,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1487589573" tv-usec="140727198513608" name="automation event move">
+  <UndoTransaction tv-sec="1487589573" tv-usec="140725718409224" name="automation event move">
     <MementoUndoCommand source-id="697599" parameter="midi-pitch-bender-0" type-name="ARDOUR::AutomationList">
       <AutomationList automation-id="midi-pitch-bender-0" id="742075" default="8192" min-yval="0" max-yval="16383" interpolation-style="Linear" state="Play" style="Absolute">
         <events>0 7876
@@ -633,7 +633,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1487592631" tv-usec="140727198513608" name="region copy">
+  <UndoTransaction tv-sec="1487592631" tv-usec="140725718409224" name="region copy">
     <StatefulDiffCommand obj-id="764530" type-name="ARDOUR::MidiPlaylist">
       <Changes>
         <Regions>
@@ -659,7 +659,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1487592634" tv-usec="140727198513608" name="region drag">
+  <UndoTransaction tv-sec="1487592634" tv-usec="140725718409224" name="region drag">
     <StatefulDiffCommand obj-id="788852" type-name="ARDOUR::MidiRegion">
       <Changes>
         <position from="3002475" to="2987775"/>
@@ -689,7 +689,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1487599452" tv-usec="637314" name="add automation event">
+  <UndoTransaction tv-sec="1487599452" tv-usec="140725718409224" name="add automation event">
     <MementoCommand obj-id="789455" type-name="ARDOUR::AutomationList">
       <AutomationList automation-id="parameter-0" id="789455" default="0" min-yval="0" max-yval="1" interpolation-style="Discrete" state="Play" style="Absolute"/>
       <AutomationList automation-id="parameter-0" id="789455" default="0" min-yval="0" max-yval="1" interpolation-style="Discrete" state="Play" style="Absolute">
@@ -713,7 +713,7 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1487599462" tv-usec="519732" name="automation event move">
+  <UndoTransaction tv-sec="1487599462" tv-usec="140725718409224" name="automation event move">
     <MementoUndoCommand obj-id="789455" type-name="ARDOUR::AutomationList">
       <AutomationList automation-id="parameter-0" id="789455" default="0" min-yval="0" max-yval="1" interpolation-style="Discrete" state="Play" style="Absolute">
         <events>0 1

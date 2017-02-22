@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="OSC96" sample-rate="44100" end-is-free="no" id-counter="812193" name-counter="17" event-counter="80480527" vca-counter="1">
+<Session version="3002" name="OSC96" sample-rate="44100" end-is-free="no" id-counter="812237" name-counter="17" event-counter="80840595" vca-counter="1">
   <ProgramVersion created-with="Ardour 5.5" modified-with="Ardour 5.6"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -7078,7 +7078,7 @@
       <Controllable name="rec-safe" id="128932" flags="Toggle,RealTime" value="0.000000000000"/>
       <Controllable name="rec-enable" id="128930" flags="Toggle,RealTime" value="0.000000000000"/>
       <Diskstream flags="Recordable" playlist="Nabla 4.1" name="Nabla 4" id="336" speed="1.000000" capture-alignment="Automatic" record-safe="no"/>
-      <Controllable name="midi-pitch-bender-0" id="132793" flags="" value="7135.000000000000"/>
+      <Controllable name="midi-pitch-bender-0" id="132793" flags="" value="6807.000000000000"/>
     </Route>
     <Route id="342" name="Snare Sizzle" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" route-group="Drums" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="no" input-active="no">
       <PresentationInfo order="10" flags="MidiTrack,OrderSet" color="3782403583"/>
@@ -11411,7 +11411,7 @@
       <Controllable name="midicc-0-1" id="788470" flags="" value="0.000000000000"/>
     </Route>
     <Route id="764958" name="Wob Wob Bus 1" default-type="audio" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak">
-      <PresentationInfo order="20" flags="AudioBus,Selected,OrderSet" color="1925309951"/>
+      <PresentationInfo order="20" flags="AudioBus,OrderSet" color="1925309951"/>
       <Controllable name="solo" id="764966" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="764972" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
       <Controllable name="solo-safe" id="764974" flags="Toggle" value="0.000000000000" solo-safe="no"/>
@@ -14850,7 +14850,11 @@
       </Processor>
       <Processor id="812061" name="EQ10Q Stereo" active="yes" user-latency="0" type="lv2" unique-id="http://eq10q.sourceforge.net/eq/eq10qs" count="1" custom="no">
         <Automation>
-          <AutomationList automation-id="parameter-0" id="789455" default="0" min-yval="0" max-yval="1" interpolation-style="Discrete" state="Off" style="Absolute"/>
+          <AutomationList automation-id="parameter-0" id="789455" default="0" min-yval="0" max-yval="1" interpolation-style="Discrete" state="Play" style="Absolute">
+            <events>0 1
+2987775 0
+</events>
+          </AutomationList>
           <AutomationList automation-id="parameter-1" id="789457" default="0" min-yval="-20" max-yval="20" interpolation-style="Linear" state="Off" style="Absolute"/>
           <AutomationList automation-id="parameter-2" id="789459" default="0" min-yval="-20" max-yval="20" interpolation-style="Linear" state="Off" style="Absolute"/>
           <AutomationList automation-id="parameter-7" id="789461" default="0" min-yval="-20" max-yval="20" interpolation-style="Linear" state="Off" style="Absolute"/>
@@ -14925,7 +14929,7 @@
         </OutputMap-0>
         <ThruMap/>
         <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes">
-          <Port symbol="bypass" value="+0.000000"/>
+          <Port symbol="bypass" value="+1.000000"/>
           <Port symbol="input_gain" value="+0.000000"/>
           <Port symbol="output_gain" value="-12.239996"/>
           <Port symbol="filter1_gain" value="+0.000000"/>
@@ -14980,7 +14984,7 @@
           <Port symbol="filter10_enable" value="+0.000000"/>
           <Port symbol="midsidemode" value="+0.000000"/>
         </lv2>
-        <Controllable name="Bypass" id="789456" flags="Toggle" value="0.000000000000" parameter="0" symbol="bypass"/>
+        <Controllable name="Bypass" id="789456" flags="Toggle" value="1.000000000000" parameter="0" symbol="bypass"/>
         <Controllable name="Input Gain" id="789458" flags="" value="0.000000000000" parameter="1" symbol="input_gain"/>
         <Controllable name="Output Gain" id="789460" flags="" value="-12.239995956421" parameter="2" symbol="output_gain"/>
         <Controllable name="Filter 1 Gain" id="789462" flags="" value="0.000000000000" parameter="7" symbol="filter1_gain"/>
@@ -16702,7 +16706,7 @@
     <ExportRevision revision="5"/>
     <ExportProfile>
       <ExportTimespan format="Timecode">
-        <Range id="3724"/>
+        <Range id="3704"/>
       </ExportTimespan>
       <ExportChannelConfiguration split="false" channels="2">
         <Channel number="1">
@@ -16732,7 +16736,7 @@
       <Window name="add-routes" visible="no" x-off="-1" y-off="-1" x-size="478" y-size="342"/>
       <Window name="add-video" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="inspector" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="audio-midi-setup" visible="no" x-off="700" y-off="0" x-size="576" y-size="420"/>
+      <Window name="audio-midi-setup" visible="no" x-off="277" y-off="247" x-size="576" y-size="420"/>
       <Window name="video-export" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="script-manager" visible="no" x-off="292" y-off="345" x-size="187" y-size="284"/>
       <Window name="bundle-manager" visible="no" x-off="87" y-off="134" x-size="480" y-size="240"/>
@@ -17033,7 +17037,7 @@
       <Window name="P-764958-764994" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-764958-764989" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-764958-788927" visible="no" x-off="0" y-off="0" x-size="471" y-size="673" custom-ui="yes"/>
-      <Window name="P-764958-789454" visible="no" x-off="753" y-off="0" x-size="471" y-size="53" custom-ui="yes"/>
+      <Window name="P-764958-789454" visible="no" x-off="330" y-off="431" x-size="471" y-size="53" custom-ui="yes"/>
       <Window name="P-764958-788972" visible="no" x-off="0" y-off="178" x-size="471" y-size="53" custom-ui="yes"/>
       <Window name="P-764958-789036" visible="no" x-off="0" y-off="178" x-size="471" y-size="53" custom-ui="no"/>
       <Window name="P-764958-764988" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
@@ -17466,7 +17470,7 @@
         <Object id="rtav 389" height="30" visible="1" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors" note-range-min="21" note-range-max="50"/>
         <Object id="automation 393" height="30" visible="0"/>
         <Object id="automation 389 12/0/0" height="30" visible="0"/>
-        <Object id="rtav 530" height="30" visible="1" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors"/>
+        <Object id="rtav 530" height="117" visible="1" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors"/>
         <Object id="automation 534" height="30" visible="0"/>
         <Object id="automation 530 12/0/0" height="30" visible="0"/>
         <Object id="rtav 577" height="30" visible="1" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors"/>
@@ -17547,7 +17551,7 @@
         <Object id="automation 8830 12/0/0" height="30" visible="0"/>
         <Object id="automation 8849" height="30" visible="0"/>
         <Object id="automation 8853" height="30" visible="0"/>
-        <Object id="rtav 8872" height="30" visible="1"/>
+        <Object id="rtav 8872" height="90" visible="1"/>
         <Object id="automation 8876" height="30" visible="0"/>
         <Object id="automation 8878" height="30" visible="0"/>
         <Object id="automation 8872 12/0/0" height="30" visible="0"/>
@@ -17999,6 +18003,7 @@
           <Object id="processor 788448"/>
           <Object id="processor 788866"/>
         </Object>
+        <Object id="automation 789456" height="64" visible="1"/>
       </GUIObjectState>
     </UI>
     <Videomonitor active="no"/>

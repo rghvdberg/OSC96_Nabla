@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="OSC96" sample-rate="44100" end-is-free="no" id-counter="812237" name-counter="17" event-counter="80840595" vca-counter="1">
+<Session version="3002" name="OSC96" sample-rate="44100" end-is-free="no" id-counter="834864" name-counter="17" event-counter="81218170" vca-counter="1">
   <ProgramVersion created-with="Ardour 5.5" modified-with="Ardour 5.6"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -1597,7 +1597,7 @@
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state5">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state6">
           <Port symbol="UIgain" value="+0.889498"/>
         </lv2>
         <Controllable name="hidden" id="765018" flags="" value="0.889497995377" parameter="4" symbol="UIgain"/>
@@ -1720,7 +1720,7 @@
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state34">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state35">
           <Port symbol="bypass" value="+0.000000"/>
           <Port symbol="fft" value="+6.000000"/>
           <Port symbol="dry" value="+0.000000"/>
@@ -1766,8 +1766,8 @@
         <Controllable name="Channel source Right" id="294907" flags="" value="2.000000000000" parameter="28" symbol="cs_r"/>
         <Controllable name="Makeup gain Right" id="294909" flags="" value="1.000000000000" parameter="29" symbol="mk_r"/>
         <Controllable name="Pre-delay Right" id="294911" flags="" value="0.000000000000" parameter="31" symbol="pd_r"/>
-        <Controllable name="property-http://lsp-plug.in/plugins/lv2/impulse_responses_stereo/ports#ifn0" id="794554" flags="" property="327"/>
-        <Controllable name="property-http://lsp-plug.in/plugins/lv2/impulse_responses_stereo/ports#ifn1" id="794555" flags="" property="336"/>
+        <Controllable name="property-http://lsp-plug.in/plugins/lv2/impulse_responses_stereo/ports#ifn0" id="817220" flags="" property="327"/>
+        <Controllable name="property-http://lsp-plug.in/plugins/lv2/impulse_responses_stereo/ports#ifn1" id="817221" flags="" property="336"/>
       </Processor>
       <Processor id="295165" name="a-Compressor stereo" active="yes" user-latency="0" type="lv2" unique-id="urn:ardour:a-comp#stereo" count="1" custom="no">
         <Automation>
@@ -1951,7 +1951,7 @@
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state34">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state35">
           <Port symbol="bypass" value="+0.000000"/>
           <Port symbol="fft" value="+6.000000"/>
           <Port symbol="dry" value="+0.000000"/>
@@ -1997,8 +1997,8 @@
         <Controllable name="Channel source Right" id="294907" flags="" value="2.000000000000" parameter="28" symbol="cs_r"/>
         <Controllable name="Makeup gain Right" id="294909" flags="" value="1.000000000000" parameter="29" symbol="mk_r"/>
         <Controllable name="Pre-delay Right" id="294911" flags="" value="0.000000000000" parameter="31" symbol="pd_r"/>
-        <Controllable name="property-http://lsp-plug.in/plugins/lv2/impulse_responses_stereo/ports#ifn0" id="794663" flags="" property="327"/>
-        <Controllable name="property-http://lsp-plug.in/plugins/lv2/impulse_responses_stereo/ports#ifn1" id="794664" flags="" property="336"/>
+        <Controllable name="property-http://lsp-plug.in/plugins/lv2/impulse_responses_stereo/ports#ifn0" id="817329" flags="" property="327"/>
+        <Controllable name="property-http://lsp-plug.in/plugins/lv2/impulse_responses_stereo/ports#ifn1" id="817330" flags="" property="336"/>
       </Processor>
       <Processor id="235772" name="a-Compressor stereo" active="yes" user-latency="0" type="lv2" unique-id="urn:ardour:a-comp#stereo" count="1" custom="no">
         <Automation>
@@ -7078,7 +7078,7 @@
       <Controllable name="rec-safe" id="128932" flags="Toggle,RealTime" value="0.000000000000"/>
       <Controllable name="rec-enable" id="128930" flags="Toggle,RealTime" value="0.000000000000"/>
       <Diskstream flags="Recordable" playlist="Nabla 4.1" name="Nabla 4" id="336" speed="1.000000" capture-alignment="Automatic" record-safe="no"/>
-      <Controllable name="midi-pitch-bender-0" id="132793" flags="" value="6807.000000000000"/>
+      <Controllable name="midi-pitch-bender-0" id="132793" flags="" value="6828.000000000000"/>
     </Route>
     <Route id="342" name="Snare Sizzle" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" route-group="Drums" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="no" input-active="no">
       <PresentationInfo order="10" flags="MidiTrack,OrderSet" color="3782403583"/>
@@ -7655,10 +7655,10 @@
         </OutputMap-0>
         <ThruMap/>
         <lxvst last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes">
-          <parameters param-0="0" param-1="0.385826766491" param-2="1" param-3="0.5" param-4="0" param-5="0.5" param-6="0.502994298935" param-7="0" param-8="1" param-9="0.583333015442" param-10="0" param-11="0" param-12="1" param-13="0" param-14="0.46900832653" param-15="0" param-16="0" param-17="0" param-18="0" param-19="1" param-20="0" param-21="0.205882370472" param-22="0" param-23="0" param-24="1" param-25="0" param-26="0.941176474094" param-27="0.404198646545" param-28="0.450960993767" param-29="1" param-30="0" param-31="0.5" param-32="0.10000000149" param-33="0.10000000149" param-34="0" param-35="0.5" param-36="0.5" param-37="0" param-38="0.0772025808692" param-39="0.5" param-40="0.5" param-41="0.5" param-42="0.949999988079" param-43="0" param-44="0.600000023842" param-45="0.40000000596" param-46="0.300000011921" param-47="1" param-48="1" param-49="0.0892206132412" param-50="0.489866912365" param-51="0.300000011921" param-52="0.0599999986589" param-53="0.0599999986589" param-54="0.300000011921"/>
+          <parameters param-0="0" param-1="0.82677167654" param-2="1" param-3="0.5" param-4="0" param-5="0.5" param-6="0.502994298935" param-7="0" param-8="1" param-9="0.583333015442" param-10="0" param-11="0" param-12="1" param-13="0" param-14="0.46900832653" param-15="0" param-16="0" param-17="0" param-18="0" param-19="1" param-20="0" param-21="0.205882370472" param-22="0" param-23="0" param-24="1" param-25="0" param-26="0.941176474094" param-27="0.404198646545" param-28="0.450960993767" param-29="1" param-30="0" param-31="0.5" param-32="0.10000000149" param-33="0.10000000149" param-34="0" param-35="0.5" param-36="0.5" param-37="0" param-38="0.0772025808692" param-39="0.5" param-40="0.5" param-41="0.5" param-42="0.949999988079" param-43="0" param-44="0.600000023842" param-45="0.40000000596" param-46="0.300000011921" param-47="1" param-48="1" param-49="0.0892206132412" param-50="0.489866912365" param-51="0.300000011921" param-52="0.0599999986589" param-53="0.0599999986589" param-54="0.300000011921"/>
         </lxvst>
         <Controllable name="GOD Mode" id="2062" flags="" value="0.000000000000" parameter="0"/>
-        <Controllable name="Volume" id="2064" flags="" value="0.385826766491" parameter="1"/>
+        <Controllable name="Volume" id="2064" flags="" value="0.826771676540" parameter="1"/>
         <Controllable name="Syn Vol" id="2066" flags="" value="1.000000000000" parameter="2"/>
         <Controllable name="Syn Pan" id="2068" flags="" value="0.500000000000" parameter="3"/>
         <Controllable name="Str Vol" id="2070" flags="" value="0.000000000000" parameter="4"/>
@@ -11656,13 +11656,13 @@
         <Controllable name="Output Gain" id="789460" flags="" value="-12.239995956421" parameter="2" symbol="output_gain"/>
         <Controllable name="Filter 1 Gain" id="789462" flags="" value="0.000000000000" parameter="7" symbol="filter1_gain"/>
         <Controllable name="Filter 2 Gain" id="789464" flags="" value="0.000000000000" parameter="8" symbol="filter2_gain"/>
-        <Controllable name="Filter 3 Gain" id="789466" flags="" value="-0.289017349482" parameter="9" symbol="filter3_gain"/>
+        <Controllable name="Filter 3 Gain" id="789466" flags="" value="-0.289016991854" parameter="9" symbol="filter3_gain"/>
         <Controllable name="Filter 4 Gain" id="789468" flags="" value="0.000000000000" parameter="10" symbol="filter4_gain"/>
         <Controllable name="Filter 5 Gain" id="789470" flags="" value="20.000000000000" parameter="11" symbol="filter5_gain"/>
         <Controllable name="Filter 6 Gain" id="789472" flags="" value="14.193058967590" parameter="12" symbol="filter6_gain"/>
         <Controllable name="Filter 7 Gain" id="789474" flags="" value="13.102884292603" parameter="13" symbol="filter7_gain"/>
         <Controllable name="Filter 8 Gain" id="789476" flags="" value="12.034674644470" parameter="14" symbol="filter8_gain"/>
-        <Controllable name="Filter 9 Gain" id="789478" flags="" value="-1.999999761581" parameter="15" symbol="filter9_gain"/>
+        <Controllable name="Filter 9 Gain" id="789478" flags="" value="-2.000000000000" parameter="15" symbol="filter9_gain"/>
         <Controllable name="Filter 10 Gain" id="789480" flags="" value="0.000000000000" parameter="16" symbol="filter10_gain"/>
         <Controllable name="Filter 1 Freq" id="789482" flags="" value="233.879013061523" parameter="17" symbol="filter1_freq"/>
         <Controllable name="Filter 2 Freq" id="789484" flags="" value="60.000000000000" parameter="18" symbol="filter2_freq"/>
@@ -11679,8 +11679,8 @@
         <Controllable name="Filter 3 Q" id="789506" flags="" value="0.699999988079" parameter="29" symbol="filter3_q"/>
         <Controllable name="Filter 4 Q" id="789508" flags="" value="2.000000000000" parameter="30" symbol="filter4_q"/>
         <Controllable name="Filter 5 Q" id="789510" flags="" value="3.233500003815" parameter="31" symbol="filter5_q"/>
-        <Controllable name="Filter 6 Q" id="789512" flags="" value="2.318000316620" parameter="32" symbol="filter6_q"/>
-        <Controllable name="Filter 7 Q" id="789514" flags="" value="2.927832603455" parameter="33" symbol="filter7_q"/>
+        <Controllable name="Filter 6 Q" id="789512" flags="" value="2.318000078201" parameter="32" symbol="filter6_q"/>
+        <Controllable name="Filter 7 Q" id="789514" flags="" value="2.927833080292" parameter="33" symbol="filter7_q"/>
         <Controllable name="Filter 8 Q" id="789516" flags="" value="4.623499870300" parameter="34" symbol="filter8_q"/>
         <Controllable name="Filter 9 Q" id="789518" flags="" value="5.549502849579" parameter="35" symbol="filter9_q"/>
         <Controllable name="Filter 10 Q" id="789520" flags="" value="0.699999988079" parameter="36" symbol="filter10_q"/>
@@ -11801,13 +11801,13 @@
         <Controllable name="Sidechain reactivity" id="788994" flags="" value="10.000000000000" parameter="14" symbol="scr"/>
         <Controllable name="Sidechain preamp" id="788996" flags="" value="4.247910976410" parameter="15" symbol="scp"/>
         <Controllable name="Compression mode" id="788998" flags="" value="0.000000000000" parameter="16" symbol="cm"/>
-        <Controllable name="Attack level" id="789000" flags="" value="0.098745577037" parameter="17" symbol="al"/>
+        <Controllable name="Attack level" id="789000" flags="" value="0.098746001720" parameter="17" symbol="al"/>
         <Controllable name="Attack time" id="789002" flags="" value="42.143096923828" parameter="18" symbol="at"/>
         <Controllable name="Relative release level" id="789004" flags="" value="0.000000000000" parameter="19" symbol="rrl"/>
         <Controllable name="Release time" id="789006" flags="" value="45.764320373535" parameter="20" symbol="rt"/>
         <Controllable name="Ratio" id="789008" flags="" value="9.798830986023" parameter="21" symbol="cr"/>
         <Controllable name="Knee" id="789010" flags="" value="0.648959994316" parameter="22" symbol="kn"/>
-        <Controllable name="Makeup gain" id="789012" flags="" value="1.883639097214" parameter="23" symbol="mk"/>
+        <Controllable name="Makeup gain" id="789012" flags="" value="1.883638978004" parameter="23" symbol="mk"/>
         <Controllable name="Dry gain" id="789014" flags="" value="0.000000000000" parameter="24" symbol="cdr"/>
         <Controllable name="Wet gain" id="789016" flags="" value="1.000000000000" parameter="25" symbol="cwt"/>
         <Controllable name="Sidechain level visibility" id="789018" flags="Toggle" value="1.000000000000" parameter="27" symbol="slv"/>
@@ -13048,7 +13048,7 @@
       <Controllable name="midicc-0-1" id="369763" flags="" value="0.000000000000"/>
     </Route>
     <Route id="201801" name="Chords Midi" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" route-group="Chords" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="no" input-active="no">
-      <PresentationInfo order="23" flags="MidiTrack,OrderSet" color="3199985151"/>
+      <PresentationInfo order="23" flags="MidiTrack,Selected,OrderSet" color="3199985151"/>
       <Controllable name="solo" id="201809" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="201815" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
       <Controllable name="solo-safe" id="201817" flags="Toggle" value="0.000000000000" solo-safe="no"/>
@@ -13133,7 +13133,7 @@
       <Controllable name="midicc-0-1" id="251206" flags="" value="0.000000000000"/>
       <Controllable name="midicc-0-74" id="251211" flags="" value="127.000000000000"/>
       <Controllable name="midicc-0-113" id="433195" flags="" value="64.640716552734"/>
-      <Controllable name="midicc-0-114" id="448325" flags="" value="55.000000000000"/>
+      <Controllable name="midicc-0-114" id="448325" flags="" value="64.886227544910"/>
       <Controllable name="midi-pitch-bender-0" id="677631" flags="" value="8192.000000000000"/>
     </Route>
     <Route id="251259" name="Chords Sine" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" route-group="Chords" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="no" input-active="yes">
@@ -13262,7 +13262,7 @@
         </OutputMap-0>
         <ThruMap/>
         <lxvst last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes">
-          <parameters param-0="0" param-1="1" param-2="1" param-3="0.5" param-4="0" param-5="0.00408029556274" param-6="0.502686023712" param-7="0" param-8="1" param-9="0.58315384388" param-10="0" param-11="0" param-12="1" param-13="0.0956332683563" param-14="0.0788790583611" param-15="0" param-16="1" param-17="0" param-18="0" param-19="0" param-20="0.132352948189" param-21="1" param-22="1" param-23="0.0882353186607" param-24="1" param-25="0" param-26="1" param-27="0" param-28="0.5" param-29="0" param-30="0" param-31="1" param-32="0.10000000149" param-33="0.10000000149" param-34="0" param-35="0.503937005997" param-36="0.433070868254" param-37="0" param-38="0.0772025808692" param-39="0.5" param-40="0.5" param-41="0.5" param-42="0.949999988079" param-43="0" param-44="0.600000023842" param-45="0.40000000596" param-46="0.300000011921" param-47="1" param-48="1" param-49="0.0892206132412" param-50="0.489866912365" param-51="0.300000011921" param-52="0.0599999986589" param-53="0.0599999986589" param-54="0.300000011921"/>
+          <parameters param-0="0" param-1="1" param-2="1" param-3="0.5" param-4="0" param-5="0.00408029556274" param-6="0.502686023712" param-7="0" param-8="1" param-9="0.58315384388" param-10="0" param-11="0" param-12="1" param-13="0.0956332683563" param-14="0.0788790583611" param-15="0" param-16="1" param-17="0" param-18="0" param-19="0" param-20="0.132352948189" param-21="1" param-22="1" param-23="0.0882353186607" param-24="1" param-25="0" param-26="1" param-27="0" param-28="0.5" param-29="0" param-30="0" param-31="1" param-32="0.10000000149" param-33="0.10000000149" param-34="0" param-35="0.503937005997" param-36="0.503937005997" param-37="0" param-38="0.0772025808692" param-39="0.5" param-40="0.5" param-41="0.5" param-42="0.949999988079" param-43="0" param-44="0.600000023842" param-45="0.40000000596" param-46="0.300000011921" param-47="1" param-48="1" param-49="0.0892206132412" param-50="0.489866912365" param-51="0.300000011921" param-52="0.0599999986589" param-53="0.0599999986589" param-54="0.300000011921"/>
         </lxvst>
         <Controllable name="GOD Mode" id="251385" flags="" value="0.000000000000" parameter="0"/>
         <Controllable name="Volume" id="251386" flags="" value="1.000000000000" parameter="1"/>
@@ -13300,7 +13300,7 @@
         <Controllable name="Str EG R" id="251418" flags="" value="0.100000001490" parameter="33"/>
         <Controllable name="Str Trig" id="251419" flags="" value="0.000000000000" parameter="34"/>
         <Controllable name="EQ Low" id="251420" flags="" value="0.503937005997" parameter="35"/>
-        <Controllable name="EQ High" id="251421" flags="" value="0.433070868254" parameter="36"/>
+        <Controllable name="EQ High" id="251421" flags="" value="0.503937005997" parameter="36"/>
         <Controllable name="Phaser" id="251422" flags="" value="0.000000000000" parameter="37"/>
         <Controllable name="Ph Speed" id="251423" flags="" value="0.077202580869" parameter="38"/>
         <Controllable name="Ph Feed" id="251424" flags="" value="0.500000000000" parameter="39"/>
@@ -13555,7 +13555,7 @@
         </OutputMap-0>
         <ThruMap/>
         <lxvst last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes">
-          <parameters param-0="0" param-1="0.5" param-2="0" param-3="0.505583047867" param-4="1" param-5="0" param-6="0.462933421135" param-7="0" param-8="1" param-9="0.583333015442" param-10="0" param-11="0" param-12="1" param-13="0" param-14="0.781347215176" param-15="0" param-16="0" param-17="0" param-18="0" param-19="0" param-20="0" param-21="0" param-22="1" param-23="0" param-24="0" param-25="0" param-26="1" param-27="0" param-28="0.5" param-29="0" param-30="0" param-31="0.672869801521" param-32="0" param-33="0" param-34="0" param-35="0.503937005997" param-36="0.433070868254" param-37="0" param-38="0.0772025808692" param-39="0.5" param-40="0.5" param-41="0.5" param-42="0.949999988079" param-43="0" param-44="0.600000023842" param-45="0.40000000596" param-46="0.300000011921" param-47="1" param-48="1" param-49="0.298969358206" param-50="0.355670511723" param-51="0.484537422657" param-52="0.417525947094" param-53="0.3814432621" param-54="0.469072014093"/>
+          <parameters param-0="0" param-1="0.5" param-2="0" param-3="0.505583047867" param-4="1" param-5="0" param-6="0.462933421135" param-7="0" param-8="1" param-9="0.583333015442" param-10="0" param-11="0" param-12="1" param-13="0" param-14="0.781347215176" param-15="0" param-16="0" param-17="0" param-18="0" param-19="0" param-20="0" param-21="0" param-22="1" param-23="0" param-24="0" param-25="0" param-26="1" param-27="0" param-28="0.5" param-29="0" param-30="0" param-31="0.672869801521" param-32="0" param-33="0" param-34="0" param-35="0.503937005997" param-36="0.503937005997" param-37="0" param-38="0.0772025808692" param-39="0.5" param-40="0.5" param-41="0.5" param-42="0.949999988079" param-43="0" param-44="0.600000023842" param-45="0.40000000596" param-46="0.300000011921" param-47="1" param-48="1" param-49="0.298969358206" param-50="0.355670511723" param-51="0.484537422657" param-52="0.417525947094" param-53="0.3814432621" param-54="0.469072014093"/>
         </lxvst>
         <Controllable name="GOD Mode" id="399872" flags="" value="0.000000000000" parameter="0"/>
         <Controllable name="Volume" id="399873" flags="" value="0.500000000000" parameter="1"/>
@@ -13593,7 +13593,7 @@
         <Controllable name="Str EG R" id="399905" flags="" value="0.000000000000" parameter="33"/>
         <Controllable name="Str Trig" id="399906" flags="" value="0.000000000000" parameter="34"/>
         <Controllable name="EQ Low" id="399907" flags="" value="0.503937005997" parameter="35"/>
-        <Controllable name="EQ High" id="399908" flags="" value="0.433070868254" parameter="36"/>
+        <Controllable name="EQ High" id="399908" flags="" value="0.503937005997" parameter="36"/>
         <Controllable name="Phaser" id="399909" flags="" value="0.000000000000" parameter="37"/>
         <Controllable name="Ph Speed" id="399910" flags="" value="0.077202580869" parameter="38"/>
         <Controllable name="Ph Feed" id="399911" flags="" value="0.500000000000" parameter="39"/>
@@ -13769,7 +13769,7 @@
         </OutputMap-0>
         <ThruMap/>
         <lxvst last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes">
-          <parameters param-0="0" param-1="0.5" param-2="0" param-3="0" param-4="1" param-5="1" param-6="0.595222055912" param-7="0" param-8="1" param-9="0.583333015442" param-10="0" param-11="0" param-12="1" param-13="0" param-14="0.46900832653" param-15="0" param-16="0" param-17="0" param-18="0" param-19="0" param-20="0" param-21="0" param-22="1" param-23="0" param-24="0" param-25="0" param-26="1" param-27="0" param-28="0.5" param-29="0" param-30="0" param-31="0.675887227058" param-32="0" param-33="0" param-34="0" param-35="0.503937005997" param-36="0.433070868254" param-37="0" param-38="0.0772025808692" param-39="0.5" param-40="0.5" param-41="0.5" param-42="0.949999988079" param-43="0" param-44="0.600000023842" param-45="0.40000000596" param-46="0.300000011921" param-47="1" param-48="1" param-49="0.298969358206" param-50="0.355670511723" param-51="0.484537422657" param-52="0.417525947094" param-53="0.3814432621" param-54="0.469072014093"/>
+          <parameters param-0="0" param-1="0.5" param-2="0" param-3="0" param-4="1" param-5="1" param-6="0.595222055912" param-7="0" param-8="1" param-9="0.583333015442" param-10="0" param-11="0" param-12="1" param-13="0" param-14="0.46900832653" param-15="0" param-16="0" param-17="0" param-18="0" param-19="0" param-20="0" param-21="0" param-22="1" param-23="0" param-24="0" param-25="0" param-26="1" param-27="0" param-28="0.5" param-29="0" param-30="0" param-31="0.675887227058" param-32="0" param-33="0" param-34="0" param-35="0.503937005997" param-36="0.503937005997" param-37="0" param-38="0.0772025808692" param-39="0.5" param-40="0.5" param-41="0.5" param-42="0.949999988079" param-43="0" param-44="0.600000023842" param-45="0.40000000596" param-46="0.300000011921" param-47="1" param-48="1" param-49="0.298969358206" param-50="0.355670511723" param-51="0.484537422657" param-52="0.417525947094" param-53="0.3814432621" param-54="0.469072014093"/>
         </lxvst>
         <Controllable name="GOD Mode" id="400539" flags="" value="0.000000000000" parameter="0"/>
         <Controllable name="Volume" id="400540" flags="" value="0.500000000000" parameter="1"/>
@@ -13807,7 +13807,7 @@
         <Controllable name="Str EG R" id="400572" flags="" value="0.000000000000" parameter="33"/>
         <Controllable name="Str Trig" id="400573" flags="" value="0.000000000000" parameter="34"/>
         <Controllable name="EQ Low" id="400574" flags="" value="0.503937005997" parameter="35"/>
-        <Controllable name="EQ High" id="400575" flags="" value="0.433070868254" parameter="36"/>
+        <Controllable name="EQ High" id="400575" flags="" value="0.503937005997" parameter="36"/>
         <Controllable name="Phaser" id="400576" flags="" value="0.000000000000" parameter="37"/>
         <Controllable name="Ph Speed" id="400577" flags="" value="0.077202580869" parameter="38"/>
         <Controllable name="Ph Feed" id="400578" flags="" value="0.500000000000" parameter="39"/>
@@ -13983,7 +13983,7 @@
         </OutputMap-0>
         <ThruMap/>
         <lxvst last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes">
-          <parameters param-0="0" param-1="0.5" param-2="0" param-3="0" param-4="1" param-5="1" param-6="0.491516232491" param-7="1" param-8="1" param-9="0.583333015442" param-10="0" param-11="0" param-12="1" param-13="0" param-14="0.46900832653" param-15="0" param-16="0" param-17="0" param-18="0" param-19="0" param-20="0" param-21="0" param-22="1" param-23="0" param-24="0" param-25="0" param-26="1" param-27="0" param-28="0.5" param-29="0" param-30="0" param-31="1" param-32="0" param-33="0" param-34="0" param-35="0.503937005997" param-36="0.433070868254" param-37="0" param-38="0.0772025808692" param-39="0.5" param-40="0.5" param-41="0.5" param-42="0.949999988079" param-43="0" param-44="0.600000023842" param-45="0.40000000596" param-46="0.300000011921" param-47="1" param-48="1" param-49="0.298969358206" param-50="0.355670511723" param-51="0.484537422657" param-52="0.417525947094" param-53="0.3814432621" param-54="0.469072014093"/>
+          <parameters param-0="0" param-1="0.5" param-2="0" param-3="0" param-4="1" param-5="1" param-6="0.491516232491" param-7="1" param-8="1" param-9="0.583333015442" param-10="0" param-11="0" param-12="1" param-13="0" param-14="0.46900832653" param-15="0" param-16="0" param-17="0" param-18="0" param-19="0" param-20="0" param-21="0" param-22="1" param-23="0" param-24="0" param-25="0" param-26="1" param-27="0" param-28="0.5" param-29="0" param-30="0" param-31="1" param-32="0" param-33="0" param-34="0" param-35="0.503937005997" param-36="0.503937005997" param-37="0" param-38="0.0772025808692" param-39="0.5" param-40="0.5" param-41="0.5" param-42="0.949999988079" param-43="0" param-44="0.600000023842" param-45="0.40000000596" param-46="0.300000011921" param-47="1" param-48="1" param-49="0.298969358206" param-50="0.355670511723" param-51="0.484537422657" param-52="0.417525947094" param-53="0.3814432621" param-54="0.469072014093"/>
         </lxvst>
         <Controllable name="GOD Mode" id="400848" flags="" value="0.000000000000" parameter="0"/>
         <Controllable name="Volume" id="400849" flags="" value="0.500000000000" parameter="1"/>
@@ -14021,7 +14021,7 @@
         <Controllable name="Str EG R" id="400881" flags="" value="0.000000000000" parameter="33"/>
         <Controllable name="Str Trig" id="400882" flags="" value="0.000000000000" parameter="34"/>
         <Controllable name="EQ Low" id="400883" flags="" value="0.503937005997" parameter="35"/>
-        <Controllable name="EQ High" id="400884" flags="" value="0.433070868254" parameter="36"/>
+        <Controllable name="EQ High" id="400884" flags="" value="0.503937005997" parameter="36"/>
         <Controllable name="Phaser" id="400885" flags="" value="0.000000000000" parameter="37"/>
         <Controllable name="Ph Speed" id="400886" flags="" value="0.077202580869" parameter="38"/>
         <Controllable name="Ph Feed" id="400887" flags="" value="0.500000000000" parameter="39"/>
@@ -14197,7 +14197,7 @@
         </OutputMap-0>
         <ThruMap/>
         <lxvst last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes">
-          <parameters param-0="0" param-1="0.5" param-2="0" param-3="0.425421118736" param-4="1" param-5="0" param-6="0.560503840446" param-7="0" param-8="1" param-9="0.583333015442" param-10="0" param-11="0" param-12="1" param-13="0" param-14="0.46900832653" param-15="0" param-16="0" param-17="0" param-18="0" param-19="0" param-20="0" param-21="0" param-22="1" param-23="0" param-24="0" param-25="0" param-26="1" param-27="0" param-28="0.5" param-29="0" param-30="0" param-31="1" param-32="0" param-33="0" param-34="0" param-35="0.503937005997" param-36="0.433070868254" param-37="0" param-38="0.0772025808692" param-39="0.5" param-40="0.5" param-41="0.5" param-42="0.949999988079" param-43="0" param-44="0.600000023842" param-45="0.40000000596" param-46="0.300000011921" param-47="1" param-48="1" param-49="0.298969358206" param-50="0.355670511723" param-51="0.484537422657" param-52="0.417525947094" param-53="0.3814432621" param-54="0.469072014093"/>
+          <parameters param-0="0" param-1="0.5" param-2="0" param-3="0.425421118736" param-4="1" param-5="0" param-6="0.560503840446" param-7="0" param-8="1" param-9="0.583333015442" param-10="0" param-11="0" param-12="1" param-13="0" param-14="0.46900832653" param-15="0" param-16="0" param-17="0" param-18="0" param-19="0" param-20="0" param-21="0" param-22="1" param-23="0" param-24="0" param-25="0" param-26="1" param-27="0" param-28="0.5" param-29="0" param-30="0" param-31="1" param-32="0" param-33="0" param-34="0" param-35="0.503937005997" param-36="0.503937005997" param-37="0" param-38="0.0772025808692" param-39="0.5" param-40="0.5" param-41="0.5" param-42="0.949999988079" param-43="0" param-44="0.600000023842" param-45="0.40000000596" param-46="0.300000011921" param-47="1" param-48="1" param-49="0.298969358206" param-50="0.355670511723" param-51="0.484537422657" param-52="0.417525947094" param-53="0.3814432621" param-54="0.469072014093"/>
         </lxvst>
         <Controllable name="GOD Mode" id="401157" flags="" value="0.000000000000" parameter="0"/>
         <Controllable name="Volume" id="401158" flags="" value="0.500000000000" parameter="1"/>
@@ -14235,7 +14235,7 @@
         <Controllable name="Str EG R" id="401190" flags="" value="0.000000000000" parameter="33"/>
         <Controllable name="Str Trig" id="401191" flags="" value="0.000000000000" parameter="34"/>
         <Controllable name="EQ Low" id="401192" flags="" value="0.503937005997" parameter="35"/>
-        <Controllable name="EQ High" id="401193" flags="" value="0.433070868254" parameter="36"/>
+        <Controllable name="EQ High" id="401193" flags="" value="0.503937005997" parameter="36"/>
         <Controllable name="Phaser" id="401194" flags="" value="0.000000000000" parameter="37"/>
         <Controllable name="Ph Speed" id="401195" flags="" value="0.077202580869" parameter="38"/>
         <Controllable name="Ph Feed" id="401196" flags="" value="0.500000000000" parameter="39"/>
@@ -14850,7 +14850,7 @@
       </Processor>
       <Processor id="812061" name="EQ10Q Stereo" active="yes" user-latency="0" type="lv2" unique-id="http://eq10q.sourceforge.net/eq/eq10qs" count="1" custom="no">
         <Automation>
-          <AutomationList automation-id="parameter-0" id="789455" default="0" min-yval="0" max-yval="1" interpolation-style="Discrete" state="Play" style="Absolute">
+          <AutomationList automation-id="parameter-0" id="789455" default="0" min-yval="0" max-yval="1" interpolation-style="Discrete" state="Off" style="Absolute">
             <events>0 1
 2987775 0
 </events>
@@ -15559,7 +15559,7 @@
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="no" state-dir="state25"/>
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="no" state-dir="state26"/>
       </Processor>
       <Processor id="252194" name="Amp" active="yes" user-latency="0" type="amp">
         <Automation>
